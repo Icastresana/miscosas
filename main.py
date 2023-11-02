@@ -33,7 +33,7 @@ def scraper():
         print("scraper : INFO : could not access elcano")
 
 def write_cache(contenido):
-    with open("toys/cachedList.txt", "wb") as cachedlist:
+    with open("cachedlist.txt", "wb") as cachedlist:
         cachedlist.write(contenido.encode('latin1'))
         cachedlist.close()
         print("scraper : INFO : elcano cached")
