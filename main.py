@@ -8,7 +8,7 @@ def scraper():
     print('scraper : INFO : requesting elcano...', flush=True)
 
     try:
-        response = requests.get('https://hackmd.io/@algamo/DELANTERO-PICHICHI')
+        response = requests.get('https://agendadeportiva.vercel.app/')
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
         print("scraper : INFO : Could not access elcano:", e)
