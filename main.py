@@ -1,43 +1,41 @@
-import sys
-from bs4 import BeautifulSoup
-from torpy.http.requests import TorRequests
 import requests
+from bs4 import BeautifulSoup
 
 def scraper():
-    lista = ""
-    print('scraper : INFO : requesting elplan...', flush=True)
+    url = 'https://hackmd.io/@algamo/DELANTERO-PICHICHI'
 
     try:
-        with TorRequests() as tor_requests:
-            with tor_requests.get_session() as sess:
-                grab = sess.get('https://hackmd.io/@algamo/DELANTERO-PICHICHI')
-                print(grab)
-    except Exception as e:
-        print(f"scraper : INFO : torpy linea 22 could not access elcano ({e})")
-        return  # Return instead of exiting the program
+        response = requests.get(url)
+        response.raise_for_status()  # Verificar si la respuesta tiene éxito (código de estado 200)
 
-    soup = BeautifulSoup(grab.text, 'html.parser')
-    for enlace in soup.find_all('a'):
-        acelink = enlace.get('href')
-        canal = enlace.text
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        lista = ""
+        for enlace in soup.find_all('a'):
+            acelink = enlace.get('href')
+            canal = enlace.text
 
-        if not str(acelink).startswith("acestream://") or canal == "aquÃ­":
-            pass
+            if not str(acelink).startswith("acestream://") or canal == "aquí":
+                pass
+            else:
+                link = str(acelink).replace("acestream://", "")
+                lista += str((canal + "\n" + link + "\n"))
+        
+        contenido = ((lista.replace(u'\xa0', u' ')).strip())
+
+        if contenido != "":
+            print("scraper : OK : channels retrieved")
+            write_cache(contenido)
         else:
-            link = str(acelink).replace("acestream://", "")
-            lista += str((canal + "\n" + link + "\n"))
-    
-    contenido = ((lista.replace(u'\xa0', u' ')).strip())
-    
-    if contenido != "":
-        print("scraper : OK : channels retrieved")
-        write_cache(contenido)
-    else:
-        print("scraper : INFO : could not access elcano")
+            print("scraper : INFO : could not access the website")
+
+    except requests.exceptions.RequestException as e:
+        print(f"scraper : ERROR : {e}")
 
 def write_cache(contenido):
     with open("cachedlist.txt", "wb") as cachedlist:
         cachedlist.write(contenido.encode('latin1'))
-        print("scraper : INFO : elcano cached")
+        cachedlist.close()
+        print("scraper : INFO : website data cached")
 
 scraper()
