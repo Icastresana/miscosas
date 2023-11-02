@@ -1,14 +1,24 @@
 import sys
-from bs4 import BeautifulSoup
 import requests
+import stem.process
+
+# Configura el controlador de Tor
+from stem import Signal
+from stem.control import Controller
+
+def set_new_tor_identity():
+    with Controller.from_port(port=9051) as controller:
+        controller.authenticate()  # Autenticación con el controlador de Tor
+        controller.signal(Signal.NEWNYM)  # Envía una señal para obtener una nueva identidad
 
 def scraper():
     lista = ""
-    contenido = ""  # Inicializa la variable contenido
+    contenido = ""
     print('scraper : INFO : requesting elcano...', flush=True)
 
     try:
-        response = requests.get('https://hackmd.io/@algamo/DELANTERO-PICHICHI')
+        set_new_tor_identity()  # Obtén una nueva identidad de Tor
+        response = requests.get('https://hackmd.io/@algamo/DELANTERO-PICHICHI', proxies={'http': 'socks5://127.0.0.1:9050', 'https': 'socks5://127.0.0.1:9050'})
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
         print("scraper : INFO : Could not access elcano:", e)
@@ -33,7 +43,7 @@ def scraper():
         print("scraper : INFO : could not access elcano")
 
 def write_cache(contenido):
-    with open("cachedlist.txt", "wb") as cachedlist:
+    with open("toys/cachedList.txt", "wb") as cachedlist:
         cachedlist.write(contenido.encode('latin1'))
         cachedlist.close()
         print("scraper : INFO : elcano cached")
