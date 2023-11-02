@@ -18,6 +18,7 @@ def scraper():
         sys.exit(0)
 
     soup = BeautifulSoup(grab.text, 'html.parser')
+    contenido = ""
     for enlace in soup.find_all('a'):
         acelink = enlace.get('href')
         canal = enlace.text
