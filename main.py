@@ -4,6 +4,7 @@ import requests
 
 def scraper():
     lista = ""
+    contenido = ""  # Inicializa la variable contenido
     print('scraper : INFO : requesting elcano...', flush=True)
 
     try:
