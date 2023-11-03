@@ -17,11 +17,7 @@ def scraper():
         for match in matches:
             canal = match[0].strip()
             acelink = match[1].strip()
-            
-            if canal in canales:
-                canales[canal].append(acelink)
-            else:
-                canales[canal] = [acelink]
+          
 
         for canal, enlaces in canales.items():
             lista += f"{canal}:\n"
