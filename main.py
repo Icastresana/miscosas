@@ -24,6 +24,8 @@ def scraper():
     try:
         response = requests.get(url)
         response.raise_for_status()  # Verificar si la respuesta tiene éxito (código de estado 200)
+        print("Response content:")
+        print(response.text)
 
         soup = BeautifulSoup(response.text, 'html.parser')
         
