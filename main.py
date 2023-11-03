@@ -7,14 +7,16 @@ def scraper():
     try:
         response = requests.get(url)
         response.raise_for_status()
-        
+        print("Response content:")
+        print(response.text)
 
         lista = ""
-        matches = re.findall(r'\*\*(.*?)\*\*\(acestream://(.*?)\)', response.text)
+        matches = re.findall(r'\*\*(.*?)\*\*\[:arrow_forward:\]\(acestream://(.*?)\)', response.text)
         for match in matches:
             canal = match[0].strip()
-            acelink = match[1].strip()
-            lista += f"{canal}:\n acestream://{acelink}\n"
+            acelinks = re.findall(r'acestream://[^\s]+', match[1])
+            for acelink in acelinks:
+                lista += f"{canal}: acestream://{acelink}\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
