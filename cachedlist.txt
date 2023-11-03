@@ -1,5 +1,4 @@
-DAZN LaLiga 1080p:
- acestream://1960a9be8ae9e8c755330218eac4c5805466290a
+
 DAZN LaLiga 2:
  acestream://e33e666c393ef04ebe99a9b92135d2e0b48c4d10
 DAZN LaLiga 3:
