@@ -49,7 +49,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "CAMBIOS EN EL PLAN" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "CAMBIOS  PLAN" --allow-empty)
           
       - name: push changes
         uses: ad-m/github-push-action@master
