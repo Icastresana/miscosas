@@ -1,25 +1,25 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 
 def scraper():
     url = 'https://hackmd.io/@algamo/DELANTERO-PICHICHI'
     # Definir los encabezados y las cookies
     headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-    "Referer": "https://hackmd.io",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-    "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+        "Referer": "https://hackmd.io",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
     }
 
     cookies = {
-    "locale": "es",
-    "connect.sid": "s%3AYutx3Z8hIKU7HkY8ygAsTEVHaNawfF0j.18Kq%2F7CUS0cLCsplAY0zlFScsCmYlJUyQhXgMu0YeNg",
-    # Otras cookies que puedas necesitar
+        "locale": "es",
+        "connect.sid": "s%3AYutx3Z8hIKU7HkY8ygAsTEVHaNawfF0j.18Kq%2F7CUS0cLCsplAY0zlFScsCmYlJUyQhXgMu0YeNg",
+        # Otras cookies que puedas necesitar
     }
-
 
     try:
         response = requests.get(url)
@@ -28,17 +28,12 @@ def scraper():
         print(response.text)
 
         soup = BeautifulSoup(response.text, 'html.parser')
-        
-        lista = ""
-        for enlace in soup.find_all('a'):
-            acelink = enlace.get('href')
-            canal = enlace.text
 
-        if acelink and "acestream://" in acelink:
-            link = acelink.replace("acestream://", "")
-            lista += str((canal + "\n" + link + "\n"))
-        
-        
+        lista = ""
+        for match in re.finditer(r'acestream://[^\n]+', response.text):
+            acelink = match.group()
+            lista += acelink + "\n"
+
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
         if contenido != "":
