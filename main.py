@@ -30,8 +30,8 @@ def scraper():
 
 def write_cache(contenido):
     with open("cachedlist.txt", "w", encoding='utf-8') as cachedlist:
-        cachedlist.write(contenido.encode('latin1'))
-        cachedlist.close()
+        cachedlist.write(contenido)
         print("scraper : INFO : website data cached")
+
 
 scraper()
