@@ -15,7 +15,7 @@ def scraper():
         for match in matches:
             canal = match[0].strip()
             acelink = match[1].strip()
-            lista += f"{canal}:\nacestream://{acelink}\n"
+            lista += f" {canal}:\n acestream://{acelink}\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
