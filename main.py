@@ -20,7 +20,7 @@ def scraper():
 
             if canal == canal_actual:
                 # El canal actual tiene múltiples enlaces, así que los agregamos al canal existente
-                lista = lista.rstrip() + f", acestream://{acelink}"
+                lista += f", acestream://{acelink}"
             else:
                 # Cambio de canal, guardamos el canal anterior y sus enlaces
                 if canal_actual:
