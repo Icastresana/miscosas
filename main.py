@@ -33,6 +33,8 @@ def scraper():
         for enlace in soup.find_all('a'):
             acelink = enlace.get('href')
             canal = enlace.text
+            print(f"Enlace: {acelink}")
+            print(f"Canal: {canal}")
 
             if not str(acelink).startswith("acestream://") or canal == "aquí":
                 pass
