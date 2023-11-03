@@ -7,8 +7,7 @@ def scraper():
     try:
         response = requests.get(url)
         response.raise_for_status()
-        print("Response content:")
-        print(response.text)
+        
 
         lista = ""
         matches = re.findall(r'\*\*(.*?)\*\*\(acestream://(.*?)\)', response.text)
