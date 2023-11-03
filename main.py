@@ -30,9 +30,10 @@ def scraper():
         soup = BeautifulSoup(response.text, 'html.parser')
 
         lista = ""
-        for match in re.finditer(r'acestream://[^\n]+', response.text):
-            acelink = match.group()
-            lista += acelink + "\n"
+        for match in re.finditer(r'\*\*([^\*]+)\*\*\[NL\]\[:arrow_forward:\]\(acestream://[^\)]+\)', response.text):
+            canal = match.group(1)
+            acelink = match.group(0).split(":](acestream://")[1]
+            lista += f"{canal}: {acelink}\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
