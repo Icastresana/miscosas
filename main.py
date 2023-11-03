@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def scraper():
-    url = 'https://hackmd.io/@algamo/DELANTERO-PICHICHI/'
+    url = 'https://hackmd.io/@algamo/DELANTERO-PICHICHI'
 
     try:
         response = requests.get(url)
