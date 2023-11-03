@@ -33,14 +33,11 @@ def scraper():
         for enlace in soup.find_all('a'):
             acelink = enlace.get('href')
             canal = enlace.text
-            print(f"Enlace: {acelink}")
-            print(f"Canal: {canal}")
 
-            if not str(acelink).startswith("acestream://") or canal == "aquí":
-                pass
-            else:
-                link = str(acelink).replace("acestream://", "")
-                lista += str((canal + "\n" + link + "\n"))
+        if acelink and "acestream://" in acelink:
+            link = acelink.replace("acestream://", "")
+            lista += str((canal + "\n" + link + "\n"))
+        
         
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
