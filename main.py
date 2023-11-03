@@ -10,27 +10,22 @@ def scraper():
         print("Response content:")
         print(response.text)
 
-        matches = re.findall(r'\*\*(.*?)\*\*\[:arrow_forward:\]\(acestream://(.*?)\)(?=\s*\*\*|\Z)', response.text)
-        canal_actual = ""
+        matches = re.findall(r'\*\*(.*?)\*\*\[:arrow_forward:\]\(acestream://(.*?)(?:\s*\*\*|$)', response.text)
+        canales = {}
         lista = ""
 
         for match in matches:
             canal = match[0].strip()
             acelink = match[1].strip()
-
-            if canal == canal_actual:
-                # El canal actual tiene múltiples enlaces, así que los agregamos al canal existente
-                lista += f", acestream://{acelink}"
+            
+            if canal in canales:
+                canales[canal].append(acelink)
             else:
-                # Cambio de canal, guardamos el canal anterior y sus enlaces
-                if canal_actual:
-                    lista += f"{canal_actual}:\n{lista}\n"
-                canal_actual = canal
-                lista = f"{canal}: acestream://{acelink}"
+                canales[canal] = [acelink]
 
-        # Asegúrate de agregar el último canal y sus enlaces
-        if canal_actual:
-            lista += f"{canal_actual}:\n{lista}\n"
+        for canal, enlaces in canales.items():
+            lista += f"{canal}:\n"
+            lista += "\n".join(enlaces) + "\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
