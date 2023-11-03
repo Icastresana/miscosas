@@ -11,11 +11,11 @@ def scraper():
         print(response.text)
 
         lista = ""
-        matches = re.findall(r'\*\*(.*?)\*\*\(acestream://(.*?)\)', response.text)
+        matches = re.findall(r'\*\*(.*?)\*\*\[:arrow_forward:\]\(acestream://(.*?)\)', response.text)
         for match in matches:
             canal = match[0].strip()
             acelink = match[1].strip()
-            lista += f"{canal}:\n acestream://{acelink}\n"
+            lista += f"{canal}: acestream://{acelink}\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
@@ -29,8 +29,8 @@ def scraper():
         print(f"scraper : ERROR : {e}")
 
 def write_cache(contenido):
-    with open("cachedlist.txt", "w", encoding='utf-8') as cachedlist:
-        cachedlist.write(contenido)
+    with open("cachedlist.txt", "wb") as cachedlist:
+        cachedlist.write(contenido.encode('latin1'))
         cachedlist.close()
         print("scraper : INFO : website data cached")
 
