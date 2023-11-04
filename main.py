@@ -11,14 +11,13 @@ def scraper():
         print(response.text)
 
         lista = ""
-        matches = re.finditer(r'\*\*(.*?)\*\*(?:\s*\[:arrow_forward:\]\(acestream://(.*?)\))*', response.text)
+        matches = re.finditer(r'\*\*(.*?)\*\*(?:\s*\[:arrow_forward:\]\(acestream://(.*?)\))', response.text)
         for match in matches:
             canal = match.group(1).strip()
-            acelinks = match.group(2)  # Captura todos los enlaces Acestream en una sola cadena
-            if acelinks:
-                acelinks = re.findall(r'acestream://(.*?)(?=\s*\*\*|$)', acelinks)  # Encuentra todos los enlaces Acestream
-                for acelink in acelinks:
-                    lista += f"{canal}:\nacestream://{acelink}\n"
+            acelinks = re.findall(r'acestream://(.*?)(?=\s*\*\*|$)', match.group(2))
+            lista += f"{canal}:\n"
+            for acelink in acelinks:
+                lista += f"acestream://{acelink}\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
@@ -30,7 +29,6 @@ def scraper():
 
     except requests.exceptions.RequestException as e:
         print(f"scraper : ERROR : {e}")
-
 
 def write_cache(contenido):
     with open("cachedlist.txt", "w", encoding='utf-8') as cachedlist:
