@@ -1,7 +1,13 @@
 DAZN LaLiga 1080p:
+acestream://1960a9be8ae9e8c755330218eac4c5805466290a
+DAZN LaLiga 1080p:
+acestream://75251ba975132ec9a202806ba5bf606e87280c96
+DAZN LaLiga 1080p:
 acestream://95b2238dec35cf00dfdf8fba18e9920bc2c56256
 720p:
 acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914
+DAZN LaLiga 2:
+acestream://e33e666c393ef04ebe99a9b92135d2e0b48c4d10
 DAZN LaLiga 2:
 acestream://0950c37fe1ea817fc561c611ae943d58505f7a79
 DAZN LaLiga 3:
@@ -19,6 +25,8 @@ acestream://a8ffddef56f082d4bb5c0be0d3d2fdd8c16dbd97
 DAZN 4 1080p:
 acestream://2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd
 DAZN Liga F-1:
+acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
+DAZN Liga F-1:
 acestream://600222a4f98df80a2c0df2d60cb5ff3df9620710
 DAZN Liga F-2:
 acestream://4af5952b95d3c2e99fcdc0de2f528d3fcd73e06b
@@ -27,17 +35,17 @@ acestream://162942adc047d0f78eac056effbe5bbec54a5e51
 DAZN Liga F-4:
 acestream://e454681a152a86da504e63694f17f90d0586867d
 DAZN F1 1080p:
+acestream://5789ca155323664edd293b848606688edf803f4d
+DAZN F1 1080p:
 acestream://9dad717d99b29a05672166258a77c25b57713dd5
 720p:
 acestream://e1fcad9de0c782c157fde6377805c58297ab65c2
-DAZN F1 Multicam 1080p:
-acestream://
 F1 TV 1080p:
 acestream://7088d4b32f4a7c0326765f13764417d038a4524d
-LaLiga TV Bar 1080p:
-acestream://
-720p:
-acestream://
+M. LaLiga TV 1080p:
+acestream://1969c27658d4c8333ab2c0670802546121a774a5
+M. LaLiga TV 1080p:
+acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280
 M. LaLiga TV 1080p:
 acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f
 720p:
@@ -54,8 +62,6 @@ LaLiga Hypermotion 2 1080p:
 acestream://d81b4f2f3fde433539c097b2edc9b587ca47b087
 720p:
 acestream://2709d0ab86cb6ce7ba4d3ad188d7fa80668f2924
-LaLiga Hypermotion 3 1080p:
-acestream://
 M.#Vamos 1080p:
 acestream://859bb6295b8d0f224224d3063d9db7cdeca03122
 720p:
@@ -80,8 +86,10 @@ M. Deportes 6 1080p:
 acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce
 M. Deportes 7 1080p:
 acestream://2448f1d084f440eed2fbe847e24f1c02f5659a78
-M. Deportes 8 SD:
-acestream://
+M.L. Campeones 1080p MultiAudio:
+acestream://f096a64dd756a6d549aa7b12ee9acf7eee27e833
+M.L. Campeones 1080p MultiAudio:
+acestream://1d79a7543d691666135669f89f3541f54e2dd0a9
 M.L. Campeones 1080p MultiAudio:
 acestream://931b1984badcb821df7b47a66ac0835ac871b51c
 720p:
@@ -95,11 +103,13 @@ acestream://ad372cba73aa0ece207a79532b3e30b731136bb2
 720p:
 acestream://d59fe9978eed49f256b312a60671b5bce43d3f24
 M.L. Campeones 4 SD:
+acestream://1b48d5881337c87b89e1edefff6688fe2271d222
+M.L. Campeones 4 SD:
 acestream://f2df4f96b23388b45e75d848a48a510cf8af560f
 M.L. Campeones 5 SD:
 acestream://5c21c181156f200d5e628ef2c62cd06bf5f97eb7
-M.L. Campeones 6 SD:
-acestream://
+M.L. Campeones 7 SD:
+acestream://d84a90adb6998083403f610ab3fae340b5711b1e
 M.L. Campeones 7 SD:
 acestream://5932623d2fd7ed16b01787251b418e4f59a01cda
 M.L. Campeones 8 SD:
@@ -120,8 +130,6 @@ M. Golf 2:
 acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9
 Tennis Channel:
 acestream://9292d3b32432efb56db4014933cbdec0a7cf2e36
-GOL TV 1080p:
-acestream://
 EuroSport 1 1080p:
 acestream://5e4cd48c79f991fcbee2de8b9d30c4b16de3b952
 EuroSport 2 1080p:
@@ -129,15 +137,15 @@ acestream://c373da9e901d414b7384e671112e64d5a2310c29
 EuroSport Player:
 acestream://d871578fc069de543d1ed8b5e63092d870bad8ee
 tdp 1080p (RTVE Play):
-acestream://
+acestream://e2395d28ad19423212fd3aa0e81f387db3e8bb9f
 LA 1 1080p:
 acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
 Real Madrid TV:
-acestream://
+acestream://0ec3f3786318acd8dca2588f74c3759cda76cd11
 MundoToro HD:
 acestream://f763ab71f6f646e6c993f37e237be97baf2143ef
-EUR / RU / NA / SA - TV:
-acestream://
+MATCH! HD[RU]:
+acestream://a203f6b935a8ad8659c4c76c1d9c13afa6368ef2
 MATCH! HD[RU]:
 acestream://45d300749e85fcbc10a4b8333100d1eb4c96da1b
 MATCH! Football HD [RU]:
@@ -147,6 +155,8 @@ acestream://ffbf8c687c788d9a1a7c651e24802ee773ff3f04
 MATCH! Football 3 HD[RU]:
 acestream://b6baa046075d82da300fc1b16de96067a8b9540e
 MATCH! Prime HD [RU]:
+acestream://77fd6e894eba1957177c0f8faa48ff851b3ffbd5
+MATCH! Prime HD [RU]:
 acestream://4b7c5f21b435d79c823e47572655a9c157a3ba12
 Матч! Боец [RU]:
 acestream://822654b2c0db24d1de149cb21fdd44a3b968fbfa
@@ -155,7 +165,17 @@ acestream://a1d67cb505881b2b5bc58ce2af367e5e6d26cab5
 Матч! Наш Спорт HD [RU]:
 acestream://7b4362cb04a3df40bdfa3800af0cc78309a60771
 Матч! Игра HD [RU]:
+acestream://762e1d11f7d07029f316c6f61b8ef73289c6673c
+Матч! Игра HD [RU]:
 acestream://69e012e143b7c086f0f15bda9d1b6dd389fd41de
+PIMPLE TV[RU]:
+acestream://11b6aa16e978a409504b9e3e9c3b29c56f392bdf
+PIMPLE TV[RU]:
+acestream://955bc653f090c238b8d933b41d8a66fee1bf7893
+PIMPLE TV[RU]:
+acestream://11b6aa16e978a409504b9e3e9c3b29c56f392bdf
+PIMPLE TV[RU]:
+acestream://ceaa2553d401c294166b8e498f5aaa1ef1aee8e4
 PIMPLE TV[RU]:
 acestream://8b8f8dde3e3de6206c4023011525546bf081f09d
 FightBox HD [RU]:
@@ -171,6 +191,8 @@ acestream://dec96c86080c26ddf667ea90adfb513a40007a0b
 Футбол HD [RU]:
 acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 Астрахань .Ru Sport HD [Ru]:
+acestream://b63943c30eebd1c3d1a7292af23ce12f8867f5a9
+Астрахань .Ru Sport HD [Ru]:
 acestream://80a8078ed945983e4a630db6de4b9298c4bc821f
 FOX Life HD [RU]:
 acestream://36bd5c1fdf09e5e92aa68cc642ae2d4db6694526
@@ -182,6 +204,10 @@ EuroSport 2 HD [RU]:
 acestream://6176281b9c46a5621a0e88524f8dc621f173b8e0
 Qazsport HD [KZ]:
 acestream://c9014901637b29cad1c39519f0952453c20ce27b
+SETANTA Sports 1 [UA]:
+acestream://42fe2ce3ef6b92653a74d85b6e98c2ba0abee707
+SETANTA Sports 1 [UA]:
+acestream://75594806667040420dee6ed57926101d702566e8
 SETANTA Sports 1 [UA]:
 acestream://94adcdc5a9de993dd11c6d648275cfeb2be6715b
 SETANTA Sports 2 [UA]:
@@ -309,6 +335,8 @@ acestream://5f966c123759de46dff29c379266b7a403452033
 BT Sport 4 [UK]:
 acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
 F1 TV 1080p:
+acestream://6f3b2c65308024a24c4c0fa43837adc31ffb354d
+F1 TV 1080p:
 acestream://583db6c2dfe06b5b245a53c1c04d57015a51af81
 Eleven TR Sport [IT]:
 acestream://154d111a97b7b18d1f64e9ae697c33c479d01e32
@@ -318,6 +346,10 @@ La7 .it [IT]:
 acestream://48e0f30ccda711ff2894cbc52c6df89ffd05fe22
 La7d .it [IT]:
 acestream://f910f4c0374a08379c464c1db49028308557c0eb
+ReteVeneta [IT]:
+acestream://70ba597a6e0f4c6a5868331b11cea6e459ac9f22
+ReteVeneta [IT]:
+acestream://d2e92dfad22b8258187f622b834b9acedc1e443f
 ReteVeneta [IT]:
 acestream://8f3c2fcd4a6f8c78e3148f871fccaceced5a478e
 Videolina [IT]:
@@ -340,6 +372,8 @@ Milano Pavia TV [IT]:
 acestream://0969a38e2b12d718f09e88e0925aed88f24a957b
 UniNettuno University TV [IT]:
 acestream://4e17bac6b2decc70fd7bd704ce7013072fefd1f0
+ALL Sports:
+acestream://7101b21c3c95847ddcd5ab47b775fbbc2c4e200f
 ALL Sports:
 acestream://28da796ff380e6ec2db451f064b25f8aa1323109
 ESPN HD[US]:
@@ -389,9 +423,13 @@ acestream://edb507e38394d614c9ff55805c9d354ae13210bc
 beIN Sports 3 [FR]:
 acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
 Digi Sport 1[RM]:
+acestream://51cee9d0b29dbd9104e9a3971fd2569419eab159
+Digi Sport 1[RM]:
 acestream://83671b11f6dc071feb5769f6646cfc439c18989d
 Digi Sport 2[RM]:
 acestream://b7db2c0404f90f99b01a8875713c047cd07595f7
+Digi Sport 3[RM]:
+acestream://b9dc6fdeaca5a5f4275db80d68536e023ce4ea06
 Digi Sport 3[RM]:
 acestream://257be6b709b3c62e171f5ca9dbdf7428dfc97040
 Digi Sport 4[RM]:
@@ -418,11 +456,3 @@ beIN Sports 3 HD[TR]:
 acestream://ed81c333815247536edfcdb2755147e8c4144d62
 beIN Sports 4 HD[TR]:
 acestream://7683cd0cbacf55fa8b39c363219ffba1bc47cf9d
-WINDOWS ACESTREAM:
-acestream://
-AQUÍ:
-acestream://
-ANDROID ACESTREAM.APK:
-acestream://
-AQUÍ:
-acestream://
