@@ -14,8 +14,9 @@ def scraper():
         matches = re.findall(r'\*\*(.*?)\*\*\[:arrow_forward:\]\(acestream://(.*?)\)', response.text)
         for match in matches:
             canal = match[0].strip()
-            acelink = match[1].strip()
-            lista += f"{canal}: acestream://{acelink}\n"
+            acelinks = re.findall(r'acestream://(.*?)(?=\s*\*\*|$)', match[1])  # Encuentra todos los enlaces Acestream
+            for acelink in acelinks:
+            lista += f"{canal}: acestream://{acelinks}\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
