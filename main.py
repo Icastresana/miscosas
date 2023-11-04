@@ -11,11 +11,14 @@ def scraper():
         print(response.text)
 
         lista = ""
-        matches = re.findall(r'\*\*(.*?)\*\*(?:\s*\[:arrow_forward:\]\(acestream://(.*?)\))*', response.text)
+        matches = re.finditer(r'\*\*(.*?)\*\*(?:\s*\[:arrow_forward:\]\(acestream://(.*?)\))*', response.text)
         for match in matches:
-            canal = match[0].strip()
-            acelink = match[1].strip()
-            lista += f"{canal}:\nacestream://{acelink}\n"
+            canal = match.group(1).strip()
+            acelinks = re.findall(r'acestream://(.*?)(?=\s*\*\*|$)', match.group(2))  # Encuentra todos los enlaces Acestream
+            if acelinks:
+                lista += f"{canal}:\n"
+                lista += "\n".join([f"acestream://{link}" for link in acelinks]) + "\n"
+
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
