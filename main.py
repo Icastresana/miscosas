@@ -10,15 +10,15 @@ def scraper():
         print("Response content:")
         print(response.text)
 
-        content_text = response.text
         lista = ""
-        matches = re.finditer(r'\*\*(.*?)\*\*(?:\s*\[:arrow_forward:\]\(acestream://(.*?)\))?', content_text)
+        matches = re.findall(r'\*\*(.*?)\*\*(?:\s*\[:arrow_forward:\]\(acestream://(.*?)\))*', response.text)
         for match in matches:
-            canal = match.group(1).strip()
-            acelinks = re.findall(r'acestream://(.*?)(?=\s*acestream://|$)', match.group(2))
-            lista += f"{canal}:\n"
-            for acelink in acelinks:
-                lista += f"acestream://{acelink}\n"
+            canal = match[0].strip()
+            acelink = match[1].strip()
+            lista += f"{canal}:\nacestream://{acelink}\n"
+
+
+
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
@@ -30,6 +30,7 @@ def scraper():
 
     except requests.exceptions.RequestException as e:
         print(f"scraper : ERROR : {e}")
+
 
 def write_cache(contenido):
     with open("cachedlist.txt", "w", encoding='utf-8') as cachedlist:
