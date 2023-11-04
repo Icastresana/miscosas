@@ -9,7 +9,7 @@ def scraper():
         response.raise_for_status()
 
         lista = ""
-        matches = re.finditer(r'\*\*(.*?)\*\*(?::checkered_flag:)?\[:arrow_forward:\]\(acestream://(.*?)\)', response.text)
+        matches = re.finditer(r'\*\*(.*?)\*\*\(acestream://(.*?)\)$', response.text)
 
         canales = {}
         canal_actual = None
