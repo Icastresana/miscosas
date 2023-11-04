@@ -19,8 +19,8 @@ def scraper():
                 acelinks = [""]  # Agrega una cadena vacía si no se encontraron enlaces
             if "WINDOWS ACESTREAM" not in canal and "ANDROID ACESTREAM.APK" not in canal and "AQUÍ" not in canal and "EUR / RU / NA / SA - TV" not in canal:
                 for acelink in acelinks:
-                    if "720" in canal:
-                        canal = re.sub(r'1080[p]?', '720', canal)
+                    if "720p" in canal:
+                        canal = re.sub(r'1080[p]?', '720p', canal)
                     lista += f"{canal}:\nacestream://{acelink}\n"
 
 
