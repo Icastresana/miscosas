@@ -19,7 +19,10 @@ def scraper():
 
             if canal_actual != canal:
                 if canal_actual:
-                    lista += "\n".join(canales[canal_actual]) + "\n"
+                    if canales[canal_actual]:
+                        lista += f"{canal_actual}\n" + "\n".join(canales[canal_actual]) + "\n"
+                    else:
+                        lista += f"{canal_actual}\n"
                 canal_actual = canal
                 canales[canal] = []
 
@@ -27,7 +30,10 @@ def scraper():
                 canales[canal].append(f"acestream://{enlace}")
 
         if canal_actual:
-            lista += "\n".join(canales[canal_actual]) + "\n"
+            if canales[canal_actual]:
+                lista += f"{canal_actual}\n" + "\n".join(canales[canal_actual]) + "\n"
+            else:
+                lista += f"{canal_actual}\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
