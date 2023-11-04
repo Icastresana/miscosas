@@ -10,6 +10,8 @@ DAZN LaLiga 2:
 acestream://e33e666c393ef04ebe99a9b92135d2e0b48c4d10
 DAZN LaLiga 2:
 acestream://0950c37fe1ea817fc561c611ae943d58505f7a79
+DAZN LaLiga 2:
+acestream://93d663e92a93845b11c9831885646fa39ba1ed66
 DAZN LaLiga 3:
 acestream://8c71f0e0a5476e10950fc827f9d2a507340aba74
 DAZN 1 1080p:
@@ -45,7 +47,9 @@ acestream://
 F1 TV 1080p:
 acestream://7088d4b32f4a7c0326765f13764417d038a4524d
 LaLiga TV Bar 1080p:
-acestream://
+acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280
+LaLiga TV Bar 1080p:
+acestream://512aeadf50d91603d15b32f1e408166536ec4ac9
 720p:
 acestream://
 M. LaLiga TV 1080p:
@@ -326,6 +330,28 @@ Magenta Sport 10 HD [DE]:
 acestream://6058a4c0f2569bd81c687aa7dfb48b8a9569fb29
 Magenta Sport 11 HD [DE]:
 acestream://c21316ad4b7f44eaf6fcfb2c245c46de8b746cc6
+Eurosport 1 [DE]:
+acestream://b8cad4710b1c3b2b84a82c1ece40c08517b8f766
+Eurosport 2 [DE]:
+acestream://ac675c82d6dfd4a201532c18b42e48dacb7c32c6
+Eurosport360 1 [DE]:
+acestream://22df9a5fae8cae52fec925c2bb44b74f96a4200c
+Eurosport360 2 [DE]:
+acestream://57f95543ac41656d473b1a27123fc413388a728c
+Eurosport360 3 [DE]:
+acestream://7adbca42657ace1fe228142d351d0896974bbe0c
+Eurosport360 4 [DE]:
+acestream://1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64
+Eurosport360 5 [DE]:
+acestream://148921c4dda96df445e253d6f26c4d092bf85809
+Eurosport360 6 [DE]:
+acestream://005ac522315699bd93bbf743329eb2f3c347dc3f
+Eurosport360 7 [DE]:
+acestream://b18657f64507cc859cd7edef1aef90feb053e791
+Eurosport360 8 [DE]:
+acestream://8f4f572005ca2557743474087aa622693ba9b5fe
+Eurosport360 9 [DE]:
+acestream://7993cecc31917793e2bfa2fe98faa9fe1ab62d47
 BBC ONE [UK]:
 acestream://243eaccd38b9a0c43b800b6c7a30b1ad2cadc1f1
 DAZN 1 [UK]:
