@@ -10,7 +10,7 @@ def scraper():
         print("Response content:")
         print(response.text)
 
-        matches = re.findall(r'\*\*(.*?)\*\*\(acestream://(.*?))', response.text)
+        matches = re.findall(r'\*\*(.*?)\*\*\(acestream://(.*?)\)', response.text)
         canales = {}
         lista = ""
 
