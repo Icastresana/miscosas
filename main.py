@@ -15,8 +15,9 @@ def scraper():
         for match in matches:
         canal = match[0].strip()
         acelinks = match[1]  # Captura todos los enlaces Acestream en una sola cadena
-            if acelinks:
-                lista += f"{canal}:\nacestream://{acelinks}\n"
+        if acelinks:
+            lista += f"{canal}:\nacestream://{acelinks}\n"
+
 
 
 
