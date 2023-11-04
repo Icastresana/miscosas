@@ -162,6 +162,8 @@ Real Madrid TV:
 acestream://0ec3f3786318acd8dca2588f74c3759cda76cd11
 MundoToro HD:
 acestream://f763ab71f6f646e6c993f37e237be97baf2143ef
+EUR / RU / NA / SA - TV:
+acestream://
 MATCH! HD[RU]:
 acestream://a203f6b935a8ad8659c4c76c1d9c13afa6368ef2
 MATCH! HD[RU]:
@@ -510,3 +512,11 @@ beIN Sports 3 HD[TR]:
 acestream://ed81c333815247536edfcdb2755147e8c4144d62
 beIN Sports 4 HD[TR]:
 acestream://7683cd0cbacf55fa8b39c363219ffba1bc47cf9d
+WINDOWS ACESTREAM:
+acestream://
+AQUÍ:
+acestream://
+ANDROID ACESTREAM.APK:
+acestream://
+AQUÍ:
+acestream://
