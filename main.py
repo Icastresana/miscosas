@@ -16,13 +16,14 @@ def scraper():
 
         for match in matches:
             canal, enlace = match.groups()
-            
-            if canal != canal_actual:
+
+            if canal_actual != canal:
                 if canal_actual:
                     lista += "\n".join(canales[canal_actual]) + "\n"
                 canal_actual = canal
-                canales[canal] = [f"{canal}:\nacestream://{enlace}"]
-            else:
+                canales[canal] = []
+
+            if enlace:
                 canales[canal].append(f"acestream://{enlace}")
 
         if canal_actual:
