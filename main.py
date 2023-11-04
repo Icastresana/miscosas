@@ -14,9 +14,9 @@ def scraper():
         matches = re.findall(r'\*\*(.*?)\*\*([^*]+)', response.text)
         for match in matches:
             canal = match[0].strip()
+            acelinks = re.findall(r'\(acestream://(.*?)\)', match[1])
             if "WINDOWS ACESTREAM" in canal or "ANDROID ACESTREAM.APK" in canal or "AQUI" in canal or "EUR / RU / NA / SA - TV":
                 continue 
-            acelinks = re.findall(r'\(acestream://(.*?)\)', match[1])
             if not acelinks:
                 acelinks = [""]  # Agrega una cadena vacía si no se encontraron enlaces
             for acelink in acelinks:
