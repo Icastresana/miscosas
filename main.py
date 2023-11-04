@@ -15,6 +15,8 @@ def scraper():
         for match in matches:
             canal = match[0].strip()
             acelinks = re.findall(r'\(acestream://(.*?)\)', match[1])
+                if not acelinks:
+                acelinks = [""]  # Agrega una cadena vacía si no se encontraron enlaces
             for acelink in acelinks:
                 lista += f"{canal}:\nacestream://{acelink}\n"
 
