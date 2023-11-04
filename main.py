@@ -16,7 +16,7 @@ def scraper():
             canal = match[0].strip()
             acelinks = re.findall(r'acestream://(.*?)(?=\s*\*\*|$)', match[1])  # Encuentra todos los enlaces Acestream
             for acelink in acelinks:
-            lista += f"{canal}: acestream://{acelinks}\n"
+                lista += f"{canal}: acestream://{acelinks}\n"
 
         contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
