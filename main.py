@@ -2,7 +2,7 @@ import requests
 import re
 
 def scraper():
-    url = 'https://hackmd.io/@algamo/DELANTERO-PICHICHI'
+    url = 'https://hackmd.io/@penaltis/GOL-DE-ORO'
 
     try:
         response = requests.get(url)
