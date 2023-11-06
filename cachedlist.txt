@@ -416,20 +416,6 @@ ALL Sports:
 acestream://7101b21c3c95847ddcd5ab47b775fbbc2c4e200f
 ALL Sports:
 acestream://28da796ff380e6ec2db451f064b25f8aa1323109
-Agro Brasil TV:
-acestream://b98414d41fb96d1a0612e43d35287d2df2f81579
-Brasil Oeste:
-acestream://ff38177cc90f79b729ea32516d8c738a05dbef37
-Rede Massa Brasil:
-acestream://e74acc77b5cc53ed38c90edb4e2295375e670474
-TNT Sports 1 [BR]:
-acestream://a52d9a04f28c65ca4c1c1e1265c0b61e8e53f533
-TNT Sports 2 [BR]:
-acestream://148c98542471863c1e33ac5d698379e6b9d91dd2
-TNT Sports 3 [BR]:
-acestream://10d8be23bdfc4042371be77456494f18e65b652a
-TNT Sports 4 [BR]:
-acestream://eb6b88840094f2cff5789235ca7282fceb9bd8ee
 ESPN HD[US]:
 acestream://4b4907de51ec11087d4bed5876f2a0c68264f442
 ESPN 2 HD[US]:
