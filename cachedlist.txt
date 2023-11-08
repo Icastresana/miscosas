@@ -26,15 +26,13 @@ DAZN 3 1080p:
 acestream://a8ffddef56f082d4bb5c0be0d3d2fdd8c16dbd97
 DAZN 4 1080p:
 acestream://2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd
-DAZN Liga F-1:
-acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
-DAZN Liga F-1:
+DAZN Liga Fem-1:
 acestream://600222a4f98df80a2c0df2d60cb5ff3df9620710
-DAZN Liga F-2:
-acestream://4af5952b95d3c2e99fcdc0de2f528d3fcd73e06b
-DAZN Liga F-3:
+DAZN Liga Fem-2:
+acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
+DAZN Liga Fem-3:
 acestream://162942adc047d0f78eac056effbe5bbec54a5e51
-DAZN Liga F-4:
+DAZN Liga Fem-4:
 acestream://e454681a152a86da504e63694f17f90d0586867d
 DAZN F1 1080p:
 acestream://5789ca155323664edd293b848606688edf803f4d
@@ -416,6 +414,16 @@ ALL Sports:
 acestream://7101b21c3c95847ddcd5ab47b775fbbc2c4e200f
 ALL Sports:
 acestream://28da796ff380e6ec2db451f064b25f8aa1323109
+TNT Sport 1[BR]:
+acestream://a52d9a04f28c65ca4c1c1e1265c0b61e8e53f533
+TNT Sport 2[BR]:
+acestream://148c98542471863c1e33ac5d698379e6b9d91dd2
+TNT Sport 3[BR]:
+acestream://10d8be23bdfc4042371be77456494f18e65b652a
+TNT Sport 4[BR]:
+acestream://eb6b88840094f2cff5789235ca7282fceb9bd8ee
+TNT Sport 5[BR]:
+acestream://446e8d2d35c577c98083dad23004c29484377b16
 ESPN HD[US]:
 acestream://4b4907de51ec11087d4bed5876f2a0c68264f442
 ESPN 2 HD[US]:
