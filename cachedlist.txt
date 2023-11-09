@@ -106,6 +106,8 @@ M.L. Campeones 1080p MultiAudio:
 acestream://931b1984badcb821df7b47a66ac0835ac871b51c
 M.L. Campeones 720p:
 acestream://e2e2aca792aae5da19995ac516b1d620531bd49c
+M.L. Campeones 720p:
+acestream://6b56c1de436327b49e429a702e81e9269630e37a
 M.L. Campeones 2 1080p:
 acestream://fc2fe31b0bce25e2dc7ab4d262bf645e2be5a393
 M.L. Campeones 2 720p:
@@ -128,6 +130,8 @@ M.L. Campeones 7 SD:
 acestream://5932623d2fd7ed16b01787251b418e4f59a01cda
 M.L. Campeones 8 SD:
 acestream://1a4b41c02e116ed19a505551a9caa79f54c027f7
+M.L. Campeones 8 SD:
+acestream://6c445141445b06d7b4328d80e2dd936bd0ca52ca
 M.L. Campeones 9 SD:
 acestream://7244379f8f6382d40afec871fb8e4219a803840b
 M.L. Campeones 10 SD:
