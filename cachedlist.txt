@@ -398,6 +398,8 @@ Videolina [IT]:
 acestream://277503b17daeb2bbea26bfe27dc9ffc33c0cb251
 RTC TeleCalabria [IT]:
 acestream://735d268177573df80bcadf0a4defebae9811db2f
+RAI 3 [IT]:
+acestream://bbbcbec1b2538fc069f19434185961b1e93ea833
 San Marino RTV Sport [IT]:
 acestream://753f25945102655dd6fcf856f32695005c912d69
 San Marino RTV HD [IT]:
