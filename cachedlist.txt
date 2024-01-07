@@ -162,6 +162,8 @@ tdp 1080p (RTVE Play):
 acestream://e2395d28ad19423212fd3aa0e81f387db3e8bb9f
 LA 1 1080p:
 acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
+LA 1 1080p:
+acestream://b897de3e62d7c6bee9ef1107d972f3d1075e03ff
 Real Madrid TV:
 acestream://0ec3f3786318acd8dca2588f74c3759cda76cd11
 MundoToro HD:
