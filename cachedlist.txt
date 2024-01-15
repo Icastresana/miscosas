@@ -1,5 +1,7 @@
 Movistar SuperCopa de España:
 acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d
+Movistar SuperCopa de España:
+acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
 DAZN LaLiga 1080p:
 acestream://1960a9be8ae9e8c755330218eac4c5805466290a
 DAZN LaLiga 1080p:
