@@ -390,6 +390,42 @@ F1 TV 1080p:
 acestream://6f3b2c65308024a24c4c0fa43837adc31ffb354d
 F1 TV 1080p:
 acestream://583db6c2dfe06b5b245a53c1c04d57015a51af81
+Sky Sport Tennis HD:
+acestream://89e380332cc52ae3b7774607fbf54813fb7f4dd7
+Sky Sport Uno HD:
+acestream://56de175b8323194667424e587414abb9fde5798a
+Sky Sport24 HD:
+acestream://0286f071fee7bdf534c1602a371deb1f2b1b78e2
+Sky Sport Arena HD:
+acestream://b98fc0522f0442429f8c1f4216b2b06b593b33ae
+Sky Sport Golf HD:
+acestream://a5597a324630eb1b15cb48cf3d34238e732b04e2
+Sky Sport NBA HD:
+acestream://ee197f7428f5d4cc88f5e2c936b2f0d38a88e6b5
+Sky Sport 253 HD:
+acestream://d81e0348660810607cddef96f4fe6607df07e357
+Sky Sport 254 HD:
+acestream://04b33a5d2aa25014f2bc571e4dafe0869315ba32
+Sky Sport 255 HD:
+acestream://86696f544aa3703c38ba5c3168388a6a01d122c9
+Sky Sport 256 HD:
+acestream://89b4a4a438aee8e82510ecf7e1c03898ce45bb6b
+Sky Sport 257 HD:
+acestream://d9cde9a9f92782eb70b0f40c77e09bab20028503
+Sky Sport 258 HD:
+acestream://22e324fd2075244958e4d135ae9609b4b7de65a0
+Sky Sport 259 HD:
+acestream://7962e513884617f0150e1780fe62693de739777a
+Sky Sport 260 HD:
+acestream://b1fd690a81e05244708e071c3c71e10ce11e894c
+Serie A Tim Femminile 2 HD:
+acestream://e37a1c7f19ff9ad44e67817ef8995529122f7d25
+Serie A Tim Femminile 3 HD:
+acestream://f533accb86b34b7ff10f823224a071f7677eae0d
+Serie A Tim Femminile 4 HD:
+acestream://8afd076fad74bd791924897d89b53d624295575c
+Serie A Tim Femminile 5 HD:
+acestream://23eebab7c07c435383e81f86cc29662702c7538a
 Eleven TR Sport [IT]:
 acestream://154d111a97b7b18d1f64e9ae697c33c479d01e32
 TeleSud Trapani [IT]:
