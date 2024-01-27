@@ -48,6 +48,8 @@ DAZN F1 Multicam 1080p:
 acestream://
 RFEF:
 acestream://8552d0ab6ca31e07a2de46f2d7ff1c546212dc2b
+Lista RFEF.m3u:
+acestream://
 F1 TV 1080p:
 acestream://7088d4b32f4a7c0326765f13764417d038a4524d
 LaLiga TV Bar 1080p:
