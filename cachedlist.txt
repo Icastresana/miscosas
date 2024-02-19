@@ -47,12 +47,10 @@ acestream://e1fcad9de0c782c157fde6377805c58297ab65c2
 DAZN F1 Multicam 1080p:
 acestream://
 RFEF:
-acestream://8552d0ab6ca31e07a2de46f2d7ff1c546212dc2b
+acestream://ee38ea1806129de000bd7925a5d52554d70bb560
 RFEF:
-acestream://9b4155893965f6930d5a73b093261952c4d207fd
-RFEF:
-acestream://ea954f97c49ee9d3189855e333630ed0323defa6
-Lista RFEF.m3u:
+acestream://76f48ddb3066dd67c1f73a1d847a392c8890032d
+RFEF 1ª-2ª.m3u:
 acestream://
 F1 TV 1080p:
 acestream://7088d4b32f4a7c0326765f13764417d038a4524d
