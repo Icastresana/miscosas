@@ -53,7 +53,7 @@ acestream://76f48ddb3066dd67c1f73a1d847a392c8890032d
 RFEF 1ª-2ª.m3u:
 acestream://
 F1 TV 1080p:
-acestream://7088d4b32f4a7c0326765f13764417d038a4524d
+acestream://8c92cfef8dd37e2dd2d3b8985b81cc7708e24d3c
 LaLiga TV Bar 1080p:
 acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280
 LaLiga TV Bar 1080p:
@@ -372,6 +372,8 @@ DAZN 1 [UK]:
 acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
 Sky Sports F1[UK]:
 acestream://8afb62049f30ba4fb4a74c0c4165313d40b20ccb
+Sky Sports F1[UK]:
+acestream://9d26a1fd9e0561786cbf3f3c3d0931a7e7bf8d54
 Sky Sports Main Event [UK]:
 acestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e
 Sky Sports Premier League[UK]:
@@ -391,9 +393,9 @@ acestream://5f966c123759de46dff29c379266b7a403452033
 BT Sport 4 [UK]:
 acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
 F1 TV 1080p:
-acestream://6f3b2c65308024a24c4c0fa43837adc31ffb354d
+acestream://036102d0e1f12a0295816fabe4b0a891e174be0b
 F1 TV 1080p:
-acestream://583db6c2dfe06b5b245a53c1c04d57015a51af81
+acestream://d2b62dc65b7a4b0b9d448de93771580a5eadef6c
 Sky Sport Tennis HD:
 acestream://89e380332cc52ae3b7774607fbf54813fb7f4dd7
 Sky Sport Uno HD:
@@ -520,6 +522,8 @@ Sport Tv 3 [PT]:
 acestream://6c526d4cc3ca77cfbc10c548aa0d49944e56f3ff
 Sport Tv 4 [PT]:
 acestream://a600f739438c1b47725617d7a4cc05a04a890e10
+Sport Tv 4 [PT]:
+acestream://ea6fc4bfdce607f25b9531c211f76fea16f2632c
 beIN Sports 1 [FR]:
 acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0
 beIN Sports 2 [FR]:
