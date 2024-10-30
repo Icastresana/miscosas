@@ -1,10 +1,17 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 
-# Inicializar el navegador
-driver = webdriver.Chrome()
+# Configurar opciones de Chrome para modo headless
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Ejecutar Chrome en modo headless
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+
+# Inicializar el navegador con las opciones configuradas
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
 
 try:
     # Navegar a la URL
