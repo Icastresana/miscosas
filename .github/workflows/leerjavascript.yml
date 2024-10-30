@@ -1,50 +1,26 @@
-name: Run leerjavascript.py
+name: run leerjavascript.py
 
 on:
-  workflow_dispatch:
   schedule:
-    # Corre cada hora de 8 a 22
-    - cron: '0 8-22 * * *'
+    - cron: '0 8-22 * * *'  # Corre de 8:00 a 22:00 cada hora
+  workflow_dispatch:  # Permite ejecución manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # Aumentar el tiempo de espera para evitar fallos por tiempo
-
-    permissions:
-      # Permisos necesarios
-      contents: write  # Permitir escritura en el contenido del repositorio
-
     steps:
-      - name: Checkout repo content
-        uses: actions/checkout@v3  # Clona el repositorio
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'  # Instalar la versión de Python necesaria
+          python-version: '3.9'
 
-      - name: Install dependencies
+      - name: Instalar dependencias de Python
         run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser  # Instalar Chrome
-          sudo apt-get install -y chromium-chromedriver  # Instalar ChromeDriver
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
-      - name: Execute Python script
+          pip install webdriver-manager  # Webdriver para manejar Chrome automáticamente
+
+      - name: Ejecutar el script de Python
         run: python leerjavascript.py
-        env:
-          DISPLAY: :99.0  # Necesario para algunos entornos sin interfaz gráfica
-
-      - name: Commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "CAMBIOS PLAN" --allow-empty)
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          branch: main
