@@ -1,5 +1,24 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+# Configuración de opciones de Chrome para modo headless
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+
+# Inicializar `driver` como `None` al principio para evitar errores
+driver = None
 
 try:
+    # Inicializar el navegador con las opciones configuradas
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
     # Navegar a la URL
     driver.get('https://proxy.zeronet.dev/18D6dPcsjLrjg2hhnYqKzNh2W6QtXrDwF/')
 
@@ -40,8 +59,10 @@ try:
 
 except Exception as e:
     print(f"Error: {e}")
-    print(driver.page_source)  # Imprimir el HTML completo de la página para depuración
+    if driver:
+        print(driver.page_source)  # Imprimir el HTML completo de la página para depuración
 
 finally:
-    # Cerrar el navegador
-    driver.quit()
+    # Cerrar el navegador solo si fue inicializado
+    if driver:
+        driver.quit()
