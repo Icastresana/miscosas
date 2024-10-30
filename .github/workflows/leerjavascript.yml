@@ -1,57 +1,51 @@
-name: run leerjavascript.py
+name: Run leerjavascript.py
 
 on:
   workflow_dispatch:
 
   schedule:
-    # Corre cada 1h
-    #- cron: '0 * * * *'
-    # Otras programaciones
+    # Corre cada hora de 8 a 22
     - cron: '0 8-22 * * *'
-    #- cron: '0 0-9/3 * * *'
-    # Corre cada 3h    
-    #- cron: '0 */3 * * *'
-    # Test
-    #- cron: '15,45 10-23 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
-    
+    timeout-minutes: 10  # Aumentar el tiempo de espera para evitar fallos por tiempo
+
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push
-      contents: write
-      
+      # Permisos necesarios
+      contents: write  # Permitir escritura en el contenido del repositorio
+
     steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v3  # Clona el repositorio
 
-      - name: checkout repo content
-        uses: actions/checkout@v3 # checkout the repository content to github runner
-
-      - name: setup python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9' # install the python version needed
+          python-version: '3.9'  # Instalar la versión de Python necesaria
 
-
-      - name: install python packages
+      - name: Install dependencies
         run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser  # Instalar Chrome
+          sudo apt-get install -y chromium-chromedriver  # Instalar ChromeDriver
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install stem
           
-      - name: execute py script
-      
+      - name: Execute Python script
         run: python leerjavascript.py
-          
-      - name: commit files
+        env:
+          DISPLAY: :99.0  # Necesario para algunos entornos sin interfaz gráfica
+
+      - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "CAMBIOS  PLAN" --allow-empty)
-          
-      - name: push changes
+          git diff-index --quiet HEAD || (git commit -a -m "CAMBIOS PLAN" --allow-empty)
+
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: main 
+          branch: main
