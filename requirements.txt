@@ -3,3 +3,4 @@ beautifulsoup4==4.11.1
 requests==2.25.1
 torpy==1.1.6
 selenium==4.18.0
+webdriver-manager
