@@ -24,3 +24,12 @@ jobs:
 
       - name: Ejecutar el script de Python
         run: python leerjavascript.py
+
+      - name: commit generated file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add enlaces_acestream.txt
+          git commit -m "Add generated enlaces_acestream.txt"
+          git push
+
