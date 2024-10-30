@@ -1,10 +1,17 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 
-# Inicializar el navegador
-driver = webdriver.Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Modo sin interfaz
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+
+# Inicializa Chrome automáticamente usando WebDriver Manager
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
+
 
 try:
     # Navegar a la URL
