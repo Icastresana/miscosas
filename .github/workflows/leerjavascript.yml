@@ -2,10 +2,9 @@ name: Run leerjavascript.py
 
 on:
   workflow_dispatch:
-
   schedule:
     # Corre cada hora de 8 a 22
-    #- cron: '0 8-22 * * *'
+    - cron: '0 8-22 * * *'
 
 jobs:
   build:
