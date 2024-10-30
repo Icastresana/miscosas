@@ -2,7 +2,7 @@ name: run leerjavascript.py
 
 on:
   schedule:
-    - cron: '0 8-22 * * *'  # Corre de 8:00 a 22:00 cada hora
+    - cron: '0 8-22/2 * * *'  # Corre de 8:00 a 22:00 cada hora
   workflow_dispatch:  # Permite ejecución manual
 
 jobs:
