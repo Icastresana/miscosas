@@ -52,8 +52,8 @@ try:
 
     # Crear y escribir en el archivo TXT
     with open('enlaces_acestream.txt', 'w', encoding='utf-8') as file:
-        for texto, href in resultados:
-            file.write(f'{texto}\n{href}\n')
+        for nombre, href in resultados:
+            file.write(f'{nombre}\n{href}\n')
 
     print("Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
 
