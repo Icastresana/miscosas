@@ -38,17 +38,17 @@ try:
     resultados = []
 
     for item in items:
-        # Encontrar el enlace dentro del <li>
-        enlace = item.find_element(By.TAG_NAME, 'a')
-        # Extraer el texto y el href
-        texto = enlace.text
-        href = enlace.get_attribute('href')
+        # Encontrar nombre del canal
+        nombre_canal = item.find_element(By.CLASS_NAME, 'link-name').text
 
-        # Eliminar el prefijo 'acestream://' del enlace
-        href_sin_prefijo = href.replace("acestream://", "")
+        # Extraer el enlace
+        enlace_div = item.find_element(By.CLASS_NAME, 'link-url')
+        enlace = enlace_div.find_element(By.TAG_NAME, 'a').get_attribute('href')
+
         
         # Almacenar en la lista
-        resultados.append((texto, href_sin_prefijo))
+        resultados.append((nombre_canal, href.replace("acestream://", "")))
+
 
     # Crear y escribir en el archivo TXT
     with open('enlaces_acestream.txt', 'w', encoding='utf-8') as file:
