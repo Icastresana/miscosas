@@ -29,10 +29,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          rm -f enlaces_acestream.txt   # Elimina el archivo
-          touch enlaces_acestream.txt   # Lo recrea
           git add enlaces_acestream.txt
-          git commit -m "Add generated enlaces_acestream.txt" || echo "No changes to commit"
+          git commit -m "Add generated enlaces_acestream.txt"
           git push
 
 
