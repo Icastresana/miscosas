@@ -46,8 +46,11 @@ try:
         enlace = enlace_div.find_element(By.TAG_NAME, 'a').get_attribute('href')
 
         
+        # Eliminar el prefijo 'acestream://' del enlace
+        href = enlace.replace("acestream://", "")
+    
         # Almacenar en la lista
-        resultados.append((nombre_canal, href.replace("acestream://", "")))
+        resultados.append((nombre_canal, href))
 
 
     # Crear y escribir en el archivo TXT
