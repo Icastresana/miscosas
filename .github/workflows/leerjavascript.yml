@@ -29,6 +29,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          touch enlaces_acestream.txt
           git add enlaces_acestream.txt
           git commit -m "Add generated enlaces_acestream.txt"
           git push
