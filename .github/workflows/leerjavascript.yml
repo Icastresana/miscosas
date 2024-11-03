@@ -29,8 +29,12 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add enlaces_acestream.txt
-          git commit -m "Add generated enlaces_acestream.txt"
-          git push
+          if [ -n "$(git status --porcelain enlaces_acestream.txt)" ]; then
+            git add enlaces_acestream.txt
+            git commit -m "Add generated enlaces_acestream.txt"
+            git push
+          else
+            echo "No hay cambios en enlaces_acestream.txt, omitiendo commit."
+          fi
 
 
