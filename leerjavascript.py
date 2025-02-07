@@ -12,60 +12,54 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 
-# Inicializar `driver` como `None` al principio para evitar errores
-driver = None
+# Lista de URLs a scrapear
+urls = [
+    "https://proxy.zeronet.dev/18D6dPcsjLrjg2hhnYqKzNh2W6QtXrDwF",
+    "https://proxy.zeronet.dev/1JKe3VPvFe35bm1aiHdD4p1xcGCkZKhH3Q"
+]
 
-try:
-    # Inicializar el navegador con las opciones configuradas
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+# Lista para almacenar todos los resultados
+resultados = []
 
-    # Navegar a la URL
-    driver.get('https://proxy.zeronet.dev/18D6dPcsjLrjg2hhnYqKzNh2W6QtXrDwF/')
+for url in urls:
+    try:
+        print(f"Scrapeando: {url}")
 
-    # Esperar a que el iframe esté disponible
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "inner-iframe")))
+        # Abrir un nuevo navegador en cada iteración
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+        driver.get(url)
 
-    # Cambiar al iframe
-    driver.switch_to.frame("inner-iframe")
+        # Esperar a que el iframe esté disponible
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "inner-iframe")))
 
-    # Esperar a que se carguen los elementos <li>
-    WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME, "li")))
+        # Cambiar al iframe
+        driver.switch_to.frame("inner-iframe")
 
-    # Extraer información de cada <li>
-    items = driver.find_elements(By.TAG_NAME, "li")
-    
-    # Lista para almacenar los resultados
-    resultados = []
+        # Esperar a que se carguen los elementos <li>
+        WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME, "li")))
 
-    for item in items:
-        # Encontrar nombre del canal
-        nombre_canal = item.find_element(By.CLASS_NAME, 'link-name').text
+        # Extraer información de cada <li>
+        items = driver.find_elements(By.TAG_NAME, "li")
 
-        # Extraer el enlace
-        enlace_div = item.find_element(By.CLASS_NAME, 'link-url')
-        enlace = enlace_div.find_element(By.TAG_NAME, 'a').get_attribute('href')
+        for item in items:
+            try:
+                nombre_canal = item.find_element(By.CLASS_NAME, 'link-name').text
+                enlace_div = item.find_element(By.CLASS_NAME, 'link-url')
+                enlace = enlace_div.find_element(By.TAG_NAME, 'a').get_attribute('href')
+                href = enlace.replace("acestream://", "")
+                resultados.append((nombre_canal, href))
+            except Exception as e:
+                print(f"Error extrayendo datos de un elemento: {e}")
 
-        
-        # Eliminar el prefijo 'acestream://' del enlace
-        href = enlace.replace("acestream://", "")
-    
-        # Almacenar en la lista
-        resultados.append((nombre_canal, href))
-
-
-    # Crear y escribir en el archivo TXT
-    with open('enlaces_acestream.txt', 'w', encoding='utf-8') as file:
-        for nombre, href in resultados:
-            file.write(f'{nombre}\n{href}\n')
-
-    print("Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
-
-except Exception as e:
-    print(f"Error: {e}")
-    if driver:
-        print(driver.page_source)  # Imprimir el HTML completo de la página para depuración
-
-finally:
-    # Cerrar el navegador solo si fue inicializado
-    if driver:
+        # Cerrar el navegador después de procesar la URL
         driver.quit()
+
+    except Exception as e:
+        print(f"Error en {url}: {e}")
+
+# Guardar todos los resultados en un archivo
+with open('enlaces_acestream.txt', 'w', encoding='utf-8') as file:
+    for nombre, href in resultados:
+        file.write(f'{nombre}\n{href}\n')
+
+print("Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
