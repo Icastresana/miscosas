@@ -42,7 +42,7 @@ LaLiga Smartbank 2 720
 0a335406bad0b658aeddb2d38f8c0614b2e5623a
 LaLiga Smartbank 3
 fefd45ed6ff415e05f1341b7d9da2988eacd13ea
-#VAMOS ELLAS  FHD por Tronoss
+#VAMOS ELLAS FHD por Tronoss
 f317a4fef0b96caabaaad25cadb5f45303544767
 #VAMOS FHD (*) por Tronoss
 7628ebd71c7f6b78d5a91a324bde49ef8317a49f
@@ -144,7 +144,7 @@ M+ ACCION FHD por Tronoss
 2d904318a20e89de0f6540f3e8c210e1376d5e51
 M+ DEPORTES 2 FHD por Tronoss
 43931a2672086891ce4f6d6b4128e005e8038959
-M+ DEPORTES 3 FHD  por Tronoss
+M+ DEPORTES 3 FHD por Tronoss
 fb27c753c690bf21edcf527f42cd14c5c9e6b53e
 M+ DEPORTES 4 FHD por Tronoss
 f36a4e0ef1fbd63757130284e9a6c3b7c212a421
