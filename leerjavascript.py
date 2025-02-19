@@ -20,7 +20,39 @@ urls = {
     "https://proxy.zeronet.dev/1JKe3VPvFe35bm1aiHdD4p1xcGCkZKhH3Q": "https://ipfs.io/ipns/k51qzi5uqu5di00365631hrj6m22vsjudpbtw8qpfw6g08gf3lsqdn6e89anq5"
 }
 
+# Función para cargar el diccionario desde un archivo externo
+def cargar_diccionario(ruta_archivo):
+    nombre_canal_map = {}
+    with open(ruta_archivo, 'r', encoding='utf-8') as file:
+        for linea in file:
+            if ":" in linea:  # Asegura que la línea tiene el formato correcto
+                nombre_final, patron = linea.strip().split(":", 1)  # Divide por el primer ":"
+                nombre_canal_map.setdefault(nombre_final, []).append(patron)
+    return nombre_canal_map
+
+# Cargar el diccionario desde el archivo externo
+nombre_canal_map = cargar_diccionario("canales_map.txt")
+
+def renombrar_canal(nombre_original):
+    """Busca si el nombre_original coincide con algún patrón y devuelve (nombre_renombrado, nombre_original)."""
+    for nombre_final, patrones in nombre_canal_map.items():
+        for patron in patrones:
+            if re.match(patron, nombre_original, re.IGNORECASE):  # No distingue mayúsculas/minúsculas
+                print(f"🔄 Renombrando: '{nombre_original}' → '{nombre_final}'")  # Debug
+                return nombre_final, nombre_original  # Devuelve el renombrado + original
+
+    print(f"✅ Sin cambios: '{nombre_original}'")  # Debug
+    return nombre_original, nombre_original  # Si no se renombra, devuelve el mismo nombre 2 veces
+
+# Conjunto de URLs que pertenecen a "Elcano"
+urls_elcano = {
+    "https://proxy.zeronet.dev/18D6dPcsjLrjg2hhnYqKzNh2W6QtXrDwF",
+    "https://ipfs.io/ipns/elcano.top"
+}
+canales_procesados = set()
+
 # Lista para almacenar nuevos resultados
+# Lista para almacenar nuevos resultados con su fuente (principal o alternativa)
 nuevos_resultados = []
 
 for principal, alternativa in urls.items():
@@ -34,6 +66,10 @@ for principal, alternativa in urls.items():
             # Abrir navegador en cada iteración
             driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
             driver.get(url_a_usar)
+
+            # Determinar si la URL pertenece a "Elcano"
+            fuente = "elcano" if url_a_usar in urls_elcano else ""
+
 
             # Intentar detectar si la página tiene <script> con linksData (estructura alternativa)
             script_elements = driver.find_elements(By.TAG_NAME, "script")
@@ -50,10 +86,18 @@ for principal, alternativa in urls.items():
                         linksData = json.loads(json_data)  # Convertir a diccionario
 
                         for item in linksData["links"]:
-                            nombre_canal = item["name"]
+                            nombre_original = item["name"]
                             href = item["url"].replace("acestream://", "")
-                            if href:
-                                nuevos_resultados.append((nombre_canal, href))
+                            
+                            # Aplicar la función de renombrado
+                            nombre_renombrado, nombre_original = renombrar_canal(nombre_original)
+
+                            if (nombre_renombrado, href) not in canales_procesados:
+                                fuente = "elcano" if url_a_usar == principal else ""
+                                nuevos_resultados.append((nombre_renombrado, nombre_original, href, fuente))
+                                canales_procesados.add((nombre_renombrado, href))
+                            else:
+                                print(f"Canal duplicado eliminado: {nombre_original} con ID: {href}")
                         linksData_found = True
                         break  # Ya encontramos la data, no necesitamos revisar más scripts
 
@@ -70,11 +114,20 @@ for principal, alternativa in urls.items():
 
                 for item in items:
                     try:
-                        nombre_canal = item.find_element(By.CLASS_NAME, 'link-name').text
+                        nombre_original = item.find_element(By.CLASS_NAME, 'link-name').text
                         enlace_div = item.find_element(By.CLASS_NAME, 'link-url')
                         enlace = enlace_div.find_element(By.TAG_NAME, 'a').get_attribute('href')
                         href = enlace.replace("acestream://", "")
-                        nuevos_resultados.append((nombre_canal, href))
+
+                        # Aplicar la función de renombrado
+                        nombre_renombrado, nombre_original = renombrar_canal(nombre_original)
+
+                        if (nombre_renombrado, href) not in canales_procesados:
+                            fuente = "elcano" if url_a_usar in urls_elcano else ""
+                            nuevos_resultados.append((nombre_renombrado, nombre_original, href, fuente))
+                            canales_procesados.add((nombre_renombrado, href))
+                        else:
+                            print(f"Canal duplicado eliminado: {nombre_original} con ID: {href}")
                     except Exception as e:
                         print(f"Error extrayendo datos de un elemento: {e}")
 
@@ -94,12 +147,16 @@ for principal, alternativa in urls.items():
         finally:
             intentos -= 1
 
-# Solo guardar si hay nuevos resultados con ID válido
+# Guardar los resultados en un archivo
 if nuevos_resultados:
     with open('enlaces_acestream.txt', 'w', encoding='utf-8') as file:
-        for nombre, href in nuevos_resultados:
+        for nombre_renombrado, nombre_original, href, fuente in nuevos_resultados:
             if href.strip():  # Verifica que el ID no esté vacío
-                file.write(f'{nombre}\n{href}\n')
-    print("Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
+                if fuente == "elcano":
+                    file.write(f'{nombre_renombrado} [{nombre_original} ELCANO]\n{href}\n')
+                else:
+                    file.write(f'{nombre_renombrado} [{nombre_original}]\n{href}\n')
+
+    print("✅ Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
 else:
-    print("No se encontraron enlaces válidos. No se modificó el archivo.")
+    print("❌ No se encontraron enlaces válidos. No se modificó el archivo.")
