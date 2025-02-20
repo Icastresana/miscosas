@@ -28,7 +28,7 @@ M+ Deportes 4:M\+? DEPORTES 4(?! \b\d\b).*
 M+ Deportes 5:M\+? DEPORTES 5(?! \b\d\b).*
 M+ Deportes 6:M\+? DEPORTES 6(?! \b\d\b).*
 M+ Deportes 7:M\+? DEPORTES 7(?! \b\d\b).*
-M+ Vamos:M? ?\#?VAMOS(?! \b\d\b).*
+M+ Vamos:M?\+? ?\#?VAMOS(?! ELLAS).* 
 M+ Ellas Vamos:\#VAMOS ELLAS
 Movistar Plus+:Movistar plus(?! \b\d\b).*|M\+ PLUS(?! \b\d\b).*
 Movistar Plus+ 2:M\+ PLUS 2(?! \b\d\b).*
