@@ -155,7 +155,12 @@ if nuevos_resultados:
                 if fuente == "elcano":
                     file.write(f'{nombre_renombrado} [{nombre_original} ELCANO]\n{href}\n')
                 else:
-                    file.write(f'{nombre_renombrado} [{nombre_original}]\n{href}\n')
+                    # Si en nombre_original no aparece "New Era" ni "New Loop" y no tiene nada escrito
+                    if not nombre_original or ("NEW" not in nombre_original and "Tronoss" not in nombre_original):
+                        file.write(f'{nombre_renombrado} [{nombre_original} Elcano Antiguas]\n{href}\n')
+                    else:
+                        file.write(f'{nombre_renombrado} [{nombre_original}]\n{href}\n')
+                
 
     print("✅ Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
 else:
