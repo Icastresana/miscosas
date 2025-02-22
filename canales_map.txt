@@ -3,13 +3,13 @@ M+ LaLiga TV 2:M. LaLiga 2(?! \b\d\b).*
 M+ LaLiga TV 3:M. LaLiga 3(?! \b\d\b).*
 M+ LaLiga TV 4:M. LaLiga 4(?! \b\d\b).*
 M+ LaLiga TV 5:M. LaLiga 5(?! \b\d\b).*
-LaLiga TV BAR:La Liga BAR(?! \b\d\b).*
+LaLiga TV BAR:La Liga BAR(?! \b\d\b).*|TV BAR(?! \b\d\b).*
 DAZN LaLiga:DAZN La ?Liga(?! \b\d\b).*|DAZN Liga(?! \b\d\b).*
 DAZN LaLiga 2:DAZN LA ?LIGA 2(?! \b\d\b).*
 DAZN LaLiga 3:DAZN LA ?LIGA 3(?! \b\d\b).*
 DAZN LaLiga 4:DAZN LA ?LIGA 4(?! \b\d\b).*
 DAZN LaLiga 5:DAZN LA ?LIGA 5(?! \b\d\b).*
-LaLiga TV Hypermotion:LaLiga Smartbank(?! \b\d\b).*|LaLiga HYPERMOTION \d{2,}|LaLiga HYPERMOTION TV(?!\s?\d)
+LaLiga TV Hypermotion:LaLiga Smartbank(?! \b\d\b).*|LaLiga HYPERMOTION \d{2,}|LaLiga HYPERMOTION TV(?!\s?\d)|LaLiga TV HYPERMOTION(?!\s?\d)
 LaLiga TV Hypermotion 2:LaLiga Smartbank 2(?! \b\d\b).*|LaLiga HYPERMOTION 2(?! \b\d\b)|LaLiga HYPERMOTION TV ?2 (?! \b\d\b)
 LaLiga TV Hypermotion 3:LaLiga Smartbank 3(?! \b\d\b).*|LaLiga HYPERMOTION 3(?! \b\d\b)|LaLiga HYPERMOTION TV ?3 (?! \b\d\b)
 LaLiga TV Hypermotion 4:LaLiga Smartbank 4(?! \b\d\b).*|LaLiga HYPERMOTION 4(?! \b\d\b)|LaLiga HYPERMOTION TV ?4 (?! \b\d\b)
