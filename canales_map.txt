@@ -3,7 +3,7 @@ M+ LaLiga TV 2:M. LaLiga 2(?! \b\d\b).*
 M+ LaLiga TV 3:M. LaLiga 3(?! \b\d\b).*
 M+ LaLiga TV 4:M. LaLiga 4(?! \b\d\b).*
 M+ LaLiga TV 5:M. LaLiga 5(?! \b\d\b).*
-LaLiga TV BAR:La Liga BAR(?! \b\d\b).*|TV BAR(?! \b\d\b).*
+LaLiga TV BAR:La Liga BAR(?! \b\d\b).*|TV BAR(?! \b\d\b).*|LaLiga TV BAR(?! \b\d\b).*
 DAZN LaLiga:DAZN La ?Liga(?! \b\d\b).*|DAZN Liga(?! \b\d\b).*
 DAZN LaLiga 2:DAZN LA ?LIGA 2(?! \b\d\b).*
 DAZN LaLiga 3:DAZN LA ?LIGA 3(?! \b\d\b).*
@@ -21,8 +21,8 @@ DAZN 1:DAZN 1(?! \b\d\b).*|DAZN1(?! \b\d\b).*|DAZN BAR 1(?! \b\d\b).*
 DAZN 2:DAZN 2(?! \b\d\b).*|DAZN2(?! \b\d\b).*|DAZN BAR 2(?! \b\d\b).*
 DAZN 3:DAZN 3(?! \b\d\b).*|DAZN3(?! \b\d\b).*
 DAZN 4:DAZN 4(?! \b\d\b).*|DAZN4(?! \b\d\b).*
-M+ Deportes:M\+? DEPORTES(?! \b\d\b).*|M. DEPORTES(?! \b\d\b).*
 M+ Deportes 2:M\+? DEPORTES 2(?! \b\d\b).*|M\+? DEPORTES FHD 2(?! \b\d\b).*
+M+ Deportes:M\+? DEPORTES(?! \b\d\b).*|M. DEPORTES(?! \b\d\b).*
 M+ Deportes 3:M\+? DEPORTES 3(?! \b\d\b).*
 M+ Deportes 4:M\+? DEPORTES 4(?! \b\d\b).*
 M+ Deportes 5:M\+? DEPORTES 5(?! \b\d\b).*
