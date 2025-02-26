@@ -51,15 +51,15 @@ LaLiga TV Hypermotion 2 [LaLiga Smartbank 2 720 ELCANO]
 LaLiga TV Hypermotion 3 [LaLiga Smartbank 3 ELCANO]
 fefd45ed6ff415e05f1341b7d9da2988eacd13ea
 M+ Deportes [M+ DEPORTES FHD --> NEW ERA II]
-d59b3e44af69deb11759f1b4016503ef08d7850f
+31371f7ce7526039b74b0a866f25f78d53e63e0a
 M+ Vamos [#VAMOS FHD --> NEW ERA II]
-915d7ba83810a8039b908b1a2855a1db4d79459d
+2a96482aefa6ce18d2dd05ba0e86008cb637b3bf
 M+ Ellas Vamos [#VAMOS ELLAS FHD --> NEW ERA II]
 bb8a53e9178d49a4a5f4fd1eb32edb1aad2c5c9d
 DAZN F1 [DAZN F1 FHD --> NEW ERA II]
-1168fcb4506c60e1281c2443f4f0c4ad4fc494b6
+43c07b04b414bfbaaaec1aed58f7157fca277583
 LaLiga TV BAR [LaLiga TV BAR FHD --> NEW ERA II]
-edbd01a232af0eff375c6a174e68f28002e7c090
+d4351e74c8466be658a16b84c933d08507a0a9e5
 LaLiga TV Hypermotion [LALIGA HYPERMOTION TV FHD --> NEW ERA II]
 da368e734b639e993b610bcfb779a76e03ad9409
 Eurosport 2 [EUROSPORT 2 FHD --> NEW ERA II]
@@ -74,10 +74,6 @@ M+ Deportes [M DEPORTES Elcano Antiguas]
 3a74d9869b13e763476800740c6625e715a39879
 M+ Deportes 2 [M DEPORTES 2 Elcano Antiguas]
 d8c2ed470e847154a88f011137cc206319f6bed5
-M+ Deportes 3 [M DEPORTES 3 Elcano Antiguas]
-571bff4d12b1791eb99dbf20bec38e630693a6a3
-M+ Deportes 4 [M DEPORTES 4 Elcano Antiguas]
-b4d1308a61e4caf8c06ac3d6ce89d165c015c2fb
 M+ Deportes 5 [M DEPORTES 5 Elcano Antiguas]
 fcc0fd75bf1dba40b108fcf0d3514e0e549bfbac
 M+ Deportes 6 [M DEPORTES 6 Elcano Antiguas]
@@ -327,8 +323,6 @@ acb510858f34c3c6fd5f79395b031abd6885c2b3
 M+ Golf [M. Golf HD --> NEW LOOP]
 872608e734992db636eb79426802cd08f4029afb
 M+ LaLiga TV [M. LaLiga --> NEW LOOP]
-d15a0eaf825b5f8f94259d5209688a7e97e6acde
-M+ LaLiga TV [M. LaLiga --> NEW LOOP]
 cc9b7f5fe416069a2110da0909b0f915043c468b
 M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
 e572a5178ff72eed7d1d751a18b4b3419699f370
@@ -341,13 +335,9 @@ d1d9ec2361a6ac8edc0b2841866383768cc28df9
 DAZN 4 [DAZN4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
-f5a5a5bf9903bde0c865e421f126c42e514ff787
-Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
 Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
 23a4937f1484b435af132dbfb3e8fd3aefc9baad
-UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
-d317a003e8047da2c36a2a2bb2289578c9a3b79c
 UK | Sky Sport Cricket [Sky Sports Cricket [UK] --> NEW LOOP]
 6d95e4b0893e155cc674b84e0763150c445d3ddd
 UK | Sky Sport Football [Sky Sports Football [UK] --> NEW LOOP]
@@ -360,11 +350,7 @@ Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
 31ef168d43c7cd04e672475f7ec33b99b9fe5a96
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
 8d475e2688519f2c602687b71be54cedbaef9e6b
-Motorvision TV --> NEW LOOP [Motorvision TV --> NEW LOOP]
-fffaa64d41e500250064181762d510d513137410
 Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
 b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
-SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
-b58dbf92765976b308695f62dea94b00b40730ee
 Tennis Channel HD --> NEW LOOP [Tennis Channel HD --> NEW LOOP]
 039fae21c9e7e5214d3d898cba80863e37e623ac
