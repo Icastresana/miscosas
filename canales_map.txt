@@ -17,7 +17,7 @@ LaLiga TV Hypermotion 5:LaLiga Smartbank 5(?! \b\d\b).*|LaLiga HYPERMOTION 5(?! 
 LaLiga TV Hypermotion 6:LaLiga Smartbank 6(?! \b\d\b).*|LaLiga HYPERMOTION 6(?! \b\d\b)
 LaLiga TV Hypermotion 7:LaLiga Smartbank 7(?! \b\d\b).*|LaLiga HYPERMOTION 7(?! \b\d\b)
 LaLiga TV Hypermotion 8:LaLiga Smartbank 8(?! \b\d\b).*|LaLiga HYPERMOTION 8(?! \b\d\b)
-DAZN 1:DAZN 1(?! \b\d\b).*|DAZN1(?! \b\d\b).*|DAZN BAR 1(?! \b\d\b).*
+DAZN 1:DAZN 1(?! \b\d\b).*|DAZN1(?! \b\d\b).*|DAZN BAR 1(?! \b\d\b).*|M\+ DAZN 1(?! \b\d\b).*
 DAZN 2:DAZN 2(?! \b\d\b).*|DAZN2(?! \b\d\b).*|DAZN BAR 2(?! \b\d\b).*
 DAZN 3:DAZN 3(?! \b\d\b).*|DAZN3(?! \b\d\b).*
 DAZN 4:DAZN 4(?! \b\d\b).*|DAZN4(?! \b\d\b).*
@@ -32,7 +32,7 @@ M+ Vamos:M?\+? ?\#?VAMOS(?! ELLAS).*
 M+ Ellas Vamos:\#VAMOS ELLAS(?! \b\d\b).*
 Movistar Plus+:Movistar plus(?! \b\d\b).*|M\+ PLUS(?! \b\d\b).*
 Movistar Plus+ 2:M\+ PLUS 2(?! \b\d\b).*
-DAZN F1:DAZN F1(?! \b\d\b).*
+DAZN F1:DAZN F1(?! \b\d\b).*|DAZN FORMULA 1(?! \b\d\b).*
 GOL PLAY:Gol Play(?! \b\d\b).*
 Teledeporte:Teledeporte(?! \b\d\b).*
 M+ Golf:MOVISTAR GOLF(?! \b\d\b).*|M. Golf(?! \b\d\b).*
