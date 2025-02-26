@@ -312,6 +312,10 @@ M+ Vamos [#VAMOS FHD (*) --> NEW ERA]
 62662d67c3c616acceb09d88600dcddb4d59af4a
 DAZN LaLiga [DAZN LA LIGA FHD (*) --> NEW ERA]
 c7e5f55d71e02b43f18b22b07a294bdf87822aa4
+F1 TEST 1 --> NEW ERA [F1 TEST 1 --> NEW ERA]
+b2543904857ebc4689f1b6659c09a94c6f661c41
+F1 TEST 2 --> NEW ERA [F1 TEST 2 --> NEW ERA]
+21511645a5f014cb64f85d445482a8a14bba9e62
 DE | Rally TV [RALLY TV* --> NEW ERA III]
 4cdab0a6554b9e5a5864fa20f8534d5ccfa661fa
 DAZN FORMULA 1* --> NEW ERA III [DAZN FORMULA 1* --> NEW ERA III]
@@ -330,8 +334,6 @@ M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
 e572a5178ff72eed7d1d751a18b4b3419699f370
 DAZN FORMULA 1 FHDÂ©ï¸ --> NEW LOOP [DAZN FORMULA 1 FHDÂ©ï¸ --> NEW LOOP]
 073d33a5e5270399154bb251fcc95f99c0741264
-DAZN LaLiga [DAZN LALIGA©️ --> NEW LOOP]
-a5144874f66a0872fd0b5a484cd426eb7d8eaa26
 DAZN 1 [DAZN1 --> NEW LOOP]
 d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151
 DAZN 2 [DAZN2 --> NEW LOOP]
@@ -342,6 +344,8 @@ DAZN 4 [DAZN4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 M+ DAZN 1 HDÂ©ï¸ --> NEW LOOP [M+ DAZN 1 HDÂ©ï¸ --> NEW LOOP]
 44c12ecb7b00a961f3c3f80f1edea7f8feedec59
+Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
+f5a5a5bf9903bde0c865e421f126c42e514ff787
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
 Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
@@ -354,6 +358,8 @@ UK | Sky Sport Football [Sky Sports Football [UK] --> NEW LOOP]
 8dbe2d515e9131fa311353537736f8c94be9b26d
 UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
+AutoMotorSport HD --> NEW LOOP [AutoMotorSport HD --> NEW LOOP]
+6791a2d1587e8c68eac10815f22aed439b0f6c9f
 Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
 31ef168d43c7cd04e672475f7ec33b99b9fe5a96
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
@@ -364,7 +370,5 @@ Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
 b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
 SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
 b58dbf92765976b308695f62dea94b00b40730ee
-Tennis Channel (UK) (720p) --> NEW LOOP [Tennis Channel (UK) (720p) --> NEW LOOP]
-52a526d748e26ff0827635b3932d9f49aee14a25
 Tennis Channel HD --> NEW LOOP [Tennis Channel HD --> NEW LOOP]
 039fae21c9e7e5214d3d898cba80863e37e623ac
