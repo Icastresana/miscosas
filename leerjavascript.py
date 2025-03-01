@@ -47,6 +47,9 @@ def renombrar_canal(nombre_original):
 canales_procesados = set()
 nuevos_resultados = []
 
+# Indicador de si se produjo un error en alguna URL
+error_ocurrido = False
+
 for i, url in enumerate(urls):
     try:
         print(f"Intentando scrapeo en: {url}")
@@ -109,9 +112,10 @@ for i, url in enumerate(urls):
     except Exception as e:
         print(f"Error al acceder a {url}: {e}")
         driver.quit()
+        error_ocurrido = True
 
-# Guardar los resultados en un archivo
-if nuevos_resultados:
+# Solo guardar el archivo si no ha ocurrido ningún error
+if nuevos_resultados and not error_ocurrido:
     with open('enlaces_acestream.txt', 'w', encoding='utf-8') as file:
         for nombre_renombrado, nombre_original, href, fuente in nuevos_resultados:
             if href.strip():  
@@ -125,4 +129,4 @@ if nuevos_resultados:
 
     print("✅ Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
 else:
-    print("❌ No se encontraron enlaces válidos. No se modificó el archivo.")
+    print("❌ No se encontraron enlaces válidos o ocurrió un error. No se modificó el archivo.")
