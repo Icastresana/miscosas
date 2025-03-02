@@ -62,5 +62,9 @@ UK | Sky Sport Main Event:Sky Sports Main Event(?! \b\d\b).*
 UK | Sky Sport Football:Sky Sports Football(?! \b\d\b).*
 UK | Sky Sport Cricket:Sky Sports Cricket(?! \b\d\b).*
 UK | Sky Sport Arena:Sky Sports Arena(?! \b\d\b).*
+Mega:MEGA(?! \b\d\b).*
+M+ Comedia:M\+ COMEDIA(?! \b\d\b).*
+Canal Hollywood:HOLLYWOOD(?! \b\d\b).*
+STAR Channel:FOX(?! \b\d\b).*
 
  
