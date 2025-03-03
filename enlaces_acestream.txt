@@ -51,17 +51,17 @@ LaLiga TV Hypermotion 2 [LaLiga Smartbank 2 720 ELCANO]
 LaLiga TV Hypermotion 3 [LaLiga Smartbank 3 ELCANO]
 fefd45ed6ff415e05f1341b7d9da2988eacd13ea
 M+ Deportes [M+ DEPORTES FHD --> NEW ERA II]
-32bb94fe8047be0fddd13d3e3755b46e48fe70b11
+32bb94fe8047be0fddd13d3e3755b46e48fe70b1
 M+ Vamos [#VAMOS FHD --> NEW ERA II]
 64276786d1bf02d0c2feda9e976f0c4ac14e9e45
 M+ Ellas Vamos [#VAMOS ELLAS FHD --> NEW ERA II]
-c2b2603e2aa57db44bd79c4fa7a87e2ed6875c6ff
+c2b2603e2aa57db44bd79c4fa7a87e2ed6875c6f
 DAZN F1 [DAZN F1 FHD --> NEW ERA II]
 8c006afa7086d845ab106ddb76704230e61b315b
 LaLiga TV BAR [LaLiga TV BAR FHD --> NEW ERA II]
-db9399427ec0dd2a30208fece043c2afcaef55e3
+05214e3471c72f22774490996f533617f4db8dc6
 LaLiga TV Hypermotion [LALIGA HYPERMOTION TV FHD --> NEW ERA II]
-02d56e47fcf403766f2193599dd96221eee350666
+02d56e47fcf403766f2193599dd96221eee35066
 Eurosport 2 [EUROSPORT 2 FHD --> NEW ERA II]
 0fc05a1e2da78d44b3b5c1ebf6cbcedb8e92c934
 M+ Comedia [M+ COMEDIA FHD --> NEW ERA II]
@@ -300,6 +300,8 @@ DAZN 1 [DAZN 1* --> NEW ERA III]
 44c12ecb7b00a961f3c3f80f1edea7f8feedec59
 M+ Deportes [M. Deportes HD --> NEW LOOP]
 acb510858f34c3c6fd5f79395b031abd6885c2b3
+M+ Golf [M. Golf HD --> NEW LOOP]
+872608e734992db636eb79426802cd08f4029afb
 M+ LaLiga TV [M. LaLiga --> NEW LOOP]
 cc9b7f5fe416069a2110da0909b0f915043c468b
 M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
@@ -318,10 +320,6 @@ Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 f5a5a5bf9903bde0c865e421f126c42e514ff787
-Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
-fbc82948dd7c19387a702692bc4590157b376459
-Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
-23a4937f1484b435af132dbfb3e8fd3aefc9baad
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
 d317a003e8047da2c36a2a2bb2289578c9a3b79c
 UK | Sky Sport Cricket [Sky Sports Cricket [UK] --> NEW LOOP]
@@ -338,8 +336,8 @@ Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
 8d475e2688519f2c602687b71be54cedbaef9e6b
 Motorvision TV --> NEW LOOP [Motorvision TV --> NEW LOOP]
 fffaa64d41e500250064181762d510d513137410
-Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
-b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
+SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
+b58dbf92765976b308695f62dea94b00b40730ee
 Tennis Channel (UK) (720p) --> NEW LOOP [Tennis Channel (UK) (720p) --> NEW LOOP]
 52a526d748e26ff0827635b3932d9f49aee14a25
 Tennis Channel HD --> NEW LOOP [Tennis Channel HD --> NEW LOOP]
