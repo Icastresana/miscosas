@@ -108,6 +108,8 @@ M+ Copa del Rey [Copa del Rey Elcano Antiguas]
 b51f2d9a15b6956a44385b6be531bcabeb099d9d
 DAZN 1 [DAZN 1 FHD --> NEW ERA]
 e6a00cb2912609dceeeee88d3f66a2de9718b421
+DAZN LaLiga 2 [DAZN LA LIGA 2 FHD --> NEW ERA]
+fb51ef5294e99767811a3fa95a1933fb864e9ff3
 DAZN 1 [DAZN 1 BAR FHD --> NEW ERA]
 ec10963a4408f96d2089a29af8b7a8ac4b23dd3c
 DAZN 2 [DAZN 2 BAR FHD --> NEW ERA]
@@ -305,9 +307,9 @@ M+ Golf [M. Golf HD --> NEW LOOP]
 M+ LaLiga TV [M. LaLiga --> NEW LOOP]
 cc9b7f5fe416069a2110da0909b0f915043c468b
 M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
-bb5a8bf7752e978460ee1710e5e8950a5c9e1f99
-M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
 e572a5178ff72eed7d1d751a18b4b3419699f370
+M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
+bb5a8bf7752e978460ee1710e5e8950a5c9e1f99
 DAZN 1 [DAZN1 --> NEW LOOP]
 d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151
 DAZN 2 [DAZN2 --> NEW LOOP]
@@ -320,6 +322,8 @@ Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 f5a5a5bf9903bde0c865e421f126c42e514ff787
+Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
+23a4937f1484b435af132dbfb3e8fd3aefc9baad
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
 d317a003e8047da2c36a2a2bb2289578c9a3b79c
 UK | Sky Sport Cricket [Sky Sports Cricket [UK] --> NEW LOOP]
@@ -336,10 +340,10 @@ Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
 8d475e2688519f2c602687b71be54cedbaef9e6b
 Motorvision TV --> NEW LOOP [Motorvision TV --> NEW LOOP]
 fffaa64d41e500250064181762d510d513137410
+Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
+b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
 SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
 b58dbf92765976b308695f62dea94b00b40730ee
-Tennis Channel (UK) (720p) --> NEW LOOP [Tennis Channel (UK) (720p) --> NEW LOOP]
-52a526d748e26ff0827635b3932d9f49aee14a25
 Tennis Channel HD --> NEW LOOP [Tennis Channel HD --> NEW LOOP]
 039fae21c9e7e5214d3d898cba80863e37e623ac
 beIN SPORTS XTRA --> NEW LOOP [beIN SPORTS XTRA --> NEW LOOP]
