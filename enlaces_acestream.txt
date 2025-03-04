@@ -75,7 +75,7 @@ Canal Hollywood [HOLLYWOOD FHD --> NEW ERA II]
 WINTER SERIES ARAGON --> NEW ERA II [WINTER SERIES ARAGON --> NEW ERA II]
 c50d085c6ed12e638913c2b147aecbab71751949
 TWITCH HEIKKI360ES --> NEW ERA II [TWITCH HEIKKI360ES --> NEW ERA II]
-0460d6a12a25b5e851f9b3519d54c3d9eaa6d157
+da0460eb73a94841fa6f5b9c6c1e47f0c328e2b2
 M+ Liga de Campeones 2 [M.L. CAMPEONES 2 Elcano Antiguas]
 abdf9058786a48623d0de51a3adb414ae10b6e72
 Movistar Plus+ [MOVISTAR PLUS Elcano Antiguas]
@@ -154,6 +154,8 @@ M+ Hits [MOVISTAR SERIES FHD --> NEW ERA]
 28dc545c00d47a620bc7243657de5a85811f1254
 M+ Clásicos [MOVISTAR CLASICOS FHD --> NEW ERA]
 62b6cdc347e9b5f5aff089055365805e4d20d41e
+M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD (1 opcion) --> NEW ERA]
+ac73acd09d79c46cb818bfd945f20198d1718a85
 M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD --> NEW ERA]
 f43a021e8fd63334a4bf3fb11ffe58f89039a1d0
 M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD (SAT) --> NEW ERA]
@@ -320,10 +322,6 @@ DAZN 4 [DAZN4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
-Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
-f5a5a5bf9903bde0c865e421f126c42e514ff787
-Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
-23a4937f1484b435af132dbfb3e8fd3aefc9baad
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
 d317a003e8047da2c36a2a2bb2289578c9a3b79c
 UK | Sky Sport Cricket [Sky Sports Cricket [UK] --> NEW LOOP]
@@ -332,8 +330,6 @@ UK | Sky Sport Football [Sky Sports Football [UK] --> NEW LOOP]
 8dbe2d515e9131fa311353537736f8c94be9b26d
 UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
-AutoMotorSport HD --> NEW LOOP [AutoMotorSport HD --> NEW LOOP]
-6791a2d1587e8c68eac10815f22aed439b0f6c9f
 Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
 31ef168d43c7cd04e672475f7ec33b99b9fe5a96
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
@@ -344,6 +340,8 @@ Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
 b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
 SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
 b58dbf92765976b308695f62dea94b00b40730ee
+Tennis Channel (UK) (720p) --> NEW LOOP [Tennis Channel (UK) (720p) --> NEW LOOP]
+52a526d748e26ff0827635b3932d9f49aee14a25
 Tennis Channel HD --> NEW LOOP [Tennis Channel HD --> NEW LOOP]
 039fae21c9e7e5214d3d898cba80863e37e623ac
 ESPN HD [US] --> NEW LOOP [ESPN HD [US] --> NEW LOOP]
