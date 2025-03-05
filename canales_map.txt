@@ -66,5 +66,6 @@ Mega:MEGA(?! \b\d\b).*
 M+ Comedia:M\+ COMEDIA(?! \b\d\b).*
 Canal Hollywood:HOLLYWOOD(?! \b\d\b).*
 STAR Channel:FOX(?! \b\d\b).*
+Discovery:Discovery(?! \b\d\b).*
 
  
