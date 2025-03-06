@@ -304,16 +304,12 @@ DAZN F1 [DAZN FORMULA 1* --> NEW ERA III]
 073d33a5e5270399154bb251fcc95f99c0741264
 DAZN 1 [DAZN 1* --> NEW ERA III]
 44c12ecb7b00a961f3c3f80f1edea7f8feedec59
-test [test Elcano Antiguas]
-44c12ecb7b00a961f3c3f80f1edea7f8feedec59
 M+ Deportes [M. Deportes HD --> NEW LOOP]
 acb510858f34c3c6fd5f79395b031abd6885c2b3
 M+ Golf [M. Golf HD --> NEW LOOP]
 872608e734992db636eb79426802cd08f4029afb
 M+ LaLiga TV [M. LaLiga --> NEW LOOP]
 cc9b7f5fe416069a2110da0909b0f915043c468b
-M+ LaLiga TV [M. LaLiga --> NEW LOOP]
-d15a0eaf825b5f8f94259d5209688a7e97e6acde
 M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
 e572a5178ff72eed7d1d751a18b4b3419699f370
 DAZN 1 [DAZN1 --> NEW LOOP]
@@ -326,8 +322,6 @@ DAZN 4 [DAZN4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
-Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
-f5a5a5bf9903bde0c865e421f126c42e514ff787
 Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
 23a4937f1484b435af132dbfb3e8fd3aefc9baad
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
@@ -348,6 +342,8 @@ Motorvision TV --> NEW LOOP [Motorvision TV --> NEW LOOP]
 fffaa64d41e500250064181762d510d513137410
 Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
 b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
+SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
+b58dbf92765976b308695f62dea94b00b40730ee
 Tennis Channel HD --> NEW LOOP [Tennis Channel HD --> NEW LOOP]
 039fae21c9e7e5214d3d898cba80863e37e623ac
 beIN SPORTS XTRA --> NEW LOOP [beIN SPORTS XTRA --> NEW LOOP]
