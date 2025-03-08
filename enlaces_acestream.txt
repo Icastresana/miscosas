@@ -50,6 +50,8 @@ LaLiga TV Hypermotion 2 [LaLiga Smartbank 2 720 ELCANO]
 0a335406bad0b658aeddb2d38f8c0614b2e5623a
 LaLiga TV Hypermotion 3 [LaLiga Smartbank 3 ELCANO]
 fefd45ed6ff415e05f1341b7d9da2988eacd13ea
+M+ Bar FHD --> NEW ERA II [M+ Bar FHD --> NEW ERA II]
+580fa1e7623d514a94e8585f90c42eda09d5e4f1
 M+ Deportes [M+ DEPORTES FHD --> NEW ERA II]
 54470f2db47abeff1f809a0a7262e6f7d7796a4e
 M+ Vamos [#VAMOS FHD --> NEW ERA II]
@@ -74,8 +76,8 @@ Canal Hollywood [HOLLYWOOD FHD --> NEW ERA II]
 5bd6122d984a90a930b2dafdedfe249eea3457e0
 WINTER SERIES ARAGON --> NEW ERA II [WINTER SERIES ARAGON --> NEW ERA II]
 c50d085c6ed12e638913c2b147aecbab71751949
-TWITCH HEIKKI360ES --> NEW ERA II [TWITCH HEIKKI360ES --> NEW ERA II]
-e8807c9b9902ef26ca66971680cc0d2f80263a4c
+TWITCH STRADI PORSCHE ALL-STARS --> NEW ERA II [TWITCH STRADI PORSCHE ALL-STARS --> NEW ERA II]
+6dd7ea5bfc23c02afbda1f608e79201854b0e8a5
 M+ Liga de Campeones 2 [M.L. CAMPEONES 2 Elcano Antiguas]
 abdf9058786a48623d0de51a3adb414ae10b6e72
 Movistar Plus+ [MOVISTAR PLUS Elcano Antiguas]
@@ -102,10 +104,10 @@ M+ Vamos [M #VAMOS Elcano Antiguas]
 d03c13b6723f66155d7a0df3692a3b073fe630f2
 M+ Vamos [M #VAMOS Elcano Antiguas]
 12ba546d229bc39f01c3c18988a034b215fe6adb
-Eurosport 1 [EuroSport Elcano Antiguas]
-16ffa1713f42aa27317ee039a2bd0cdbc89a1580
 M+ Copa del Rey [Copa del Rey Elcano Antiguas]
 b51f2d9a15b6956a44385b6be531bcabeb099d9d
+Eurosport 1 [EuroSport Elcano Antiguas]
+16ffa1713f42aa27317ee039a2bd0cdbc89a1580
 DAZN 1 [DAZN 1 FHD --> NEW ERA]
 e6a00cb2912609dceeeee88d3f66a2de9718b421
 DAZN LaLiga 2 [DAZN LA LIGA 2 FHD --> NEW ERA]
@@ -299,13 +301,17 @@ EVENTO UFC 1 —> NEW ERA [EVENTO UFC 1 —> NEW ERA]
 M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD (2 opcion) --> NEW ERA]
 ba87f528de030aad56576f7cbb9d8bbd7efd62b9
 DAZN F1 [DAZN FORMULA 1* --> NEW ERA III]
-8b4e4be1d0901fc8ac0819b59b0a70d73618c7e0
+fcb845950f6dab7ac3f85ea05762faf5caa6a811
 DAZN 1 [DAZN 1* --> NEW ERA III]
-05dc5ce12eb6329fad1fae4430b8742b47cb90d9
+c263083a829e25a59a125e015112e524664262e8
+ONETORO* --> NEW ERA III [ONETORO* --> NEW ERA III]
+75af1643ef22377d53e1a1faa984c0f9f5374249
 M+ Deportes [M. Deportes HD --> NEW LOOP]
 acb510858f34c3c6fd5f79395b031abd6885c2b3
 M+ Golf [M. Golf HD --> NEW LOOP]
 872608e734992db636eb79426802cd08f4029afb
+M+ LaLiga TV [M. LaLiga --> NEW LOOP]
+d15a0eaf825b5f8f94259d5209688a7e97e6acde
 M+ LaLiga TV [M. LaLiga --> NEW LOOP]
 cc9b7f5fe416069a2110da0909b0f915043c468b
 M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
@@ -319,9 +325,9 @@ d1d9ec2361a6ac8edc0b2841866383768cc28df9
 DAZN 4 [DAZN4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
-cfa75ade53810dac64411b22d56c3d4582a221d3
-Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 f5a5a5bf9903bde0c865e421f126c42e514ff787
+Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
+cfa75ade53810dac64411b22d56c3d4582a221d3
 Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
 23a4937f1484b435af132dbfb3e8fd3aefc9baad
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
@@ -334,22 +340,14 @@ UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
 AutoMotorSport HD --> NEW LOOP [AutoMotorSport HD --> NEW LOOP]
 6791a2d1587e8c68eac10815f22aed439b0f6c9f
-Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
-31ef168d43c7cd04e672475f7ec33b99b9fe5a96
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
 8d475e2688519f2c602687b71be54cedbaef9e6b
-Motorvision TV --> NEW LOOP [Motorvision TV --> NEW LOOP]
-fffaa64d41e500250064181762d510d513137410
-Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
-b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
 SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
 b58dbf92765976b308695f62dea94b00b40730ee
 Tennis Channel (UK) (720p) --> NEW LOOP [Tennis Channel (UK) (720p) --> NEW LOOP]
 52a526d748e26ff0827635b3932d9f49aee14a25
 Tennis Channel HD --> NEW LOOP [Tennis Channel HD --> NEW LOOP]
 039fae21c9e7e5214d3d898cba80863e37e623ac
-beIN SPORTS XTRA --> NEW LOOP [beIN SPORTS XTRA --> NEW LOOP]
-fd869f34346154ca7cd78d46cbf7a6b8671beab5
 ESPN HD [US] --> NEW LOOP [ESPN HD [US] --> NEW LOOP]
 4b4907de51ec11087d4bed5876f2a0c68264f442
 ESPN2 [US] --> NEW LOOP [ESPN2 [US] --> NEW LOOP]
