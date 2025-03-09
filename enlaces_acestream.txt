@@ -324,14 +324,8 @@ DAZN 4 [DAZN4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
-Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
-f5a5a5bf9903bde0c865e421f126c42e514ff787
-Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
-23a4937f1484b435af132dbfb3e8fd3aefc9baad
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
 d317a003e8047da2c36a2a2bb2289578c9a3b79c
-UK | Sky Sport Cricket [Sky Sports Cricket [UK] --> NEW LOOP]
-6d95e4b0893e155cc674b84e0763150c445d3ddd
 UK | Sky Sport Football [Sky Sports Football [UK] --> NEW LOOP]
 8dbe2d515e9131fa311353537736f8c94be9b26d
 UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
@@ -342,8 +336,8 @@ Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
 31ef168d43c7cd04e672475f7ec33b99b9fe5a96
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
 8d475e2688519f2c602687b71be54cedbaef9e6b
-Motorvision TV --> NEW LOOP [Motorvision TV --> NEW LOOP]
-fffaa64d41e500250064181762d510d513137410
+Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
+b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
 SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
 b58dbf92765976b308695f62dea94b00b40730ee
 Tennis Channel (UK) (720p) --> NEW LOOP [Tennis Channel (UK) (720p) --> NEW LOOP]
@@ -366,3 +360,7 @@ Discovery [Discovery Channel --> NEW ERA IV]
 cd485af78cf86934d77cf867f73fe7f5cd32981a
 MAX UFC PPV --> NEW ERA IV [MAX UFC PPV --> NEW ERA IV]
 405f4975c759816fbc6606eeb990666f1853dfe2
+Canal 1 (1RFEF) --> NEW ERA V [Canal 1 (1RFEF) --> NEW ERA V]
+c1ee6e1e0ef5928d8261f855c417de21794f437d
+Canal 2 (1RFEF) --> NEW ERA V [Canal 2 (1RFEF) --> NEW ERA V]
+8677d339ecddd75165c0015025f598b6215974cf
