@@ -311,9 +311,9 @@ acb510858f34c3c6fd5f79395b031abd6885c2b3
 M+ Golf [M. Golf HD --> NEW LOOP]
 872608e734992db636eb79426802cd08f4029afb
 M+ LaLiga TV [M. LaLiga --> NEW LOOP]
-cc9b7f5fe416069a2110da0909b0f915043c468b
-M+ LaLiga TV [M. LaLiga --> NEW LOOP]
 d15a0eaf825b5f8f94259d5209688a7e97e6acde
+M+ LaLiga TV [M. LaLiga --> NEW LOOP]
+cc9b7f5fe416069a2110da0909b0f915043c468b
 M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
 e572a5178ff72eed7d1d751a18b4b3419699f370
 DAZN 1 [DAZN1 --> NEW LOOP]
@@ -338,6 +338,10 @@ UK | Sky Sport Football [Sky Sports Football [UK] --> NEW LOOP]
 8dbe2d515e9131fa311353537736f8c94be9b26d
 UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
+Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
+31ef168d43c7cd04e672475f7ec33b99b9fe5a96
+Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
+8d475e2688519f2c602687b71be54cedbaef9e6b
 Motorvision TV --> NEW LOOP [Motorvision TV --> NEW LOOP]
 fffaa64d41e500250064181762d510d513137410
 Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
