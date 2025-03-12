@@ -104,8 +104,8 @@ Eurosport 1 [EuroSport Elcano Antiguas]
 16ffa1713f42aa27317ee039a2bd0cdbc89a1580
 DAZN 1 [DAZN 1 FHD --> NEW ERA]
 e6a00cb2912609dceeeee88d3f66a2de9718b421
-DAZN LaLiga 2 [DAZN LA LIGA 2 FHD --> NEW ERA]
-fb51ef5294e99767811a3fa95a1933fb864e9ff3
+DAZN F1 [DAZN F1 FHD --> NEW ERA]
+9f04b67904bf5ec6782ab34e8105bca264c10b62
 DAZN 1 [DAZN 1 BAR FHD --> NEW ERA]
 ec10963a4408f96d2089a29af8b7a8ac4b23dd3c
 DAZN 2 [DAZN 2 BAR FHD --> NEW ERA]
@@ -152,6 +152,8 @@ M+ Clásicos [MOVISTAR CLASICOS FHD --> NEW ERA]
 62b6cdc347e9b5f5aff089055365805e4d20d41e
 M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD (1 opcion) --> NEW ERA]
 ac73acd09d79c46cb818bfd945f20198d1718a85
+M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD (2 opcion) --> NEW ERA]
+ba87f528de030aad56576f7cbb9d8bbd7efd62b9
 M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD --> NEW ERA]
 f43a021e8fd63334a4bf3fb11ffe58f89039a1d0
 M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD (SAT) --> NEW ERA]
@@ -277,13 +279,9 @@ M+ Liga de Campeones 3 [M+ LIGA DE CAMPEONES 3 FHD (*) --> NEW ERA]
 M+ Liga de Campeones 3 [M+ LIGA DE CAMPEONES 3 FHD (*) --> NEW ERA]
 509e91774b5b2d0af80883c8d4217c3b53235231
 M+ Liga de Campeones 4 [M+ LIGA DE CAMPEONES 4 FHD (*) --> NEW ERA]
-7a5512d101742eb418dd0e3ffbd2bf6c43c73452
+291ef48025291b7241ef370f657d0e47132c6fb0
 M+ Liga de Campeones 5 [M+ LIGA DE CAMPEONES 5 FHD (*) --> NEW ERA]
 7c3791bfaf9b4b215cc63fa2d61902f9bf3da7ff
-M+ Copa del Rey [M+ Super Copa (*) --> NEW ERA]
-c0803ffef120a6ec036329ce3fe2e95018cc5958
-M+ Copa del Rey [M+ Super Copa (*) --> NEW ERA]
-99364e3a5ed2afc8421dfa6332df194761166c03
 M+ Deportes [M+ DEPORTES FHD (*) --> NEW ERA]
 a8745bd07dc60413a4fc05caf2cabbfb11952232
 M+ Deportes 2 [M+ DEPORTES FHD 2 (*) --> NEW ERA]
@@ -292,8 +290,6 @@ M+ Vamos [#VAMOS FHD (*) --> NEW ERA]
 6f1f82c3cf6bf4b4ccb6d63d687271878e0e908d
 EVENTO UFC 1 —> NEW ERA [EVENTO UFC 1 —> NEW ERA]
 916888d956caf960cc8456eb46a12775a858124c
-M+ Liga de Campeones [M+ LIGA DE CAMPEONES FHD (2 opcion) --> NEW ERA]
-ba87f528de030aad56576f7cbb9d8bbd7efd62b9
 DE | Rally TV [RALLY TV* --> NEW ERA III]
 6e654ee8b7ffde32a507a2ed27086090b68926e8
 Onetoro [ONETORO* --> NEW ERA III]
@@ -316,10 +312,6 @@ DAZN 4 [DAZN4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 f5a5a5bf9903bde0c865e421f126c42e514ff787
-Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
-cfa75ade53810dac64411b22d56c3d4582a221d3
-Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
-23a4937f1484b435af132dbfb3e8fd3aefc9baad
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
 d317a003e8047da2c36a2a2bb2289578c9a3b79c
 UK | Sky Sport Cricket [Sky Sports Cricket [UK] --> NEW LOOP]
@@ -328,8 +320,6 @@ UK | Sky Sport Football [Sky Sports Football [UK] --> NEW LOOP]
 8dbe2d515e9131fa311353537736f8c94be9b26d
 UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
-AutoMotorSport HD --> NEW LOOP [AutoMotorSport HD --> NEW LOOP]
-6791a2d1587e8c68eac10815f22aed439b0f6c9f
 Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
 31ef168d43c7cd04e672475f7ec33b99b9fe5a96
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
@@ -368,6 +358,8 @@ beIN SPORTS XTRA --> NEW LOOP [beIN SPORTS XTRA --> NEW LOOP]
 fd869f34346154ca7cd78d46cbf7a6b8671beab5
 Premier Sports 1 [UK] --> NEW LOOP [Premier Sports 1 [UK] --> NEW LOOP]
 75a56863b6fe0407ad4305b4d7ee5643c3923565
+Premier Sports 2 [UK] --> NEW LOOP [Premier Sports 2 [UK] --> NEW LOOP]
+4903ca695edb64bc72ae29eb85a5333ba0139537
 Eleven Sports 1 [BE] --> NEW LOOP [Eleven Sports 1 [BE] --> NEW LOOP]
 36cad67fed5a739757a9db844a551aa845a8d51b
 Eleven Sports 2 [BE] --> NEW LOOP [Eleven Sports 2 [BE] --> NEW LOOP]
@@ -386,6 +378,8 @@ BT Sport 2 [UK] --> NEW LOOP [BT Sport 2 [UK] --> NEW LOOP]
 d63d8a57cf471394bfa9f619bbd68b01ae27a801
 BT Sport 3 [UK] --> NEW LOOP [BT Sport 3 [UK] --> NEW LOOP]
 5f966c123759de46dff29c379266b7a403452033
+Ziggo Sport --> NEW LOOP [Ziggo Sport --> NEW LOOP]
+fcd7621df513f600652b4813d5d8fd1daed60058
 Ziggo Sport 2 --> NEW LOOP [Ziggo Sport 2 --> NEW LOOP]
 868a6187d6aeec65ded84bd777814c9f7b7a9027
 Ziggo Sport 6 --> NEW LOOP [Ziggo Sport 6 --> NEW LOOP]
