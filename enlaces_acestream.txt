@@ -308,8 +308,6 @@ DAZN 2 [DAZN2 --> NEW LOOP]
 b0eabe0fdd02fdd165896236765a9b753a2ff516
 DAZN 3 [DAZN3 --> NEW LOOP]
 d1d9ec2361a6ac8edc0b2841866383768cc28df9
-DAZN 4 [DAZN4 --> NEW LOOP]
-7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 f5a5a5bf9903bde0c865e421f126c42e514ff787
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
@@ -320,6 +318,8 @@ UK | Sky Sport Football [Sky Sports Football [UK] --> NEW LOOP]
 8dbe2d515e9131fa311353537736f8c94be9b26d
 UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
+AutoMotorSport HD --> NEW LOOP [AutoMotorSport HD --> NEW LOOP]
+6791a2d1587e8c68eac10815f22aed439b0f6c9f
 Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
 31ef168d43c7cd04e672475f7ec33b99b9fe5a96
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
@@ -354,12 +354,8 @@ BeIN Sports 3 [BE] --> NEW LOOP [BeIN Sports 3 [BE] --> NEW LOOP]
 731bd3336ec0986ff9100efe40dbaf1473a22cf8
 BeinSportsXtraÑ --> NEW LOOP [BeinSportsXtraÑ --> NEW LOOP]
 92a7dcc55392efc6dd5d012c4ff3878891eb6a6e
-beIN SPORTS XTRA --> NEW LOOP [beIN SPORTS XTRA --> NEW LOOP]
-fd869f34346154ca7cd78d46cbf7a6b8671beab5
 Premier Sports 1 [UK] --> NEW LOOP [Premier Sports 1 [UK] --> NEW LOOP]
 75a56863b6fe0407ad4305b4d7ee5643c3923565
-Premier Sports 2 [UK] --> NEW LOOP [Premier Sports 2 [UK] --> NEW LOOP]
-4903ca695edb64bc72ae29eb85a5333ba0139537
 Eleven Sports 1 [BE] --> NEW LOOP [Eleven Sports 1 [BE] --> NEW LOOP]
 36cad67fed5a739757a9db844a551aa845a8d51b
 Eleven Sports 2 [BE] --> NEW LOOP [Eleven Sports 2 [BE] --> NEW LOOP]
