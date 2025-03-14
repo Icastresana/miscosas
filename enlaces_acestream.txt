@@ -318,6 +318,8 @@ UK | Sky Sport Football [Sky Sports Football [UK] --> NEW LOOP]
 8dbe2d515e9131fa311353537736f8c94be9b26d
 UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
+Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
+35e17cc84abc5e393b5acd688536a9681105f2d5
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
 442aeb6643b8836f9d00361c9e48eeb0841ddf98
 SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
@@ -342,10 +344,10 @@ BeIN Sports 2 [BE] --> NEW LOOP [BeIN Sports 2 [BE] --> NEW LOOP]
 edb507e38394d614c9ff55805c9d354ae13210bc
 BeIN Sports 3 [BE] --> NEW LOOP [BeIN Sports 3 [BE] --> NEW LOOP]
 731bd3336ec0986ff9100efe40dbaf1473a22cf8
-beIN SPORTS XTRA --> NEW LOOP [beIN SPORTS XTRA --> NEW LOOP]
-e8e459656f964f601ad4bcda8b81a43ba41c68f9
 Premier Sports 1 [UK] --> NEW LOOP [Premier Sports 1 [UK] --> NEW LOOP]
 75a56863b6fe0407ad4305b4d7ee5643c3923565
+Eleven Sports 1 [BE] --> NEW LOOP [Eleven Sports 1 [BE] --> NEW LOOP]
+36cad67fed5a739757a9db844a551aa845a8d51b
 Eleven Sports 2 [BE] --> NEW LOOP [Eleven Sports 2 [BE] --> NEW LOOP]
 d08013df6e437a1fdf1e0c34f573fdf6a40c7fce
 Eleven Sports 3 [BE] --> NEW LOOP [Eleven Sports 3 [BE] --> NEW LOOP]
