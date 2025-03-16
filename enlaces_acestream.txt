@@ -294,6 +294,8 @@ Onetoro [ONETORO* (solo eventos) --> NEW ERA III]
 4da965302d7ce9e6d4bbd9277dfc023ab6ff0721
 M+ Deportes [M. Deportes HD --> NEW LOOP]
 acb510858f34c3c6fd5f79395b031abd6885c2b3
+M+ Golf [M. Golf HD --> NEW LOOP]
+872608e734992db636eb79426802cd08f4029afb
 M+ LaLiga TV [M. LaLiga --> NEW LOOP]
 cc9b7f5fe416069a2110da0909b0f915043c468b
 M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
@@ -309,6 +311,8 @@ DAZN 4 [DAZN4 --> NEW LOOP]
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
+1b0bc4d4dcd609d3c092712e721392b199f50a62
+Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 6579c8a3441b6c27caf0508b33fd571b76bac538
 Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
 1d04e3b27c2ac3ff52dc949e76f36207fbb235c4
@@ -322,10 +326,6 @@ UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
 AutoMotorSport HD --> NEW LOOP [AutoMotorSport HD --> NEW LOOP]
 610993aea3a2bfd509594334b7461ce96900f54c
-Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
-442aeb6643b8836f9d00361c9e48eeb0841ddf98
-Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
-b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
 SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
 b58dbf92765976b308695f62dea94b00b40730ee
 Tennis Channel (UK) (720p) --> NEW LOOP [Tennis Channel (UK) (720p) --> NEW LOOP]
@@ -352,8 +352,6 @@ BeIN Sports 3 [BE] --> NEW LOOP [BeIN Sports 3 [BE] --> NEW LOOP]
 731bd3336ec0986ff9100efe40dbaf1473a22cf8
 BeinSportsXtraÑ --> NEW LOOP [BeinSportsXtraÑ --> NEW LOOP]
 4922d8414b6d96bcdd36e99483a7077f484b6f71
-beIN SPORTS XTRA --> NEW LOOP [beIN SPORTS XTRA --> NEW LOOP]
-e8e459656f964f601ad4bcda8b81a43ba41c68f9
 Premier Sports 1 [UK] --> NEW LOOP [Premier Sports 1 [UK] --> NEW LOOP]
 75a56863b6fe0407ad4305b4d7ee5643c3923565
 Premier Sports 2 [UK] --> NEW LOOP [Premier Sports 2 [UK] --> NEW LOOP]
@@ -378,6 +376,8 @@ BT Sport 3 [UK] --> NEW LOOP [BT Sport 3 [UK] --> NEW LOOP]
 5f966c123759de46dff29c379266b7a403452033
 Ziggo Sport --> NEW LOOP [Ziggo Sport --> NEW LOOP]
 fcd7621df513f600652b4813d5d8fd1daed60058
+Ziggo Sport 2 --> NEW LOOP [Ziggo Sport 2 --> NEW LOOP]
+868a6187d6aeec65ded84bd777814c9f7b7a9027
 Ziggo Sport 6 --> NEW LOOP [Ziggo Sport 6 --> NEW LOOP]
 9231f38e71a85ad24b4c11a5e360992e30c916ed
 Canal 1 (1RFEF) (solo eventos) --> NEW ERA V [Canal 1 (1RFEF) (solo eventos) --> NEW ERA V]
