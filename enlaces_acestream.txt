@@ -68,8 +68,8 @@ Mega [MEGA FHD --> NEW ERA II]
 65b66db65acc04f75701f733cab599c375bff645
 Canal Hollywood [HOLLYWOOD FHD --> NEW ERA II]
 5bd6122d984a90a930b2dafdedfe249eea3457e0
-WINTER SERIES ARAGON --> NEW ERA II [WINTER SERIES ARAGON --> NEW ERA II]
-c50d085c6ed12e638913c2b147aecbab71751949
+WINTER SERIES BARCELONA --> NEW ERA II [WINTER SERIES BARCELONA --> NEW ERA II]
+bf242abb254854d5b96e8c5f3cddafd8c9be1aca
 TWITCH HIKKI360ES --> NEW ERA II [TWITCH HIKKI360ES --> NEW ERA II]
 33f0fb5f182a731abe2d13acee8a02cdb618c8d5
 M+ Liga de Campeones 2 [M.L. CAMPEONES 2 Elcano Antiguas]
@@ -294,8 +294,6 @@ Onetoro [ONETORO* (solo eventos) --> NEW ERA III]
 4da965302d7ce9e6d4bbd9277dfc023ab6ff0721
 M+ Deportes [M. Deportes HD --> NEW LOOP]
 acb510858f34c3c6fd5f79395b031abd6885c2b3
-M+ Golf [M. Golf HD --> NEW LOOP]
-872608e734992db636eb79426802cd08f4029afb
 M+ LaLiga TV [M. LaLiga --> NEW LOOP]
 cc9b7f5fe416069a2110da0909b0f915043c468b
 M+ Liga de Campeones [M. Liga de Campeones --> NEW LOOP]
@@ -309,9 +307,9 @@ d1d9ec2361a6ac8edc0b2841866383768cc28df9
 DAZN 4 [DAZN4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
-6579c8a3441b6c27caf0508b33fd571b76bac538
-Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
 cfa75ade53810dac64411b22d56c3d4582a221d3
+Eurosport 1 [Eurosport 1 HD --> NEW LOOP]
+6579c8a3441b6c27caf0508b33fd571b76bac538
 Eurosport 1 [Eurosport 1 hd --> NEW LOOP]
 1d04e3b27c2ac3ff52dc949e76f36207fbb235c4
 UK | Sky Sport Arena [Sky Sports Arena [UK] --> NEW LOOP]
@@ -324,12 +322,8 @@ UK | Sky Sport Main Event [Sky Sports Main Event [UK] --> NEW LOOP]
 eab7aeef0218ce8b0752e596e4792b69eda4df5e
 AutoMotorSport HD --> NEW LOOP [AutoMotorSport HD --> NEW LOOP]
 610993aea3a2bfd509594334b7461ce96900f54c
-Canal Motor (720p) --> NEW LOOP [Canal Motor (720p) --> NEW LOOP]
-35e17cc84abc5e393b5acd688536a9681105f2d5
 Motors TV HD --> NEW LOOP [Motors TV HD --> NEW LOOP]
 442aeb6643b8836f9d00361c9e48eeb0841ddf98
-Motorvision TV --> NEW LOOP [Motorvision TV --> NEW LOOP]
-9c75e6ed0671eec6670cb2eabcc7d78267c7f404
 Retrovision Motor --> NEW LOOP [Retrovision Motor --> NEW LOOP]
 b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
 SuperTennis HD --> NEW LOOP [SuperTennis HD --> NEW LOOP]
@@ -358,6 +352,8 @@ BeIN Sports 3 [BE] --> NEW LOOP [BeIN Sports 3 [BE] --> NEW LOOP]
 731bd3336ec0986ff9100efe40dbaf1473a22cf8
 BeinSportsXtraÑ --> NEW LOOP [BeinSportsXtraÑ --> NEW LOOP]
 4922d8414b6d96bcdd36e99483a7077f484b6f71
+beIN SPORTS XTRA --> NEW LOOP [beIN SPORTS XTRA --> NEW LOOP]
+e8e459656f964f601ad4bcda8b81a43ba41c68f9
 Premier Sports 1 [UK] --> NEW LOOP [Premier Sports 1 [UK] --> NEW LOOP]
 75a56863b6fe0407ad4305b4d7ee5643c3923565
 Premier Sports 2 [UK] --> NEW LOOP [Premier Sports 2 [UK] --> NEW LOOP]
@@ -368,6 +364,8 @@ Eleven Sports 2 [BE] --> NEW LOOP [Eleven Sports 2 [BE] --> NEW LOOP]
 d08013df6e437a1fdf1e0c34f573fdf6a40c7fce
 Eleven Sports 3 [BE] --> NEW LOOP [Eleven Sports 3 [BE] --> NEW LOOP]
 dae7d1251f069516cc0a9c8f15f6639d2a17df1e
+Eleven Sports 4 [BE] --> NEW LOOP [Eleven Sports 4 [BE] --> NEW LOOP]
+0f32c0131a2d9444996410801f4e18b04384db98
 Eleven Sports 5 [BE] --> NEW LOOP [Eleven Sports 5 [BE] --> NEW LOOP]
 4dbe63b44fc4f439f5b634c0d2aa7e0cccad808a
 Eleven Sports 6 [BE] --> NEW LOOP [Eleven Sports 6 [BE] --> NEW LOOP]
@@ -380,8 +378,6 @@ BT Sport 3 [UK] --> NEW LOOP [BT Sport 3 [UK] --> NEW LOOP]
 5f966c123759de46dff29c379266b7a403452033
 Ziggo Sport --> NEW LOOP [Ziggo Sport --> NEW LOOP]
 fcd7621df513f600652b4813d5d8fd1daed60058
-Ziggo Sport 2 --> NEW LOOP [Ziggo Sport 2 --> NEW LOOP]
-868a6187d6aeec65ded84bd777814c9f7b7a9027
 Ziggo Sport 6 --> NEW LOOP [Ziggo Sport 6 --> NEW LOOP]
 9231f38e71a85ad24b4c11a5e360992e30c916ed
 Canal 1 (1RFEF) (solo eventos) --> NEW ERA V [Canal 1 (1RFEF) (solo eventos) --> NEW ERA V]
