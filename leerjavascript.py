@@ -123,7 +123,8 @@ if nuevos_resultados and not error_ocurrido:
                     file.write(f'{nombre_renombrado} [{nombre_original} ELCANO]\n{href}\n')
                 else:
                     if not nombre_original or ("NEW" not in nombre_original and "Tronoss" not in nombre_original):
-                        file.write(f'{nombre_renombrado} [{nombre_original} Elcano Antiguas]\n{href}\n')
+                        nombre_modificado = nombre_original.replace("ELCANO", "Elcano Antiguas")
+                        file.write(f'{nombre_renombrado} [{nombre_modificado}]\n{href}\n')
                     else:
                         file.write(f'{nombre_renombrado} [{nombre_original}]\n{href}\n')
 
