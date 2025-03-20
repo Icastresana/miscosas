@@ -48,7 +48,7 @@ M+ Liga de Campeones:LIGA DE CAMPEONES(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|
 M+ Copa del Rey:M\+ Super ?Copa(?! \b\d\b).*|Copa del Rey(?! \b\d\b).*
 M+ Clásicos:MOVISTAR CLASICOS(?! \b\d\b).*
 M+ Hits:MOVISTAR SERIES(?! \b\d\b).*
-M+ Acción:M\+ ACCION(?! \b\d\b).*
+M+ Acción:Movistar ACCION(?! \b\d\b).*
 Eurosport 1:EUROSPORT 1(?! \b\d\b).*|EuroSport(?! \b\d\b).*
 Eurosport 2:EUROSPORT 2(?! \b\d\b).*
 DE | Rally TV:RALLY TV(?! \b\d\b).*
@@ -63,7 +63,7 @@ UK | Sky Sport Football:Sky Sports Football(?! \b\d\b).*
 UK | Sky Sport Cricket:Sky Sports Cricket(?! \b\d\b).*
 UK | Sky Sport Arena:Sky Sports Arena(?! \b\d\b).*
 Mega:MEGA(?! \b\d\b).*
-M+ Comedia:M\+ COMEDIA(?! \b\d\b).*
+M+ Comedia:Movistar COMEDIA(?! \b\d\b).*
 Canal Hollywood:HOLLYWOOD(?! \b\d\b).*
 STAR Channel:FOX(?! \b\d\b).*
 Discovery:Discovery(?! \b\d\b).*
