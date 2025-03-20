@@ -34,35 +34,28 @@ def cargar_diccionario(ruta_archivo):
 nombre_canal_map = cargar_diccionario("canales_map.txt")
 
 def renombrar_canal(nombre_original):
-    """Busca si el nombre_original coincide con algún patrón y devuelve (nombre_renombrado, nombre_original)."""
     for nombre_final, patrones in nombre_canal_map.items():
         for patron in patrones:
             if re.match(patron, nombre_original, re.IGNORECASE):
-                print(f"🔄 Renombrando: '{nombre_original}' → '{nombre_final}'") 
-                return nombre_final, nombre_original  
-
-    print(f"✅ Sin cambios: '{nombre_original}'")  
-    return nombre_original, nombre_original  
+                print(f" Renombrando: '{nombre_original}' → '{nombre_final}'")
+                return nombre_final, nombre_original
+    print(f"✅ Sin cambios: '{nombre_original}'")
+    return nombre_original, nombre_original
 
 canales_procesados = set()
 nuevos_resultados = []
-
-# Indicador de si se produjo un error en alguna URL
 error_ocurrido = False
 
 for i, url in enumerate(urls):
     try:
         print(f"Intentando scrapeo en: {url}")
-
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         driver.get(url)
-
-        # Asignar "elcano" solo si la URL es la primera en la lista
-        fuente = "elcano" if i == 0 else ""
-
+        fuente = "elcano" if i == 0 else "otro"
+        
         script_elements = driver.find_elements(By.TAG_NAME, "script")
         linksData_found = False
-
+        
         for script in script_elements:
             script_text = script.get_attribute("innerHTML")
             if "linksData" in script_text:
@@ -88,39 +81,63 @@ for i, url in enumerate(urls):
         if not linksData_found:
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "inner-iframe")))
             driver.switch_to.frame("inner-iframe")
-            WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME, "li")))
-            items = driver.find_elements(By.TAG_NAME, "li")
+            if i == 0:
+                WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME, "li")))
+                items = driver.find_elements(By.TAG_NAME, "li")
+                for item in items:
+                    try:
+                        nombre_original = item.find_element(By.CLASS_NAME, 'link-name').text
+                        enlace_div = item.find_element(By.CLASS_NAME, 'link-url')
+                        enlace = enlace_div.find_element(By.TAG_NAME, 'a').get_attribute('href')
+                        href = enlace.replace("acestream://", "")
+                        nombre_renombrado, nombre_original = renombrar_canal(nombre_original)
+                        if (nombre_renombrado, href) not in canales_procesados:
+                            nuevos_resultados.append((nombre_renombrado, nombre_original, href, fuente))
+                            canales_procesados.add((nombre_renombrado, href))
+                        else:
+                            print(f"Canal duplicado eliminado: {nombre_original} con ID: {href}")
+                    except Exception as e:
+                        print(f"Error extrayendo datos de un elemento: {e}")
+            else:
+                WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "channel-item")))
+                canales = driver.find_elements(By.CLASS_NAME, "channel-item")
+                for canal in canales:
+                    try:
+                        nombre_canal_element = canal.find_element(By.CLASS_NAME, "item-name")
+                        nombre_original = driver.execute_script("""
+                            let element = arguments[0];
+                            let clone = element.cloneNode(true);
+                            clone.querySelectorAll('span').forEach(span => span.remove());
+                            return clone.textContent.trim();
+                        """, nombre_canal_element)
 
-            for item in items:
-                try:
-                    nombre_original = item.find_element(By.CLASS_NAME, 'link-name').text
-                    enlace_div = item.find_element(By.CLASS_NAME, 'link-url')
-                    enlace = enlace_div.find_element(By.TAG_NAME, 'a').get_attribute('href')
-                    href = enlace.replace("acestream://", "")
-                    nombre_renombrado, nombre_original = renombrar_canal(nombre_original)
+                        enlace_element = canal.find_element(By.CLASS_NAME, "item-url")
+                        href = enlace_element.text.strip() if enlace_element else "Sin enlace"
+                        nombre_renombrado, nombre_original = renombrar_canal(nombre_original)
 
-                    if (nombre_renombrado, href) not in canales_procesados:
-                        nuevos_resultados.append((nombre_renombrado, nombre_original, href, fuente))
-                        canales_procesados.add((nombre_renombrado, href))
-                    else:
-                        print(f"Canal duplicado eliminado: {nombre_original} con ID: {href}")
-                except Exception as e:
-                    print(f"Error extrayendo datos de un elemento: {e}")
-
+                        if (nombre_renombrado, href) not in canales_procesados:
+                            nuevos_resultados.append((nombre_renombrado, nombre_original, href, fuente))
+                            canales_procesados.add((nombre_renombrado, href))
+                        else:
+                            print(f"Canal duplicado eliminado: {nombre_original} con ID: {href}")
+                    except Exception as e:
+                        print(f"Error extrayendo datos de un elemento: {e}")
         driver.quit()
-
     except Exception as e:
         print(f"Error al acceder a {url}: {e}")
         driver.quit()
         error_ocurrido = True
 
+
 # Solo guardar el archivo si no ha ocurrido ningún error
 if nuevos_resultados and not error_ocurrido:
     with open('enlaces_acestream.txt', 'w', encoding='utf-8') as file:
         for nombre_renombrado, nombre_original, href, fuente in nuevos_resultados:
-            if href.strip():  
+            if href.strip():
                 if fuente == "elcano":
                     file.write(f'{nombre_renombrado} [{nombre_original} ELCANO]\n{href}\n')
+                #elif fuente == "otro":
+                    #file.write(f'{nombre_renombrado} [{nombre_original} OTRO]\n{href}\n')
                 else:
                     if not nombre_original or ("NEW" not in nombre_original and "Tronoss" not in nombre_original):
                         nombre_modificado = nombre_original.replace("ELCANO", "Elcano Antiguas")
@@ -131,3 +148,5 @@ if nuevos_resultados and not error_ocurrido:
     print("✅ Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
 else:
     print("❌ No se encontraron enlaces válidos o ocurrió un error. No se modificó el archivo.")
+
+input("pulsa intro..")
