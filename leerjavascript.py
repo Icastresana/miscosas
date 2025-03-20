@@ -148,5 +148,3 @@ if nuevos_resultados and not error_ocurrido:
     print("✅ Los enlaces han sido guardados en 'enlaces_acestream.txt'.")
 else:
     print("❌ No se encontraron enlaces válidos o ocurrió un error. No se modificó el archivo.")
-
-input("pulsa intro..")
