@@ -7,12 +7,34 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
 import re
+import requests
 
 # Configuración de opciones de Chrome para modo headless
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
+
+# URL del archivo de texto
+url_acestream = "https://raw.githubusercontent.com/Icastresana/miscosas/17b752d45b2cbcbf7c342eec1ec9e92403d95ec6/enlaces_acestream.txt"
+
+# Función para obtener enlaces de Acestream desde la URL
+def obtener_enlaces_acestream():
+    response = requests.get(url_acestream)
+    response.raise_for_status()
+    lines = response.text.splitlines()
+    acestream_links = []
+    iterator = iter(lines)
+    for line in iterator:
+        name_original = line.strip()
+        if name_original:
+            try:
+                href = next(iterator).strip()
+                if href:
+                    acestream_links.append((name_original, href))
+            except StopIteration:
+                break
+    return acestream_links
 
 # Lista de URLs principales
 urls = [
@@ -123,6 +145,23 @@ for i, url in enumerate(urls):
                     except Exception as e:
                         print(f"Error extrayendo datos de un elemento: {e}")
         driver.quit()
+         # 📌 Después de la primera URL, obtenemos los enlaces del archivo remoto
+        if i == 0:
+            print("📥 Obteniendo enlaces del archivo remoto...")
+            acestream_links = obtener_enlaces_acestream()
+            for nombre_original, href in acestream_links:
+                 # 🔹 Si el nombre contiene "Especial", lo eliminamos
+                if "Especial" in nombre_original:
+                    print(f"❌ Canal eliminado: {nombre_original} (contiene 'Especial')")
+                    continue  # Saltamos a la siguiente iteración del bucle
+                nombre_renombrado, nombre_original = renombrar_canal(nombre_original)
+                # 🔹 Agregamos "Elcano Antiguas" al nombre original
+                nombre_original = f"{nombre_original} Elcano Antiguas"
+                if (nombre_renombrado, href) not in canales_procesados:
+                    nuevos_resultados.append((nombre_renombrado, nombre_original, href, "archivo"))
+                    canales_procesados.add((nombre_renombrado, href))
+                else:
+                    print(f"Canal duplicado eliminado: {nombre_original} con ID: {href}")
     except Exception as e:
         print(f"Error al acceder a {url}: {e}")
         driver.quit()
