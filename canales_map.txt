@@ -21,38 +21,38 @@ DAZN 1:DAZN 1(?! \b\d\b).*|DAZN1(?! \b\d\b).*|DAZN BAR 1(?! \b\d\b).*|M\+ DAZN 1
 DAZN 2:DAZN 2(?! \b\d\b).*|DAZN2(?! \b\d\b).*|DAZN BAR 2(?! \b\d\b).*
 DAZN 3:DAZN 3(?! \b\d\b).*|DAZN3(?! \b\d\b).*
 DAZN 4:DAZN 4(?! \b\d\b).*|DAZN4(?! \b\d\b).*
-M+ Deportes 2:Movistar deportes 2(?! \b\d\b).*
-M+ Deportes 3:Movistar deportes 3(?! \b\d\b).*
-M+ Deportes 4:Movistar deportes 4(?! \b\d\b).*
-M+ Deportes 5:Movistar deportes 5(?! \b\d\b).*
-M+ Deportes 6:Movistar deportes 6(?! \b\d\b).*
-M+ Deportes 7:Movistar deportes 7(?! \b\d\b).*
-M+ Deportes:Movistar deportes(?! \b\d\b).*
+M+ Deportes 2:Movistar deportes 2(?! \b\d\b).*|M. Deportes 2(?! \b\d\b).*
+M+ Deportes 3:Movistar deportes 3(?! \b\d\b).*|M. Deportes 3(?! \b\d\b).*
+M+ Deportes 4:Movistar deportes 4(?! \b\d\b).*|M. Deportes 4(?! \b\d\b).*
+M+ Deportes 5:Movistar deportes 5(?! \b\d\b).*|M. Deportes 5(?! \b\d\b).*
+M+ Deportes 6:Movistar deportes 6(?! \b\d\b).*|M. Deportes 6(?! \b\d\b).*
+M+ Deportes 7:Movistar deportes 7(?! \b\d\b).*|M. Deportes 7 (?! \b\d\b).* 
+M+ Deportes:Movistar deportes(?! \b\d\b).*|M. Deportes(?! \b\d\b).*
 M+ Vamos:M?\+? ?\#?VAMOS(?! ELLAS).*|Movistar vamos(?! \b\d\b).*
-M+ Ellas Vamos:\#VAMOS ELLAS(?! \b\d\b).*|Movistar ellas(?! \b\d\b).*
-Movistar Plus+:Movistar plus(?! \b\d\b).*|M\+ PLUS(?! \b\d\b).*
+M+ Ellas Vamos:\#VAMOS ELLAS(?! \b\d\b).*|Movistar ellas(?! \b\d\b).*|\#Ellas(?! \b\d\b).*
+Movistar Plus+:Movistar plus(?! \b\d\b).*|M\+ PLUS(?! \b\d\b).*|M.Plus(?! \b\d\b).*
 Movistar Plus+ 2:M\+ PLUS 2(?! \b\d\b).*|Movistar plus 2(?! \b\d\b).*
 DAZN F1:DAZN F1(?! \b\d\b).*|DAZN FORMULA 1(?! \b\d\b).*
 GOL PLAY:Gol Play(?! \b\d\b).*
-Teledeporte:Teledeporte(?! \b\d\b).*
+Teledeporte:Teledeporte(?! \b\d\b).*|tdp(?! \b\d\b).*
 M+ Golf:MOVISTAR GOLF(?! \b\d\b).*|M. Golf(?! \b\d\b).*
 M+ Golf 2:MOVISTAR GOLF 2(?! \b\d\b).*
 M+ Liga de Campeones 2:LIGA DE CAMPEONES 2(?! \b\d\b).*|M.L. CAMPEONES 2(?! \b\d\b).*
-M+ Liga de Campeones 3:LIGA DE CAMPEONES 3(?! \b\d\b).*
-M+ Liga de Campeones 4:LIGA DE CAMPEONES 4(?! \b\d\b).*
-M+ Liga de Campeones 5:LIGA DE CAMPEONES 5(?! \b\d\b).*
-M+ Liga de Campeones 6:LIGA DE CAMPEONES 6(?! \b\d\b).*
-M+ Liga de Campeones 7:LIGA DE CAMPEONES 7(?! \b\d\b).*
-M+ Liga de Campeones 8:LIGA DE CAMPEONES 8(?! \b\d\b).*
-M+ Liga de Campeones:LIGA DE CAMPEONES(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|M. Liga de Campeones(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*
-M+ Copa del Rey:M\+ Super ?Copa(?! \b\d\b).*|Copa del Rey(?! \b\d\b).*
+M+ Liga de Campeones 3:LIGA DE CAMPEONES 3(?! \b\d\b).*|M.L. CAMPEONES 3(?! \b\d\b).*
+M+ Liga de Campeones 4:LIGA DE CAMPEONES 4(?! \b\d\b).*|M.L. CAMPEONES 4(?! \b\d\b).*
+M+ Liga de Campeones 5:LIGA DE CAMPEONES 5(?! \b\d\b).*|M.L. CAMPEONES 5(?! \b\d\b).*
+M+ Liga de Campeones 6:LIGA DE CAMPEONES 6(?! \b\d\b).*|M.L. CAMPEONES 6(?! \b\d\b).*
+M+ Liga de Campeones 7:LIGA DE CAMPEONES 7(?! \b\d\b).*|M.L. CAMPEONES 7(?! \b\d\b).*
+M+ Liga de Campeones 8:LIGA DE CAMPEONES 8(?! \b\d\b).*|M.L. CAMPEONES 8(?! \b\d\b).*
+M+ Liga de Campeones:LIGA DE CAMPEONES(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|M.L. Campeones(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*
+M+ Copa del Rey:M\+ Super ?Copa(?! \b\d\b).*|Copa del Rey(?! \b\d\b).*|Copa(?! \b\d\b).*
 M+ Clásicos:MOVISTAR CLASICOS(?! \b\d\b).*
 M+ Hits:MOVISTAR SERIES(?! \b\d\b).*
 M+ Acción:Movistar ACCION(?! \b\d\b).*
 Eurosport 1:EUROSPORT 1(?! \b\d\b).*|EuroSport(?! \b\d\b).*
 Eurosport 2:EUROSPORT 2(?! \b\d\b).*
 DE | Rally TV:RALLY TV(?! \b\d\b).*
-La 1:La 1(?! \b\d\b).*
+La 1:La 1(?! \b\d\b).*|La1(?! \b\d\b).*
 La 2:La 2(?! \b\d\b).*
 Antena 3:Antena 3(?! \b\d\b).*
 Cuatro:Cuatro(?! \b\d\b).*
