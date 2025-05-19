@@ -349,9 +349,9 @@ ea6dd2fbd792fe4fb5d372f5d8b84d03792e6e7a
 FR | beIN SPORTS 3 [BEIN SPORTS 3 --> NEW LOOP]
 731bd3336ec0986ff9100efe40dbaf1473a22cf8
 beIN SPORTS en español [BEIN SPORTS Ñ --> NEW LOOP]
+8ce921a0c0f4d03e10f87ab8f93f236c492ef23f
+beIN SPORTS en español [BEIN SPORTS Ñ --> NEW LOOP]
 e8e459656f964f601ad4bcda8b81a43ba41c68f9
-UK | TNT Sports 1 [BT Sport 1 [UK] --> NEW LOOP]
-fc5089d8e1519872fdf951779ccbca913acc9bce
 UK | TNT Sports 1 [BT Sport 1 [UK] --> NEW LOOP]
 efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
 UK | TNT Sports 2 [BT Sport 2 [UK] --> NEW LOOP]
