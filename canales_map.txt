@@ -3,12 +3,15 @@ M+ LaLiga TV 2:M. LaLiga 2(?! \b\d\b).*
 M+ LaLiga TV 3:M. LaLiga 3(?! \b\d\b).*
 M+ LaLiga TV 4:M. LaLiga 4(?! \b\d\b).*
 M+ LaLiga TV 5:M. LaLiga 5(?! \b\d\b).*
+M+ LaLiga TV 6:M. LaLiga 6(?! \b\d\b).*
 LaLiga TV BAR:La Liga BAR(?! \b\d\b).*|TV BAR(?! \b\d\b).*|LaLiga TV BAR(?! \b\d\b).*|M\+ BAR(?! \b\d\b).*|LaLiga BAR(?! \b\d\b).*
 DAZN LaLiga:DAZN La ?Liga(?! \b\d\b).*|DAZN Liga(?! \b\d\b).*|Dazn la liga 1(?! \b\d\b).*
 DAZN LaLiga 2:DAZN LA ?LIGA 2(?! \b\d\b).*
 DAZN LaLiga 3:DAZN LA ?LIGA 3(?! \b\d\b).*
 DAZN LaLiga 4:DAZN LA ?LIGA 4(?! \b\d\b).*
 DAZN LaLiga 5:DAZN LA ?LIGA 5(?! \b\d\b).*
+DAZN LaLiga 6:DAZN LA ?LIGA 6(?! \b\d\b).*
+LaLiga TV Hypermotion 10:LaLiga Smartbank 10(\b|$)|\bhypermotion[\s_-] 10(|$)
 LaLiga TV Hypermotion:LaLiga Smartbank(?! \b\d\b).*|HYPERMOTION(?! \b\d\b).*|LaLiga HYPERMOTION TV(?!\s?\d)|LaLiga TV HYPERMOTION(?!\s?\d)
 LaLiga TV Hypermotion 2:LaLiga Smartbank 2(?! \b\d\b).*|HYPERMOTION 2(?! \b\d\b)|LaLiga HYPERMOTION TV ?2 (?! \b\d\b)
 LaLiga TV Hypermotion 3:LaLiga Smartbank 3(?! \b\d\b).*|HYPERMOTION 3(?! \b\d\b)|LaLiga HYPERMOTION TV ?3 (?! \b\d\b)
@@ -17,35 +20,36 @@ LaLiga TV Hypermotion 5:LaLiga Smartbank 5(?! \b\d\b).*|HYPERMOTION 5(?! \b\d\b)
 LaLiga TV Hypermotion 6:LaLiga Smartbank 6(?! \b\d\b).*|HYPERMOTION 6(?! \b\d\b)
 LaLiga TV Hypermotion 7:LaLiga Smartbank 7(?! \b\d\b).*|HYPERMOTION 7(?! \b\d\b)
 LaLiga TV Hypermotion 8:LaLiga Smartbank 8(?! \b\d\b).*|HYPERMOTION 8(?! \b\d\b)
+LaLiga TV Hypermotion 9:LaLiga Smartbank 9(?! \b\d\b).*|HYPERMOTION 9(?! \b\d\b)
 DAZN 1:DAZN 1(?! \b\d\b).*|DAZN1(?! \b\d\b).*|DAZN BAR 1(?! \b\d\b).*|M\+ DAZN 1(?! \b\d\b).*
 DAZN 2:DAZN 2(?! \b\d\b).*|DAZN2(?! \b\d\b).*|DAZN BAR 2(?! \b\d\b).*
 DAZN 3:DAZN 3(?! \b\d\b).*|DAZN3(?! \b\d\b).*
 DAZN 4:DAZN 4(?! \b\d\b).*|DAZN4(?! \b\d\b).*
-M+ Deportes 2:Movistar deportes 2(?! \b\d\b).*|M. Deportes 2(?! \b\d\b).*
-M+ Deportes 3:Movistar deportes 3(?! \b\d\b).*|M. Deportes 3(?! \b\d\b).*
-M+ Deportes 4:Movistar deportes 4(?! \b\d\b).*|M. Deportes 4(?! \b\d\b).*
-M+ Deportes 5:Movistar deportes 5(?! \b\d\b).*|M. Deportes 5(?! \b\d\b).*
-M+ Deportes 6:Movistar deportes 6(?! \b\d\b).*|M. Deportes 6(?! \b\d\b).*
-M+ Deportes 7:Movistar deportes 7(?! \b\d\b).*|M. Deportes 7 (?! \b\d\b).* 
-M+ Deportes:Movistar deportes(?! \b\d\b).*|M. Deportes(?! \b\d\b).*
+M+ Deportes 2:Movistar deportes 2(?! \b\d\b).*|M. Deportes 2(?! \b\d\b).*|M\+ Deportes(?: FHD)? 2(?! \b\d\b).*|Deporte 2(?! \b\d\b).*|Dedporte 2(?! \b\d\b).*
+M+ Deportes 3:Movistar deportes 3(?! \b\d\b).*|M. Deportes 3(?! \b\d\b).*|M\+ Deportes 3(?! \b\d\b).*|Deporte 3(?! \b\d\b).*
+M+ Deportes 4:Movistar deportes 4(?! \b\d\b).*|M. Deportes 4(?! \b\d\b).*|M\+ Deportes 4(?! \b\d\b).*|Deporte 4(?! \b\d\b).*
+M+ Deportes 5:Movistar deportes 5(?! \b\d\b).*|M. Deportes 5(?! \b\d\b).*|M\+ Deportes 5(?! \b\d\b).*|Deporte 5(?! \b\d\b).*
+M+ Deportes 6:Movistar deportes 6(?! \b\d\b).*|M. Deportes 6(?! \b\d\b).*|M\+ Deportes 6(?! \b\d\b).*
+M+ Deportes 7:Movistar deportes 7(?! \b\d\b).*|M. Deportes 7(?! \b\d\b).*|M\+ Deportes 7(?! \b\d\b).*
+M+ Deportes:Movistar deportes(?! \b\d\b).*|M. Deportes(?! \b\d\b).*|M\+ Deportes(?! \b\d\b).*|Deporte(?! \b\d\b).*
 M+ Vamos:M?\+? ?\#?VAMOS(?! ELLAS).*|Movistar vamos(?! \b\d\b).*
 M+ Ellas Vamos:\#VAMOS ELLAS(?! \b\d\b).*|Movistar ellas(?! \b\d\b).*|\#Ellas(?! \b\d\b).*
-Movistar Plus+:Movistar plus(?! \b\d\b).*|M\+ PLUS(?! \b\d\b).*|M.Plus(?! \b\d\b).*
+Movistar Plus+:Movistar plus(?! \b\d\b).*|M\+ PLUS(?! \b\d\b).*|M.Plus(?! \b\d\b).*|MovistarPlus(?! \b\d\b).*
 Movistar Plus+ 2:M\+ PLUS 2(?! \b\d\b).*|Movistar plus 2(?! \b\d\b).*
 DAZN F1:DAZN F1(?! \b\d\b).*|DAZN FORMULA 1(?! \b\d\b).*
 GOL PLAY:Gol Play(?! \b\d\b).*
 Teledeporte:Teledeporte(?! \b\d\b).*|tdp(?! \b\d\b).*
-M+ Golf:MOVISTAR GOLF(?! \b\d\b).*|M. Golf(?! \b\d\b).*
-M+ Golf 2:MOVISTAR GOLF 2(?! \b\d\b).*
+M+ Golf:MOVISTAR GOLF(?! \b\d\b).*|M. Golf (?! \b\d\b).*
+M+ Golf 2:MOVISTAR GOLF 2(?! \b\d\b).*|M. Golf2(?! \b\d\b).*
 M+ Liga de Campeones HDR:LIGA DE CAMPEONES 4K(?! \b\d\b).*
-M+ Liga de Campeones 2:LIGA DE CAMPEONES 2(?! \b\d\b).*|M.L. CAMPEONES 2(?! \b\d\b).*
-M+ Liga de Campeones 3:LIGA DE CAMPEONES 3(?! \b\d\b).*|M.L. CAMPEONES 3(?! \b\d\b).*
+M+ Liga de Campeones 2:LIGA DE CAMPEONES 2(?! \b\d\b).*|M.L. CAMPEONES 2(?! \b\d\b).*|Campeones 2(?! \b\d\b).*
+M+ Liga de Campeones 3:LIGA DE CAMPEONES 3(?! \b\d\b).*|M.L. CAMPEONES 3(?! \b\d\b).*|Campeones 3(?! \b\d\b).*
 M+ Liga de Campeones 4:LIGA DE CAMPEONES 4(?! \b\d\b).*|M.L. CAMPEONES 4(?! \b\d\b).*
 M+ Liga de Campeones 5:LIGA DE CAMPEONES 5(?! \b\d\b).*|M.L. CAMPEONES 5(?! \b\d\b).*
 M+ Liga de Campeones 6:LIGA DE CAMPEONES 6(?! \b\d\b).*|M.L. CAMPEONES 6(?! \b\d\b).*
 M+ Liga de Campeones 7:LIGA DE CAMPEONES 7(?! \b\d\b).*|M.L. CAMPEONES 7(?! \b\d\b).*
 M+ Liga de Campeones 8:LIGA DE CAMPEONES 8(?! \b\d\b).*|M.L. CAMPEONES 8(?! \b\d\b).*
-M+ Liga de Campeones:LIGA DE CAMPEONES(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|M.L. Campeones(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*
+M+ Liga de Campeones:LIGA DE CAMPEONES(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|M.L. Campeones(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|Campeones (?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*
 M+ Copa del Rey:M\+ Super ?Copa(?! \b\d\b).*|Copa del Rey(?! \b\d\b).*|Copa(?! \b\d\b).*
 M+ Clásicos:MOVISTAR CLASICOS(?! \b\d\b).*
 M+ Hits:MOVISTAR SERIES(?! \b\d\b).*
@@ -59,8 +63,14 @@ Antena 3:Antena 3(?! \b\d\b).*
 Cuatro:Cuatro(?! \b\d\b).*
 Telecinco:Telecinco(?! \b\d\b).*
 La Sexta:La Sexta(?! \b\d\b).*
+Esport 3:Esport 3(?! \b\d\b).*
 Mega:MEGA(?! \b\d\b).*
-M+ Comedia:Movistar COMEDIA(?! \b\d\b).*
+M+ Comedia:.*comedia.*
+DARK:.*dark.*
+M+ Drama HD:.*drama.*
+M+ Estrenos HD:.*estrenos.*
+M+ Hits HD:.*hits.*
+M+ Indie HD:.*indie.*
 Canal Hollywood:HOLLYWOOD(?! \b\d\b).*
 STAR Channel:FOX(?! \b\d\b).*
 Discovery:Discovery(?! \b\d\b).*
