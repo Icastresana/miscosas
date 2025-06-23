@@ -75,6 +75,7 @@ Canal Hollywood:HOLLYWOOD(?! \b\d\b).*
 STAR Channel:FOX(?! \b\d\b).*
 Discovery:Discovery(?! \b\d\b).*
 Onetoro:Onetoro(?! \b\d\b).*
+DMAX:DMAX(?! \b\d\b).*
 UK | Sky Sport Main Event:Sky Sports Main Event(?! \b\d\b).*
 UK | Sky Sport Football:Sky Sports Football(?! \b\d\b).*
 UK | Sky Sport Cricket:Sky Sports Cricket(?! \b\d\b).*
