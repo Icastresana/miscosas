@@ -1,4 +1,4 @@
-name: run leerjavascript.py
+name: run shickat_scraper.py
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
           pip install webdriver-manager  # Webdriver para manejar Chrome automáticamente
 
       - name: Ejecutar el script de Python
-        run: python leerjavascript.py
+        run: python shickat_scraper.py
 
       - name: commit generated file
         run: |
