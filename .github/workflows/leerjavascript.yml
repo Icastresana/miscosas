@@ -29,13 +29,18 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+      
           git pull --rebase
+      
           git add enlaces_shickat.txt
+      
           if ! git diff --cached --quiet; then
             git commit -m "Add/update enlaces_shickat.txt"
             git push
           else
             echo "No hay cambios en enlaces_shickat.txt, omitiendo commit."
+          fi
+
 
 
 
