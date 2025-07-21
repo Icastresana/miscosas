@@ -25,16 +25,17 @@ jobs:
       - name: Ejecutar el script de Python
         run: python shickat_scraper.py
 
-      - name: commit generated file
+      - name: Commit generated file
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain enlaces_acestream.txt)" ]; then
-            git add enlaces_acestream.txt
-            git commit -m "Add generated enlaces_acestream.txt"
+          git pull --rebase
+          git add enlaces_shickat.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Add/update enlaces_shickat.txt"
             git push
           else
-            echo "No hay cambios en enlaces_acestream.txt, omitiendo commit."
-          fi
+            echo "No hay cambios en enlaces_shickat.txt, omitiendo commit."
+
 
 
