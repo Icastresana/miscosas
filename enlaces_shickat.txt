@@ -1,9 +1,9 @@
 DAZN 1 [DAZN 1 --> NEW ERA VI]
-24f3cf821a16da93c1149e0ad3c2cc85bd5f2b66
+17c5ec4fd10a186893f9f3d545dfcff95034f972
 DAZN F1 [DAZN F1 --> NEW ERA VI]
-f3b85a5fdd61f23b2c008e0d207786f438088fd6
+8b55a528c5cf9f1acd11d942472bdd60926db8ae
 DAZN LaLiga [DAZN LaLiga --> NEW ERA VI]
-e13adb165bd869a60d9bb6dcdf5db61f97f869af
+4fa168d5401e4b2673100b237a976961b52cf621
 DAZN LaLiga [DAZN LaLiga --> NEW ERA VI]
 96a8a772f150d9e57ca71a9765d2278c0c5423de
 DAZN LaLiga 2 [DAZN LaLiga 2 --> NEW ERA VI]
@@ -15,7 +15,7 @@ M+ LaLiga TV [Movistar LaLiga --> NEW ERA VI]
 M+ LaLiga TV [Movistar LaLiga --> NEW ERA VI]
 10e451cb5bef2e34bf52cc48de811893528146b0
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
-1d8791bd1972f6159813c2a21d1b649cca79b193
+38287ff99db3590da7a2e077da1777d150167577
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
 a340c77b773a4a78a6c9aa25245a02698e05ac1a
 M+ Liga de Campeones [Movistar Liga de Campeones --> NEW ERA VI]
@@ -32,12 +32,18 @@ M+ Golf [Movistar Golf --> NEW ERA VI]
 0f5550c9842eac2c295bece78968f77d84159b48
 Eurosport 1 [Eurosport --> NEW ERA VI]
 0ac6524dd3c35ae5fc76e0cfa4faeed4d6ef6df4
+La 1 [La 1 --> NEW ERA VI]
+14d3d8570a11cbc27ba2c94499df6014b462cb2d
+Teledeporte [Teledeporte --> NEW ERA VI]
+cd6ee713e2702d67287a3d0c20c5594cacfe4676
 Onetoro [OneToro --> NEW ERA VI]
 1fd3dbb7d39de875ac70059d70c8768d4a2e43c0
+Movistar La Resistencia [Movistar La Resistencia --> NEW ERA VI]
+09b8bed9be1feadb4ef83e46d50dc51f763947a7
 M+ Estrenos HD [Movistar Estrenos --> NEW ERA VI]
 b71478c824f787a6a696139db0d053de6fdd1d38
 M+ Documentales HD [Movistar Documentales --> NEW ERA VI]
-59d7f6da13c21652b1240578fe57dec0cc1529e6
+0ba40acc350bc1493cf576a125806bda86abe38b
 M+ Originales HD [Movistar Originales --> NEW ERA VI]
 60fcd59471ac4268e6cd6448f068a2b518841c88
 M+ Cine Español [Movistar Cine Español --> NEW ERA VI]
