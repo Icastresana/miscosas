@@ -29,11 +29,18 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-      
+
+          # Guardar cambios locales antes del pull
+          git stash
+
+          # Hacer pull con rebase
           git pull --rebase
-      
+
+          # Recuperar los cambios que guardamos
+          git stash pop || true  # No fallar si no hay nada en el stash
+
           git add enlaces_shickat.txt
-      
+
           if ! git diff --cached --quiet; then
             git commit -m "Add/update enlaces_shickat.txt"
             git push
