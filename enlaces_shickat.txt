@@ -68,6 +68,8 @@ M+ Clásicos [Movistar Clásicos --> NEW ERA VI]
 095134586cd06e1488139842f1183b50b75f5fd1
 Canal Cocina [Canal Cocina --> NEW ERA VI]
 db81615f1b2eebaf584edc252ddd73883123fbb3
+Decasa [Decasa --> NEW ERA VI]
+4869e4c131cb3478cc375944c7cc68d1bb8e9dc4
 National Geographic HD [National Geographic --> NEW ERA VI]
 55230a7a3cc4e8dfd3cecbfb2d68266aa4e5dfff
 Nat Geo Wild HD [National Geographic Wild --> NEW ERA VI]
