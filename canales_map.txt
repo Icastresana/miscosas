@@ -82,6 +82,7 @@ Caza y Pesca HD:.*caza y pesca.*
 Decasa:.*casa*.
 M+ Documentales HD:.*documentales.*
 National Geographic HD:.*National Geographic.*
+La Resistencia 24h:.*resistencia*.
 Canal Hollywood:HOLLYWOOD(?! \b\d\b).*
 STAR Channel:FOX(?! \b\d\b).*
 Discovery:Discovery(?! \b\d\b).*
