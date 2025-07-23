@@ -79,6 +79,7 @@ Canal Cocina:.*cocina.*
 M+ Vacaciones:.*vacaciones.*
 Nat Geo Wild HD:.*wild.*
 Caza y Pesca HD:.*caza y pesca.*
+Decasa:.*casa*.
 M+ Documentales HD:.*documentales.*
 National Geographic HD:.*National Geographic.*
 Canal Hollywood:HOLLYWOOD(?! \b\d\b).*
