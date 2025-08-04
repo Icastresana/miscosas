@@ -34,12 +34,6 @@ M+ Golf [Movistar Golf --> NEW ERA VI]
 b3de2a3f2c178b9636c6a716768eee8c56ce106f
 Eurosport 1 [Eurosport --> NEW ERA VI]
 0ac6524dd3c35ae5fc76e0cfa4faeed4d6ef6df4
-La 1 [La 1 --> NEW ERA VI]
-14d3d8570a11cbc27ba2c94499df6014b462cb2d
-Teledeporte [Teledeporte --> NEW ERA VI]
-cd6ee713e2702d67287a3d0c20c5594cacfe4676
-Onetoro [OneToro --> NEW ERA VI]
-1fd3dbb7d39de875ac70059d70c8768d4a2e43c0
 La Resistencia 24h [Movistar La Resistencia --> NEW ERA VI]
 09b8bed9be1feadb4ef83e46d50dc51f763947a7
 M+ Estrenos HD [Movistar Estrenos --> NEW ERA VI]
@@ -66,13 +60,3 @@ M+ Hits HD [Movistar Hits --> NEW ERA VI]
 28b9b7ba12c0f5c7e097f4b07a547f6eda9a0695
 M+ Clásicos [Movistar Clásicos --> NEW ERA VI]
 095134586cd06e1488139842f1183b50b75f5fd1
-Canal Cocina [Canal Cocina --> NEW ERA VI]
-db81615f1b2eebaf584edc252ddd73883123fbb3
-Decasa [Decasa --> NEW ERA VI]
-4869e4c131cb3478cc375944c7cc68d1bb8e9dc4
-National Geographic HD [National Geographic --> NEW ERA VI]
-55230a7a3cc4e8dfd3cecbfb2d68266aa4e5dfff
-Nat Geo Wild HD [National Geographic Wild --> NEW ERA VI]
-51d0b5249e229a07ecc52286f56a67c3d9df6d00
-Caza y Pesca HD [Caza y Pesca --> NEW ERA VI]
-6f28b1b9eb9f4047a6179b300e65b03c8316e10f
