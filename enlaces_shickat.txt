@@ -25,13 +25,13 @@ cb32d1f6259bd731f0d99dde2bee8229e8c0925d
 M+ Liga de Campeones [Movistar Liga de Campeones --> NEW ERA VI]
 fe5f7c9f87fc6dbe1c10c67c9b86731ca5f18e10
 M+ Deportes [Movistar Deportes --> NEW ERA VI]
-726911f8f1e51229b5e38846ac0d2c6db29a196e
+751b9cb03d188ce70e6aac22c1bfb16a5d0b2237
 M+ Deportes 2 [Movistar Deportes 2 --> NEW ERA VI]
 d22952b196d2979665a753141fbbfe029896dc21
 M+ Vamos [Movistar Vamos --> NEW ERA VI]
 d1db428fd7902aac1e508bfc9e6cf254521b25f4
 M+ Golf [Movistar Golf --> NEW ERA VI]
-b3de2a3f2c178b9636c6a716768eee8c56ce106f
+76a69812c66bfc4899e89df498220588a56e6064
 Eurosport 1 [Eurosport --> NEW ERA VI]
 0ac6524dd3c35ae5fc76e0cfa4faeed4d6ef6df4
 La Resistencia 24h [Movistar La Resistencia --> NEW ERA VI]
