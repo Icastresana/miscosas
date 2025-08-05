@@ -15,13 +15,13 @@ LaLiga TV Hypermotion [LaLiga Hypermotion --> NEW ERA VI]
 M+ LaLiga TV [Movistar LaLiga --> NEW ERA VI]
 3965fec90fb8370675889e7d2f0e78888652857f
 M+ LaLiga TV [Movistar LaLiga --> NEW ERA VI]
-6afc8eb425669908813af31ead60ac251545aa6b
+c32a2cf4631bad4bc40a15ee0f245ed30ad4d85c
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
 38287ff99db3590da7a2e077da1777d150167577
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
 a340c77b773a4a78a6c9aa25245a02698e05ac1a
 M+ Liga de Campeones [Movistar Liga de Campeones --> NEW ERA VI]
-cb32d1f6259bd731f0d99dde2bee8229e8c0925d
+680187938f9305cce3ae240298f10e8695bf77c2
 M+ Liga de Campeones [Movistar Liga de Campeones --> NEW ERA VI]
 fe5f7c9f87fc6dbe1c10c67c9b86731ca5f18e10
 M+ Deportes [Movistar Deportes --> NEW ERA VI]
@@ -29,7 +29,7 @@ M+ Deportes [Movistar Deportes --> NEW ERA VI]
 M+ Deportes 2 [Movistar Deportes 2 --> NEW ERA VI]
 d22952b196d2979665a753141fbbfe029896dc21
 M+ Vamos [Movistar Vamos --> NEW ERA VI]
-d1db428fd7902aac1e508bfc9e6cf254521b25f4
+1444a976d2cf6e7fdcee833ed36ee5e55632253f
 M+ Golf [Movistar Golf --> NEW ERA VI]
 76a69812c66bfc4899e89df498220588a56e6064
 Eurosport 1 [Eurosport --> NEW ERA VI]
