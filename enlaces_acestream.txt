@@ -394,6 +394,8 @@ NBA TV --> NEW ERA [NBA TV --> NEW ERA]
 7acefb808a6c67d95e977b452d53070947bd072b
 Onetoro [ONETORO (solo eventos)--> NEW ERA III]
 877eceeaf9f3bd9b392359323d03d0ac3bb27312
+Pluto TV Auto Motor Sport (720p) --> NEW LOOP [Pluto TV Auto Motor Sport (720p) --> NEW LOOP]
+ffa09e597804001f634dd1829f031823411a2595
 UK | Sky Sport Arena [SKY SPORTS ARENA --> NEW LOOP]
 d317a003e8047da2c36a2a2bb2289578c9a3b79c
 UK | Sky Sport Cricket [SKY SPORTS CRICKET --> NEW LOOP]
