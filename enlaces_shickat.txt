@@ -1,23 +1,23 @@
 DAZN 1 [DAZN 1 --> NEW ERA VI]
-17c5ec4fd10a186893f9f3d545dfcff95034f972
+ee4dc45720d3ec283f61189fbfc120c91d5141bf
 DAZN F1 [DAZN F1 --> NEW ERA VI]
-8b55a528c5cf9f1acd11d942472bdd60926db8ae
+8c1155cdfae76eb582290c04904c98da066657c9
 DAZN F1 [DAZN F1 --> NEW ERA VI]
 ba6e1bdc8e03da60ff572557645eb04370af0cd0
 DAZN LaLiga [DAZN LaLiga --> NEW ERA VI]
-4fa168d5401e4b2673100b237a976961b52cf621
+f8d5e39a49b9da0215bbd3d9efb8fb3d06b76892
 DAZN LaLiga [DAZN LaLiga --> NEW ERA VI]
 520950d296c952e1864a08e15af9f89f1ab514ec
 DAZN LaLiga 2 [DAZN LaLiga 2 --> NEW ERA VI]
 ae16a8f004b1287ee1f53263ab265f72bba0daf5
 LaLiga TV Hypermotion [LaLiga Hypermotion --> NEW ERA VI]
-762b4a6ed2e70441b0374a64f25d8d6571b9fd1f
+f15f997f457e49ad9697e65cf2d78db26ee875b9
 M+ LaLiga TV [Movistar LaLiga --> NEW ERA VI]
 07f2b92762cfff99bba785c2f5260c7934ca6034
 M+ LaLiga TV [Movistar LaLiga --> NEW ERA VI]
 c32a2cf4631bad4bc40a15ee0f245ed30ad4d85c
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
-38287ff99db3590da7a2e077da1777d150167577
+5d9a26e0a5f3e5f2ae027bd05635ab9a4fd4b51a
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
 a340c77b773a4a78a6c9aa25245a02698e05ac1a
 M+ Liga de Campeones [Movistar Liga de Campeones --> NEW ERA VI]
@@ -28,16 +28,22 @@ M+ Deportes [Movistar Deportes --> NEW ERA VI]
 751b9cb03d188ce70e6aac22c1bfb16a5d0b2237
 M+ Deportes 2 [Movistar Deportes 2 --> NEW ERA VI]
 438991226c3bc6a06e7bfda9bea9f769957dc366
+M+ Deportes 3 [Movistar Deportes 3 --> NEW ERA VI]
+d5271a967767f761c8812c4b6195dd40f20126f7
+M+ Deportes 4 [Movistar Deportes 4 --> NEW ERA VI]
+ebf3f251c1e119aefc6a1efc95c9b5d1909249e2
+M+ Deportes 5 [Movistar Deportes 5 --> NEW ERA VI]
+0b708083541a46dc15216c8003d7bcf39c458b2a
 M+ Vamos [Movistar Vamos --> NEW ERA VI]
 1444a976d2cf6e7fdcee833ed36ee5e55632253f
 M+ Golf [Movistar Golf --> NEW ERA VI]
 76a69812c66bfc4899e89df498220588a56e6064
 Eurosport 1 [Eurosport --> NEW ERA VI]
-0ac6524dd3c35ae5fc76e0cfa4faeed4d6ef6df4
+704e51760a644bc90aa22269bf84139947a0414a
 M+ Estrenos HD [Movistar Estrenos --> NEW ERA VI]
-b71478c824f787a6a696139db0d053de6fdd1d38
+6341392460596e63edf38b013bd137c015e44007
 M+ Documentales HD [Movistar Documentales --> NEW ERA VI]
-0ba40acc350bc1493cf576a125806bda86abe38b
+6cda7d2622bcafd6aef486016238936855927d7d
 M+ Originales HD [Movistar Originales --> NEW ERA VI]
 1f092144252939810fd302cbd00d46de760b5dd7
 M+ Cine Español [Movistar Cine Español --> NEW ERA VI]
@@ -49,7 +55,7 @@ e740a34497c3ba5943613a06999e805e6bbfa159
 M+ Indie HD [Movistar Indie --> NEW ERA VI]
 508ffdbab097339adb4f3d922070b5df2c114d01
 M+ Acción [Movistar Acción --> NEW ERA VI]
-93b2f5ede5cf2fa0cdb50419258c4f651aabfc42
+b125325f52e057b8e5ea17a8b60d512d13d44e53
 M+ Comedia [Movistar Comedia --> NEW ERA VI]
 90a3ad526f67f987f662eaf7d52e88004c796914
 M+ Drama HD [Movistar Drama --> NEW ERA VI]
