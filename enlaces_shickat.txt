@@ -38,6 +38,8 @@ Movistar Liga de Campeones 3 [Movistar Liga de Campeones 3 --> NEW ERA VI]
 b96a9b23b5343ca748e126c9257f42e204d3f52c
 M+ Deportes [Movistar Deportes --> NEW ERA VI]
 751b9cb03d188ce70e6aac22c1bfb16a5d0b2237
+M+ Deportes [Movistar Deportes --> NEW ERA VI]
+a139afc03d1623c321f6b084f79def682c492efa
 M+ Deportes 2 [Movistar Deportes 2 --> NEW ERA VI]
 438991226c3bc6a06e7bfda9bea9f769957dc366
 M+ Deportes 3 [Movistar Deportes 3 --> NEW ERA VI]
@@ -52,6 +54,8 @@ M+ Golf [Movistar Golf --> NEW ERA VI]
 76a69812c66bfc4899e89df498220588a56e6064
 Eurosport 1 [Eurosport --> NEW ERA VI]
 704e51760a644bc90aa22269bf84139947a0414a
+Eurosport 2 [Eurosport 2 --> NEW ERA VI]
+f8e861155c2a1959f8313b19f49d52e414313203
 M+ Estrenos HD [Movistar Estrenos --> NEW ERA VI]
 6341392460596e63edf38b013bd137c015e44007
 M+ Documentales HD [Movistar Documentales --> NEW ERA VI]
