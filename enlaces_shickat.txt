@@ -20,6 +20,8 @@ DAZN LaLiga 2 [DAZN LaLiga 2 --> NEW ERA VI]
 ae16a8f004b1287ee1f53263ab265f72bba0daf5
 LaLiga TV Hypermotion [LaLiga Hypermotion --> NEW ERA VI]
 f15f997f457e49ad9697e65cf2d78db26ee875b9
+LaLiga TV Hypermotion [LaLiga Hypermotion --> NEW ERA VI]
+ff38b875b60074d60edb64cf10d09b32370a7135
 LaLiga TV Hypermotion 2 [LaLiga Hypermotion 2 --> NEW ERA VI]
 1422d506c9f14c84b1249bf8ac0b0698cee7a659
 LaLiga TV Hypermotion 3 [LaLiga Hypermotion 3 --> NEW ERA VI]
