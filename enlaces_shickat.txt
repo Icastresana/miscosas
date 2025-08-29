@@ -27,7 +27,7 @@ LaLiga TV Hypermotion 2 [LaLiga Hypermotion 2 --> NEW ERA VI]
 LaLiga TV Hypermotion 3 [LaLiga Hypermotion 3 --> NEW ERA VI]
 d9297d3576c05551c08e0fe5bd85a793361a3cca
 M+ LaLiga HD [Movistar LaLiga --> NEW ERA VI]
-07f2b92762cfff99bba785c2f5260c7934ca6034
+555855f4fc0125bfcf113648887d99a47941b3b3
 M+ LaLiga HD [Movistar LaLiga --> NEW ERA VI]
 c32a2cf4631bad4bc40a15ee0f245ed30ad4d85c
 M+ LaLiga 2 HD [Movistar LaLiga 2 --> NEW ERA VI]
@@ -74,8 +74,6 @@ M+ Cine Español [Movistar Cine Español --> NEW ERA VI]
 e47cdeba9d919d6a9b4fa3c72c8094178985f668
 M+ Vacaciones [Movistar Vacaciones --> NEW ERA VI]
 15123ab3458c59bf548fbf6e5503799e81da4de6
-M+ Wéstern [Movistar Western --> NEW ERA VI]
-e740a34497c3ba5943613a06999e805e6bbfa159
 M+ Indie HD [Movistar Indie --> NEW ERA VI]
 508ffdbab097339adb4f3d922070b5df2c114d01
 M+ Acción [Movistar Acción --> NEW ERA VI]
