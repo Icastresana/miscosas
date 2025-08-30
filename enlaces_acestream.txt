@@ -440,7 +440,7 @@ NBA TV --> NEW ERA [NBA TV --> NEW ERA]
 b0f64a40f333ef5cc02c2b6d4a8c3f4b73dd8073
 Orange TV --> NEW LOOP [Orange TV --> NEW LOOP]
 abdbfccdfd73bb5b1dcad598d539058040fb24fa
-Primera Federación FHD  --> NEW ERA [Primera Federación FHD  --> NEW ERA]
+Primera Federación [Primera Federación FHD  --> NEW ERA]
 a2ed6f2ca3f804481131c41ce64d4286a5820476
 Real Madrid TV [REAL MADRID TV HD --> NEW ERA]
 7a955964c91c66311eef9137a96332352dbb891e
