@@ -36,7 +36,7 @@ M+ Vamos:M?\+? ?\#?VAMOS(?! ELLAS).*|Movistar vamos(?! \b\d\b).*
 M+ Ellas Vamos:\#VAMOS ELLAS(?! \b\d\b).*|Movistar ellas(?! \b\d\b).*|\#Ellas(?! \b\d\b).*
 Movistar Plus+:Movistar plus(?! \b\d\b).*|M\+ PLUS(?! \b\d\b).*|M.Plus(?! \b\d\b).*|MovistarPlus(?! \b\d\b).*
 Movistar Plus+ 2:M\+ PLUS 2(?! \b\d\b).*|Movistar plus 2(?! \b\d\b).*
-Primera Federación:Primera Federación(?! \b\d\b).*
+Primera Federación:(?i)Primera Federaci[oó]n(?! \b\d\b).*
 DAZN F1:DAZN F1(?! \b\d\b).*|DAZN FORMULA 1(?! \b\d\b).*
 GOL:Gol Play(?! \b\d\b).*
 Teledeporte:Teledeporte(?! \b\d\b).*|tdp(?! \b\d\b).*
