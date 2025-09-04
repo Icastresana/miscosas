@@ -35,37 +35,39 @@ d2ddf9802ccfdc456f872eea4d24596880a638a0
 M+ LaLiga 2 HD [Movistar LaLiga 2 --> NEW ERA VI]
 911ad127726234b97658498a8b790fdd7516541d
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
-5d9a26e0a5f3e5f2ae027bd05635ab9a4fd4b51a
+199190e3f28c1de0be34bccf0d3568dc65209b99
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
-5e24a1b9187fccb91553f7c7da4b36341386f74a
+5866e83279307bf919068ae7a0d250e4e424e464
+Movistar Plus+ 2 [Movistar Plus 2 --> NEW ERA VI]
+e19c1fc5e3ada56c60d45257f7f4ed0d14bf7003
 M+ Liga de Campeones [Movistar Liga de Campeones --> NEW ERA VI]
-680187938f9305cce3ae240298f10e8695bf77c2
+0f7842f8b6c26571e5a974407b61623e56e6a052
 M+ Liga de Campeones [Movistar Liga de Campeones --> NEW ERA VI]
-5c15c639207a080183b12fa63282b409c07401d6
+f3eea003e23f94dc2d527306de9dd386e3ebf4ba
 M+ Liga de Campeones 2 [Movistar Liga de Campeones 2 --> NEW ERA VI]
-33c009a025508cb2186b9ce36279640bb2507bdf
+e7d8cae7f693fe46e89bbf74820caac9ffb32a30
 M+ Liga de Campeones 3 [Movistar Liga de Campeones 3 --> NEW ERA VI]
-b96a9b23b5343ca748e126c9257f42e204d3f52c
+2b5129adc57d43790634d796fe3468b9fd061259
 M+ Deportes [Movistar Deportes --> NEW ERA VI]
-751b9cb03d188ce70e6aac22c1bfb16a5d0b2237
+5d3f582738467aaf213e408601aca5cc13fa9359
 M+ Deportes [Movistar Deportes --> NEW ERA VI]
-a139afc03d1623c321f6b084f79def682c492efa
+3692ea4cdda97eb0062ed5d656ebd61f149ebd0b
 M+ Deportes 2 [Movistar Deportes 2 --> NEW ERA VI]
-438991226c3bc6a06e7bfda9bea9f769957dc366
+73d38feaa770d788848ec098470e32670fe55a61
 M+ Deportes 3 [Movistar Deportes 3 --> NEW ERA VI]
-d5271a967767f761c8812c4b6195dd40f20126f7
+29d786d72d4b53dbc333af3a50f8fb021aa0296f
 M+ Deportes 4 [Movistar Deportes 4 --> NEW ERA VI]
-ebf3f251c1e119aefc6a1efc95c9b5d1909249e2
+37825883ed185365e3194a79207347f6c7bd5ba5
 M+ Deportes 5 [Movistar Deportes 5 --> NEW ERA VI]
-0b708083541a46dc15216c8003d7bcf39c458b2a
+6dc4ac4eeae18e9daec433b01db82435cf84c57c
 M+ Vamos [Movistar Vamos --> NEW ERA VI]
-1444a976d2cf6e7fdcee833ed36ee5e55632253f
+4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde
 M+ Golf [Movistar Golf --> NEW ERA VI]
-76a69812c66bfc4899e89df498220588a56e6064
+9ed46050217ee6ed8236a64b72d7992f7b3b37f2
 Eurosport 1 [Eurosport --> NEW ERA VI]
-704e51760a644bc90aa22269bf84139947a0414a
+ef2abf419586d9876370be127ad592dbb41b126a
 Eurosport 2 [Eurosport 2 --> NEW ERA VI]
-f8e861155c2a1959f8313b19f49d52e414313203
+37d6f1aabcde81ee6e4873b4db6b7bb8964af8bf
 M+ Estrenos HD [Movistar Estrenos --> NEW ERA VI]
 5d35f906b735f25164fa2b9b7a4e6ef91dfed131
 M+ Documentales HD [Movistar Documentales --> NEW ERA VI]
