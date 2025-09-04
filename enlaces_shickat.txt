@@ -67,24 +67,26 @@ Eurosport 1 [Eurosport --> NEW ERA VI]
 Eurosport 2 [Eurosport 2 --> NEW ERA VI]
 f8e861155c2a1959f8313b19f49d52e414313203
 M+ Estrenos HD [Movistar Estrenos --> NEW ERA VI]
-6341392460596e63edf38b013bd137c015e44007
+5d35f906b735f25164fa2b9b7a4e6ef91dfed131
 M+ Documentales HD [Movistar Documentales --> NEW ERA VI]
-6cda7d2622bcafd6aef486016238936855927d7d
+b3fc9b5647c5933b101c0b6b64322590c68587b9
 M+ Originales HD [Movistar Originales --> NEW ERA VI]
-1f092144252939810fd302cbd00d46de760b5dd7
+096b817fcc836535f608facb15fca6408fae3162
 M+ Cine Español [Movistar Cine Español --> NEW ERA VI]
-e47cdeba9d919d6a9b4fa3c72c8094178985f668
+e4bce95dd4faeb9cb09ade36a0636bc4b22b691c
 M+ Vacaciones [Movistar Vacaciones --> NEW ERA VI]
-15123ab3458c59bf548fbf6e5503799e81da4de6
+cf99e99c105162410ec6d1f68cc6f4811560fee7
+Movistar Cómic [Movistar Cómic --> NEW ERA VI]
+4bfeb0516c44c4f0e3502e3f1ca1035d39ddf9c2
 M+ Indie HD [Movistar Indie --> NEW ERA VI]
-508ffdbab097339adb4f3d922070b5df2c114d01
+7716c9fd5bd4413715e4e26f97efb91802f6ee80
 M+ Acción [Movistar Acción --> NEW ERA VI]
-b125325f52e057b8e5ea17a8b60d512d13d44e53
+089673779de9fa7a18ac8dc26eb4a79cf5a86f96
 M+ Comedia [Movistar Comedia --> NEW ERA VI]
-90a3ad526f67f987f662eaf7d52e88004c796914
+cf0cb321eed6765c2eadbd9983570f6674ce5df6
 M+ Drama HD [Movistar Drama --> NEW ERA VI]
-edee311dc307e1638eeac880b11bb6f4759b0d83
+a6de6a4977d7801bbddc9c7739d822f4beb358ae
 M+ Hits HD [Movistar Hits --> NEW ERA VI]
-2b8e5c7438d56541df3467cc5986cf1e66014101
+50553edb5e8c54d15e0d43161369b3b4cef95065
 M+ Clásicos [Movistar Clásicos --> NEW ERA VI]
-f9d431a6839e7f9964a0884dc1f18d298d990f39
+6462c8f65fcaa6e4fc874fef8d1e45bb7a7e6bae
