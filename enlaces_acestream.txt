@@ -84,13 +84,13 @@ M+ Liga de Campeones [Campeones 1080 2 ELCANO]
 9db029dff6a9c637d1f670e78dbc1a479b9b406e
 M+ Liga de Campeones [Campeones 720 ELCANO]
 b028202ff335911db3118bceac027df3e8ef6c32
-M+ Liga de Campeones [Campeones 2 1080 ELCANO]
+M+ Liga de Campeones 2 [Campeones 2 1080 ELCANO]
 74ab4e4ec7e2da001f473ca40893b7307b8029c5
-M+ Liga de Campeones [Campeones 2 720 ELCANO]
+M+ Liga de Campeones 2 [Campeones 2 720 ELCANO]
 38f7b2044e549df2039ff26cefa6f9a60c854d5e
-M+ Liga de Campeones [Campeones 3 1080 ELCANO]
+M+ Liga de Campeones 3 [Campeones 3 1080 ELCANO]
 4416843c96b7f7a1bc55c476091a60fff0922bc7
-M+ Liga de Campeones [Campeones 3 720 ELCANO]
+M+ Liga de Campeones 3 [Campeones 3 720 ELCANO]
 cfc371890bfb502737a26de5215e50929c52d0f9
 Telecinco [Telecinco 1080 ELCANO]
 3d376333ee90d6db3d413fc5764ef635882076f5
@@ -100,7 +100,7 @@ Cuatro [Cuatro 1080 ELCANO]
 cc5ed178702605513cd18b4899c4be954d306cca
 Aragón TV [ARAGON TV HD --> NEW ERA]
 ba4597903f099695e7d6bcc5938f91cb0798006b
-CANAL COCINA FHD --> NEW ERA [CANAL COCINA FHD --> NEW ERA]
+Canal Cocina [CANAL COCINA FHD --> NEW ERA]
 96f092e1fa99062f6da14cae230b877ad3ed849b
 Discovery [DISCOVERY CHANNEL HD --> NEW ERA]
 670519ffe8db1e20d0c753d4f756c009e71173d8
@@ -274,7 +274,7 @@ DAZN 4 [DAZN 4 FHD --> NEW ERA VI]
 eb884f77ce8815cf1028c4d85e8b092c27ea1693
 DAZN 4 [DAZN 4 --> NEW LOOP]
 7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
-FOX SPORT MX --> NEW ERA [FOX SPORT MX --> NEW ERA]
+FOX SPORTS [FOX SPORT MX --> NEW ERA]
 a0464d3642e054f6122e7c309017d1e8d23f4da9
 DAZN F1 [DAZN F1 4K --> NEW ERA]
 c8ad94585fbe13cfc9074c2b5e23fb6344e0f66d
