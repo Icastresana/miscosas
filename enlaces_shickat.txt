@@ -62,6 +62,8 @@ M+ Deportes 5 [Movistar Deportes 5 --> NEW ERA VI]
 6dc4ac4eeae18e9daec433b01db82435cf84c57c
 M+ Vamos [Movistar Vamos --> NEW ERA VI]
 4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde
+M+ Ellas Vamos [Movistar Ellas Vamos --> NEW ERA VI]
+594b59d435527327c9b6965f247995b907bfc285
 M+ Golf [Movistar Golf --> NEW ERA VI]
 9ed46050217ee6ed8236a64b72d7992f7b3b37f2
 Eurosport 1 [Eurosport --> NEW ERA VI]
