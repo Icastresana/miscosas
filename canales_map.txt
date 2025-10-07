@@ -7,8 +7,8 @@ beIN SPORTS en español:BEIN SPORTS Ñ(?! \b\d\b).*
 Canal Cocina:.*cocina.*
 Caza y Pesca HD:.*caza y pesca.*
 Cuatro:Cuatro(?! \b\d\b).*
-DAZN 1:DAZN 1(?! \b\d\b).*|DAZN1(?! \b\d\b).*|DAZN BAR 1(?! \b\d\b).*|M\+ DAZN 1(?! \b\d\b).*
-DAZN 2:DAZN 2(?! \b\d\b).*|DAZN2(?! \b\d\b).*|DAZN BAR 2(?! \b\d\b).*
+DAZN 1:DAZN 1(?!\s*\d\b)(?!.*\bBAR\b).*|DAZN1(?! \b\d\b).*|(?:(?!.*\bNEW LOOP\b)DAZN 1 BAR).*|M\+ DAZN 1(?! \b\d\b).*
+DAZN 2:DAZN 2(?!\s*\d\b)(?!.*\bBAR\b).*|DAZN2(?! \b\d\b).*|(?:(?!.*\bNEW LOOP\b)DAZN 2 BAR).*
 DAZN 3:DAZN 3(?! \b\d\b).*|DAZN3(?! \b\d\b).*
 DAZN 4:DAZN 4(?! \b\d\b).*|DAZN4(?! \b\d\b).*
 DAZN F1:DAZN F1(?! \b\d\b).*|DAZN FORMULA 1(?! \b\d\b).*
@@ -32,8 +32,8 @@ ESPN Deportes:ESSPN Lat(?! \b\d\b).*
 ESPN International:ESSPN Argentina(?! \b\d\b).*
 ESPN.TV:ESPN HD \[US\](?! \b\d\b).*
 Esport 3:Esport 3(?! \b\d\b).*
-Eurosport 1:EUROSPORT 1(?! \b\d\b).*|EuroSport(?! \b\d\b).*
-Eurosport 2:EUROSPORT 2(?! \b\d\b).*
+Eurosport 2:^(?!.*\bNEW LOOP\b)(EUROSPORT 2(?!\s*\d\b).*) 
+Eurosport 1:^(?!.*\bNEW LOOP\b)(EUROSPORT 1(?!\s*\d\b).*|EuroSport 1080(?!\s*\d\b).*|EuroSport 720(?!\s*\d\b).*|EuroSport(?!\s*\d\b).*)
 FOX SPORTS:FOX SPORT(?! \b\d\b).*
 FR | beIN SPORTS 1:BEIN SPORTS 1(?! \b\d\b).*
 FR | beIN SPORTS 2:BEIN SPORTS 2(?! \b\d\b).*
@@ -82,6 +82,7 @@ M+ LaLiga 3 HD:M. LaLiga 3(?! \b\d\b).*
 M+ LaLiga 4:M. LaLiga 4(?! \b\d\b).*
 M+ LaLiga 5:M. LaLiga 5(?! \b\d\b).*
 M+ LaLiga 6:M. LaLiga 6(?! \b\d\b).*
+M+ Liga de Campeones HDR:LIGA DE CAMPEONES 4K(?! \b\d\b).*
 M+ Liga de Campeones 2:(?:M\+\s*)?LIGA DE CAMPEON[B]?ES 2(?! \b\d\b).*|M.L. CAMPEONES 2(?! \b\d\b).*|Campeones 2(?! \b\d\b).*|Movistar Liga de Campeones 2(?! \b\d\b).*
 M+ Liga de Campeones 3:LIGA DE CAMPEONES 3(?! \b\d\b).*|M.L. CAMPEONES 3(?! \b\d\b).*|Campeones 3(?! \b\d\b).*|Movistar Liga de Campeones 3(?! \b\d\b).*
 M+ Liga de Campeones 4:LIGA DE CAMPEONES 4(?! \b\d\b).*|M.L. CAMPEONES 4(?! \b\d\b).*|Campeones 4(?! \b\d\b).*
@@ -90,27 +91,26 @@ M+ Liga de Campeones 6:LIGA DE CAMPEONES 6(?! \b\d\b).*|M.L. CAMPEONES 6(?! \b\d
 M+ Liga de Campeones 7:LIGA DE CAMPEONES 7(?! \b\d\b).*|M.L. CAMPEONES 7(?! \b\d\b).*
 M+ Liga de Campeones 8:LIGA DE CAMPEONES 8(?! \b\d\b).*|M.L. CAMPEONES 8(?! \b\d\b).*
 M+ Liga de Campeones:LIGA DE CAMPEONES(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|M.L. Campeones(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|Campeones (?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|Movistar Liga de Campeones(?! \b\d\b).*
-M+ Liga de Campeones HDR:LIGA DE CAMPEONES 4K(?! \b\d\b).*
 M+ Originales HD:.*originales.*
 M+ San Sebastián:.*(?:san sebasti[aá]n).*
 M+ Vacaciones:.*vacaciones.*
 M+ Vamos:M?\+? ?\#?VAMOS(?! ELLAS).*|Movistar vamos(?! \b\d\b).*
 M+ Wéstern:.*western.*
 Mega:MEGA(?! \b\d\b).*
-Movistar Plus+:Movistar plus(?! \b\d\b).*|M\+ PLUS(?! \b\d\b).*|M.Plus(?! \b\d\b).*|MovistarPlus(?! \b\d\b).*
+Movistar Plus+:^(?!.*\bNEW LOOP\b)(Movistar plus(?!\s*\d\b).*|M\+ PLUS(?!\s*\d\b).*|M\.Plus(?!\s*\d\b).*|MovistarPlus(?!\s*\d\b).*)
 Movistar Plus+ 2:M\+ PLUS 2(?! \b\d\b).*|Movistar plus 2(?! \b\d\b).*
 Nat Geo Wild HD:.*wild.*
 National Geographic HD:.*National Geographic.*
 Onetoro:Onetoro(?! \b\d\b).*
 Primera Federación:(?i)Primera Federaci[oó]n(?! \b\d\b).*
-PT | DAZN 1:ELEVEN DAZN 1(?! \b\d\b).*
-PT | DAZN 2:ELEVEN DAZN 2(?! \b\d\b).*
-PT | DAZN 3:ELEVEN DAZN 3(?! \b\d\b).*
-PT | DAZN 4:ELEVEN DAZN 4(?! \b\d\b).*
-PT | DAZN 5:ELEVEN DAZN 5(?! \b\d\b).*
-PT | DAZN 6:ELEVEN DAZN 6(?! \b\d\b).*
+PT | DAZN 1:ELEVEN DAZN 1 HD(?! \b\d\b).*
+PT | DAZN 2:ELEVEN DAZN 2 HD(?! \b\d\b).*
+PT | DAZN 3:ELEVEN DAZN 3 HD(?! \b\d\b).*
+PT | DAZN 4:ELEVEN DAZN 4 HD(?! \b\d\b).*
+PT | DAZN 5:ELEVEN DAZN 5 HD(?! \b\d\b).*
+PT | DAZN 6:ELEVEN DAZN 6 HD(?! \b\d\b).*
 Real Madrid TV:REAL MADRID TV(?! \b\d\b).*
-STAR Channel:FOX(?! SPORT)(?! \b\d\b).*
+STAR Channel:FOX(?!.*premium)(?! SPORT)(?! \b\d\b).*
 SyFy HD:.*syfy.*
 Telecinco:Telecinco(?! \b\d\b).*
 Teledeporte:Teledeporte(?! \b\d\b).*|tdp(?! \b\d\b).*
