@@ -18,6 +18,7 @@ DAZN LaLiga 3:DAZN LA ?LIGA 3(?! \b\d\b).*
 DAZN LaLiga 4:DAZN LA ?LIGA 4(?! \b\d\b).*
 DAZN LaLiga 5:DAZN LA ?LIGA 5(?! \b\d\b).*
 DAZN LaLiga 6:DAZN LA ?LIGA 6(?! \b\d\b).*
+Dazn PVV:DAZN PVV(?! \b\d\b).*
 DARK:.*dark.*
 Decasa:.*casa*.
 DE | Rally TV:RALLY TV(?! \b\d\b).*
@@ -134,3 +135,4 @@ Ziggo Sport 3:ZIGGO SPORT 3(?! \b\d\b).*
 Ziggo Sport 4:ZIGGO SPORT 4(?! \b\d\b).*
 Ziggo Sport 5:ZIGGO SPORT 5(?! \b\d\b).*
 Ziggo Sport 6:ZIGGO SPORT 6(?! \b\d\b).*
+
