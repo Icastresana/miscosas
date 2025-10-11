@@ -716,21 +716,21 @@ CANAL+ Sport (PL) --> NEW ERA [CANAL+ Sport (PL) --> NEW LOOP]
 cc7b8c39f70aa342248d02c8ab55bafdb4116ed7
 ESPN (BE) --> NEW ERA [ESPN (BE) --> NEW LOOP]
 79f10c6c6168e42bfc606f3f7b9e5f3ca79dedab
-Eurosport 1 [Eurosport360 HD 1 (DE) --> NEW LOOP]
+Eurosport360 HD 1 (DE) --> NEW ERA [Eurosport360 HD 1 (DE) --> NEW LOOP]
 22df9a5fae8cae52fec925c2bb44b74f96a4200c
-Eurosport 1 [Eurosport360 HD 2 (DE) --> NEW LOOP]
+Eurosport360 HD 2 (DE) --> NEW ERA [Eurosport360 HD 2 (DE) --> NEW LOOP]
 57f95543ac41656d473b1a27123fc413388a728c
-Eurosport 1 [Eurosport360 HD 3 (DE) --> NEW LOOP]
+Eurosport360 HD 3 (DE) --> NEW ERA [Eurosport360 HD 3 (DE) --> NEW LOOP]
 7adbca42657ace1fe228142d351d0896974bbe0c
-Eurosport 1 [Eurosport360 HD 4 (DE) --> NEW LOOP]
+Eurosport360 HD 4 (DE) --> NEW ERA [Eurosport360 HD 4 (DE) --> NEW LOOP]
 1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64
-Eurosport 1 [Eurosport360 HD 5 (DE) --> NEW ERA]
+Eurosport360 HD 5 (DE) --> NEW ERA [Eurosport360 HD 5 (DE) --> NEW ERA]
 148921c4dda96df445e253d6f26c4d092bf85809
-Eurosport 1 [Eurosport360 HD 6  (DE) --> NEW ERA]
+Eurosport360 HD 6  (DE) --> NEW ERA [Eurosport360 HD 6  (DE) --> NEW ERA]
 005ac522315699bd93bbf743329eb2f3c347dc3f
-Eurosport 1 [Eurosport360 HD 7  (DE) --> NEW ERA]
+Eurosport360 HD 7  (DE) --> NEW ERA [Eurosport360 HD 7  (DE) --> NEW ERA]
 b18657f64507cc859cd7edef1aef90feb053e791
-Eurosport 1 [Eurosport360 HD 8  (DE) --> NEW ERA]
+Eurosport360 HD 8  (DE) --> NEW ERA [Eurosport360 HD 8  (DE) --> NEW ERA]
 8f4f572005ca2557743474087aa622693ba9b5fe
 Extreme Sports (PL) --> NEW ERA [Extreme Sports (PL) --> NEW LOOP]
 73ff07648e367efebd94636047b07625f664a082
@@ -744,7 +744,7 @@ Eurosport 1 [Eurosport 1 HD (DE) --> NEW LOOP]
 b8cad4710b1c3b2b84a82c1ece40c08517b8f766
 Eurosport 1 [Eurosport 1 HD (RU) --> NEW LOOP]
 1b0bc4d4dcd609d3c092712e721392b199f50a62
-Eurosport 1 [Eurosport (PL) --> NEW LOOP]
+Eurosport (PL) --> NEW ERA [Eurosport (PL) --> NEW LOOP]
 314eb626864faf52e01624361bd6906b5406127f
 Tennis Channel [TENNIS CHANNEL HD --> NEW ERA]
 aa31953b8af44b461102852d5b1247eea95b8050
@@ -754,3 +754,5 @@ Tennis Channel [TENNIS CHANNEL HD --> NEW LOOP]
 039fae21c9e7e5214d3d898cba80863e37e623ac
 UFC Fight Pass --> NEW ERA [UFC Fight Pass --> NEW ERA]
 108aebe20efc826e56f3a1cb01117a124a6b89ad
+Eurosport --> NEW ERA VI [Eurosport --> NEW ERA VI]
+ef2abf419586d9876370be127ad592dbb41b126a
