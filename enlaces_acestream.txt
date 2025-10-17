@@ -742,7 +742,7 @@ SuperTennis HD (ES) --> NEW ERA [SuperTennis HD (ES) --> NEW ERA]
 b58dbf92765976b308695f62dea94b00b40730ee
 TVP Sport HD (PL) --> NEW ERA [TVP Sport HD (PL) --> NEW LOOP]
 d6f0a6377c31f68b1c1c071e0a8f9f105a455867
-UFC HD (RU) --> NEW ERA [UFC HD (RU) --> NEW ERA]
+UFC HD (RU) --> NEW ERA [UFC HD (RU) --> NEW LOOP]
 d2374e2375a4275738e0dbed2f47d0114ad1cb64
 Ziggo Sport [Ziggo Sport (ES) --> NEW LOOP]
 fcd7621df513f600652b4813d5d8fd1daed60058
