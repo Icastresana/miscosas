@@ -80,7 +80,7 @@ M+ Cine Español [Movistar Cine Español --> NEW ERA VI]
 e4bce95dd4faeb9cb09ade36a0636bc4b22b691c
 M+ San Sebastián [Movistar Festival de San Sebastián --> NEW ERA VI]
 cf99e99c105162410ec6d1f68cc6f4811560fee7
-M+ Cómic [Movistar Cómic --> NEW ERA VI]
+Movistar Romance [Movistar Romance --> NEW ERA VI]
 4bfeb0516c44c4f0e3502e3f1ca1035d39ddf9c2
 M+ Indie HD [Movistar Indie --> NEW ERA VI]
 7716c9fd5bd4413715e4e26f97efb91802f6ee80
