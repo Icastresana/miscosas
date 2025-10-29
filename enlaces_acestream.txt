@@ -28,6 +28,8 @@ Canal Cocina [CANAL COCINA FHD --> NEW ERA]
 96f092e1fa99062f6da14cae230b877ad3ed849b
 Canal de Tenis HD (ES) --> SPORT TV [Canal de Tenis HD (ES) --> SPORT TV]
 039fae21c9e7e5214d3d898cba80863e37e623ac
+CANAL MOTOR --> NEW LOOP [CANAL MOTOR --> NEW LOOP]
+35e17cc84abc5e393b5acd688536a9681105f2d5
 CANAL+ Sport (PL) --> SPORT TV [CANAL+ Sport (PL) --> SPORT TV]
 cc7b8c39f70aa342248d02c8ab55bafdb4116ed7
 CANAL+ Sport 2 (PL) HD --> SPORT TV [CANAL+ Sport 2 (PL) HD --> SPORT TV]
@@ -426,6 +428,10 @@ M+ LaLiga 3 HD [M. LaLiga 3 720 ELCANO]
 382b14499e3d76e557d449d2e5bbc4e4bd63bd39
 M+ LaLiga 3 HD [M+ LALIGA 3 --> SPORT TV]
 571ce113b9d600a145766443d7417eccab2e1846
+M+ LaLiga 4 [M. LaLiga 4 1080 ELCANO]
+2a6b1fd8a24b23747db1ea534a51457708523602
+M+ LaLiga 4 [M. LaLiga 4 720 ELCANO]
+1bcee22d5476f2eae9dc2cb24e3685152cf285cb
 M+ LaLiga 4 [M+ LALIGA 4 --> SPORT TV]
 22178d72e0f255dedd7e56f9474fea879289a6f1
 M+ LaLiga HD [M. LaLiga 1080P ELCANO]
@@ -592,6 +598,8 @@ Orange TV --> NEW LOOP [Orange TV --> NEW LOOP]
 abdbfccdfd73bb5b1dcad598d539058040fb24fa
 ORF SPORT+ HD (DE) --> SPORT TV [ORF SPORT+ HD (DE) --> SPORT TV]
 0dfa37340ca0300a41f7a78bd3a0f024c3296974
+Pluto TV Auto Motor Sport (720p) --> NEW LOOP [Pluto TV Auto Motor Sport (720p) --> NEW LOOP]
+ffa09e597804001f634dd1829f031823411a2595
 Polsat Sport (PL) --> SPORT TV [Polsat Sport (PL) --> SPORT TV]
 92b6ba09dae4bbb8a67a405125d08ca8d15380ee
 Polsat Sport Extra (PL) --> SPORT TV [Polsat Sport Extra (PL) --> SPORT TV]
