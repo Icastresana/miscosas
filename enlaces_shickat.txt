@@ -38,7 +38,7 @@ Movistar Plus+ [Movistar Plus --> NEW ERA VI]
 199190e3f28c1de0be34bccf0d3568dc65209b99
 Movistar Plus+ [Movistar Plus --> NEW ERA VI]
 5866e83279307bf919068ae7a0d250e4e424e464
-Movistar Plus+ 2 [Movistar Plus 2 --> NEW ERA VI]
+M+ Vamos 2 [Movistar Plus 2 --> NEW ERA VI]
 e19c1fc5e3ada56c60d45257f7f4ed0d14bf7003
 M+ Liga de Campeones [Movistar Liga de Campeones --> NEW ERA VI]
 0f7842f8b6c26571e5a974407b61623e56e6a052
@@ -66,7 +66,7 @@ M+ Ellas Vamos [Movistar Ellas Vamos --> NEW ERA VI]
 594b59d435527327c9b6965f247995b907bfc285
 M+ Golf [Movistar Golf --> NEW ERA VI]
 9ed46050217ee6ed8236a64b72d7992f7b3b37f2
-Eurosport 1 [Eurosport --> NEW ERA VI]
+Eurosport [Eurosport --> NEW ERA VI]
 ef2abf419586d9876370be127ad592dbb41b126a
 Eurosport 2 [Eurosport 2 --> NEW ERA VI]
 37d6f1aabcde81ee6e4873b4db6b7bb8964af8bf
@@ -78,9 +78,9 @@ M+ Originales HD [Movistar Originales --> NEW ERA VI]
 096b817fcc836535f608facb15fca6408fae3162
 M+ Cine Español [Movistar Cine Español --> NEW ERA VI]
 e4bce95dd4faeb9cb09ade36a0636bc4b22b691c
-M+ San Sebastián [Movistar Festival de San Sebastián --> NEW ERA VI]
+M+ Navidad [Movistar Festival de San Sebastián --> NEW ERA VI]
 cf99e99c105162410ec6d1f68cc6f4811560fee7
-Movistar Romance [Movistar Romance --> NEW ERA VI]
+M+ En juego [Movistar Romance --> NEW ERA VI]
 4bfeb0516c44c4f0e3502e3f1ca1035d39ddf9c2
 M+ Indie HD [Movistar Indie --> NEW ERA VI]
 7716c9fd5bd4413715e4e26f97efb91802f6ee80
