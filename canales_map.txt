@@ -22,23 +22,46 @@ Dazn PVV:DAZN PVV(?! \b\d\b).*
 DARK:.*dark.*
 Decasa:.*casa*.
 DE | Rally TV:RALLY TV(?! \b\d\b).*
+DE | Sky Sport 1:Sky Sport 1(?! \b\d\b).*
+DE | Sky Sport 2:Sky Sport 2(?! \b\d\b).*
 Discovery:Discovery(?! \b\d\b).*
 DMAX:DMAX(?! \b\d\b).*
+#Espn Argentina 2
+I293.96876.schedulesdirect.org:ES{1,2}PN (?:ARGENTINA|MX) 2(?! \b\d\b).*
+#Espn Argentina 3
+I295.79042.schedulesdirect.org:ES{1,2}PN (?:ARGENTINA|MX) 3(?! \b\d\b).*
+#Espn Argentina 4
+I297.65930.schedulesdirect.org:ES{1,2}PN (?:ARGENTINA|MX) 4(?! \b\d\b).*
+#Espn Argentina
+I289.110964.schedulesdirect.org:ES{1,2}PN (?:ARGENTINA|MX)(?! \b\d\b).* 
+#Espn deportes
+I301.25595.schedulesdirect.org:ESPN LAT DEPORT(?! \b\d\b).* 
 ESPN 1:ESPN \[BE\](?! \b\d\b).*
 ESPN 2:ESPN 2 \[BE\](?! \b\d\b).*
-ESPN 2.TV:ESPN2 \[US\](?! \b\d\b).*
+ESPN 2.TV:ESPN 2 \[US\](?! \b\d\b).*|ESSPN 2 USA(?! \b\d\b)
 ESPN 3:ESPN 3 \[BE\](?! \b\d\b).*
 ESPN 4:ESPN 4 \[BE\](?! \b\d\b).*
-ESPN Deportes:ESSPN Lat(?! \b\d\b).*
-ESPN International:ESSPN Argentina(?! \b\d\b).*
+#ESPN Deportes
+I854.25595.gracenote.com:ES{1,2}PN Lat(?! \b\d\b).*
 ESPN.TV:ESPN HD \[US\](?! \b\d\b).*
 Esport 3:Esport 3(?! \b\d\b).*
 Eurosport 2:^(?!.*\bNEW LOOP\b)(EUROSPORT 2(?!\s*\d\b).*) 
-Eurosport 1:^(?!.*\bNEW LOOP\b)(EUROSPORT 1(?!\s*\d\b).*|EuroSport 1080(?!\s*\d\b).*|EuroSport 720(?!\s*\d\b).*|EuroSport(?!\s*\d\b).*)
-FOX SPORTS:FOX SPORT(?! \b\d\b).*
-FR | beIN SPORTS 1:BEIN SPORTS 1(?! \b\d\b).*
-FR | beIN SPORTS 2:BEIN SPORTS 2(?! \b\d\b).*
-FR | beIN SPORTS 3:BEIN SPORTS 3(?! \b\d\b).*
+Eurosport 1:^(?!.*\bNEW LOOP\b)(EUROSPORT 1(?!\s*\d\b).*)|EuroSport 1080(?!\s*\d\b).*|EuroSport 720(?!\s*\d\b).*|EuroSport --(?!\s*\d\b).*
+#Fox Sports US
+I618.33178.gracenote.com:FOX Sports 2 HD \(US\)(?! \b\d\b).*
+#FOX SPORTS 2
+I342.66365.schedulesdirect.org:FOX SPORTs 2(?! \b\d\b).*
+#FOX SPORTS 3
+I344.105005.schedulesdirect.org:FOX SPORTs 3(?! \b\d\b).*
+#Fox Sports US
+I219.82547.gracenote.com:FOX Sports 1 HD \(US\)(?! \b\d\b).*
+#FOX SPORTS 
+I340.41677.schedulesdirect.org:FOX (?:Sport|Deportes)(?! \b\d\b).*
+#Fox sports premium
+I346.123582.schedulesdirect.org:FOX PREMIUM(?! \b\d\b).*
+FR | beIN SPORTS 1:BEIN SPORTS 1(?!\s*FHD).*
+FR | beIN SPORTS 2:BEIN SPORTS 2(?!\s*FHD).*
+FR | beIN SPORTS 3:BEIN SPORTS 3(?!\s*FHD).*
 GOL:Gol Play(?! \b\d\b).*
 La 1:La 1(?! \b\d\b).*|La1(?! \b\d\b).*
 La 2:La 2(?! \b\d\b).*
@@ -93,13 +116,14 @@ M+ Liga de Campeones 7:LIGA DE CAMPEONES 7(?! \b\d\b).*|M.L. CAMPEONES 7(?! \b\d
 M+ Liga de Campeones 8:LIGA DE CAMPEONES 8(?! \b\d\b).*|M.L. CAMPEONES 8(?! \b\d\b).*
 M+ Liga de Campeones:LIGA DE CAMPEONES(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|M.L. Campeones(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|Campeones (?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|Movistar Liga de Campeones(?! \b\d\b).*
 M+ Originales HD:.*originales.*
-M+ San Sebastián:.*(?:san sebasti[aá]n).*
+M+ En juego:.*romance.*
+M+ Navidad:.*(?:san sebasti[aá]n).*
 M+ Vacaciones:.*vacaciones.*
 M+ Vamos:M?\+? ?\#?VAMOS(?! ELLAS).*|Movistar vamos(?! \b\d\b).*
 M+ Wéstern:.*western.*
 Mega:MEGA(?! \b\d\b).*
 Movistar Plus+:^(?!.*\bNEW LOOP\b)(Movistar plus(?!\s*\d\b).*|M\+ PLUS(?!\s*\d\b).*|M\.Plus(?!\s*\d\b).*|MovistarPlus(?!\s*\d\b).*)
-Movistar Plus+ 2:M\+ PLUS 2(?! \b\d\b).*|Movistar plus 2(?! \b\d\b).*
+M+ Vamos 2:M\+ PLUS 2(?! \b\d\b).*|Movistar plus 2(?! \b\d\b).*
 Nat Geo Wild HD:.*wild.*
 National Geographic HD:.*National Geographic.*
 Onetoro:Onetoro(?! \b\d\b).*
@@ -111,12 +135,14 @@ PT | DAZN 4:ELEVEN DAZN 4 HD(?! \b\d\b).*
 PT | DAZN 5:ELEVEN DAZN 5 HD(?! \b\d\b).*
 PT | DAZN 6:ELEVEN DAZN 6 HD(?! \b\d\b).*
 Real Madrid TV:REAL MADRID TV(?! \b\d\b).*
-STAR Channel:FOX(?!.*premium)(?! SPORT)(?! \b\d\b).*
+STAR Channel:FOX(?!.*premium)(?! SPORT)(?! DEPORTES)(?! NFL)(?! \b\d\b).*
 SyFy HD:.*syfy.*
 Telecinco:Telecinco(?! \b\d\b).*
 Teledeporte:Teledeporte(?! \b\d\b).*|tdp(?! \b\d\b).*
 Ten:Ten TV(?! \b\d\b).*
 Tennis Channel:TENNIS CHANNEL(?! \b\d\b).*
+#Tnt sport
+I702.89899.schedulesdirect.org:TNT SPORTS HD(?!\s*(?:FHD|UHD|\d+)).*$
 Torolé TV:.*torole.*
 TVG Europa HD:.*TVG Europa HD.*
 UK | Premier Sports 1:PREMIER SPORTS 1(?! \b\d\b).*
@@ -135,4 +161,3 @@ Ziggo Sport 3:ZIGGO SPORT 3(?! \b\d\b).*
 Ziggo Sport 4:ZIGGO SPORT 4(?! \b\d\b).*
 Ziggo Sport 5:ZIGGO SPORT 5(?! \b\d\b).*
 Ziggo Sport 6:ZIGGO SPORT 6(?! \b\d\b).*
-
