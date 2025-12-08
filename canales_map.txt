@@ -116,8 +116,8 @@ M+ Liga de Campeones 7:LIGA DE CAMPEONES 7(?! \b\d\b).*|M.L. CAMPEONES 7(?! \b\d
 M+ Liga de Campeones 8:LIGA DE CAMPEONES 8(?! \b\d\b).*|M.L. CAMPEONES 8(?! \b\d\b).*
 M+ Liga de Campeones:LIGA DE CAMPEONES(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|M.L. Campeones(?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|Campeones (?! (2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\b).*|Movistar Liga de Campeones(?! \b\d\b).*
 M+ Originales HD:.*originales.*
-M+ En juego:.*romance.*
-M+ Navidad:.*(?:san sebasti[aá]n).*
+M+ En juego:.*en juego.*
+M+ Navidad:.*navidad.*
 M+ Vacaciones:.*vacaciones.*
 M+ Vamos:M?\+? ?\#?VAMOS(?! ELLAS).*|Movistar vamos(?! \b\d\b).*
 M+ Wéstern:.*western.*
