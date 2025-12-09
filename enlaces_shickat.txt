@@ -78,9 +78,9 @@ M+ Originales HD [Movistar Originales --> NEW ERA VI]
 096b817fcc836535f608facb15fca6408fae3162
 M+ Cine Español [Movistar Cine Español --> NEW ERA VI]
 e4bce95dd4faeb9cb09ade36a0636bc4b22b691c
-Movistar Navidad [Movistar Navidad --> NEW ERA VI]
+M+ Navidad [Movistar Navidad --> NEW ERA VI]
 cf99e99c105162410ec6d1f68cc6f4811560fee7
-Movistar En Juego [Movistar En Juego --> NEW ERA VI]
+M+ En juego [Movistar En Juego --> NEW ERA VI]
 4bfeb0516c44c4f0e3502e3f1ca1035d39ddf9c2
 M+ Indie HD [Movistar Indie --> NEW ERA VI]
 7716c9fd5bd4413715e4e26f97efb91802f6ee80
