@@ -11,6 +11,9 @@ DAZN 1:DAZN 1(?!\s*\d\b)(?!.*\bBAR\b).*|DAZN1(?! \b\d\b).*|(?:(?!.*\bNEW LOOP\b)
 DAZN 2:DAZN 2(?!\s*\d\b)(?!.*\bBAR\b).*|DAZN2(?! \b\d\b).*|(?:(?!.*\bNEW LOOP\b)DAZN 2 BAR).*
 DAZN 3:DAZN 3(?! \b\d\b).*|DAZN3(?! \b\d\b).*
 DAZN 4:DAZN 4(?! \b\d\b).*|DAZN4(?! \b\d\b).*
+DAZN Baloncesto 2:DAZN Baloncesto 2(?! \b\d\b).*
+DAZN Baloncesto 3:DAZN Baloncesto 3(?! \b\d\b).*
+DAZN Baloncesto:DAZN Baloncesto(?! \b\d\b).*
 DAZN F1:DAZN F1(?! \b\d\b).*|DAZN FORMULA 1(?! \b\d\b).*
 DAZN LaLiga:DAZN La ?Liga(?! \b\d\b).*|DAZN Liga(?! \b\d\b).*|Dazn la liga 1(?! \b\d\b).*|DAZN_LaLiga_(?! \b\d\b).*
 DAZN LaLiga 2:DAZN LA ?LIGA 2(?! \b\d\b).*
